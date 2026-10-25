@@ -1,0 +1,1142 @@
+{
+  "title": "Zohar Chadash",
+  "categories": [
+    "Kabbalah",
+    "Zohar"
+  ],
+  "schema": {
+    "nodes": [
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "bereshit"
+            ]
+          },
+          {
+            "term_slugs": [
+              "bereshit"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת בראשית"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Bereshit"
+          }
+        ],
+        "key": "parsha0"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "noach"
+            ]
+          },
+          {
+            "term_slugs": [
+              "noach"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת נח"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Noach"
+          }
+        ],
+        "key": "parsha1"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "lech-lecha"
+            ]
+          },
+          {
+            "term_slugs": [
+              "lech-lecha"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת לך לך"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Lech Lecha"
+          }
+        ],
+        "key": "parsha2"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "vayera"
+            ]
+          },
+          {
+            "term_slugs": [
+              "vayera"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת וירא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Vayera"
+          }
+        ],
+        "key": "parsha3"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "toldot"
+            ]
+          },
+          {
+            "term_slugs": [
+              "toldot"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת תולדות"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Toldot"
+          }
+        ],
+        "key": "parsha4"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "vayetzei"
+            ]
+          },
+          {
+            "term_slugs": [
+              "vayetzei"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת ויצא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Vayetzei"
+          }
+        ],
+        "key": "parsha5"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "vayeshev"
+            ]
+          },
+          {
+            "term_slugs": [
+              "vayeshev"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת וישב"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Vayeshev"
+          }
+        ],
+        "key": "parsha6"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "beshalach"
+            ]
+          },
+          {
+            "term_slugs": [
+              "beshalach"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת בשלח"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Beshalach"
+          }
+        ],
+        "key": "parsha7"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "yitro"
+            ]
+          },
+          {
+            "term_slugs": [
+              "yitro"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת יתרו"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Yitro"
+          }
+        ],
+        "key": "parsha8"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "terumah"
+            ]
+          },
+          {
+            "term_slugs": [
+              "terumah"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת תרומה"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Terumah"
+          }
+        ],
+        "key": "parsha9"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "ki-tisa"
+            ]
+          },
+          {
+            "term_slugs": [
+              "ki-tisa"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת כי תשא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Ki Tisa"
+          }
+        ],
+        "key": "parsha10"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "tzav"
+            ]
+          },
+          {
+            "term_slugs": [
+              "tzav"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת צו"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Tzav"
+          }
+        ],
+        "key": "parsha11"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "achrei-mot"
+            ]
+          },
+          {
+            "term_slugs": [
+              "achrei-mot"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת אחרי"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Achrei Mot"
+          }
+        ],
+        "key": "parsha12"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "behar"
+            ]
+          },
+          {
+            "term_slugs": [
+              "behar"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת בהר"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Behar"
+          }
+        ],
+        "key": "parsha13"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "nasso"
+            ]
+          },
+          {
+            "term_slugs": [
+              "nasso"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת נשא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Nasso"
+          }
+        ],
+        "key": "parsha14"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "chukat"
+            ]
+          },
+          {
+            "term_slugs": [
+              "chukat"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת חקת"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Chukat"
+          }
+        ],
+        "key": "parsha15"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "balak"
+            ]
+          },
+          {
+            "term_slugs": [
+              "balak"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת בלק"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Balak"
+          }
+        ],
+        "key": "parsha16"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "matot"
+            ]
+          },
+          {
+            "term_slugs": [
+              "matot"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת מטות"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Matot"
+          }
+        ],
+        "key": "parsha17"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "vaetchanan"
+            ]
+          },
+          {
+            "term_slugs": [
+              "vaetchanan"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת ואתחנן"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Vaetchanan"
+          }
+        ],
+        "key": "parsha18"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "ki-teitzei"
+            ]
+          },
+          {
+            "term_slugs": [
+              "ki-teitzei"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת כי תצא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Ki Teitzei"
+          }
+        ],
+        "key": "parsha19"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "parasha",
+              "ki-tavo"
+            ]
+          },
+          {
+            "term_slugs": [
+              "ki-tavo"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "פרשת כי תבא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Ki Tavo"
+          }
+        ],
+        "key": "parsha20"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "שיר השירים"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Shir HaShirim"
+          }
+        ],
+        "key": "parsha21"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "ruth"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "מדרש רות"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Midrash Rut"
+          }
+        ],
+        "key": "parsha22"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "match_templates": [
+          {
+            "term_slugs": [
+              "lamentations"
+            ]
+          }
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "מדרש הנעלם על איכה"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Midrash HaNe'elam Al Eichah"
+          }
+        ],
+        "key": "parsha23"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "תקונים מזהר חדש"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Tikkunim Mizohar Chadash"
+          }
+        ],
+        "key": "parsha24"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "ספרא תנינא"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Sifra Tanina"
+          }
+        ],
+        "key": "parsha25"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "תקונא קדמאה"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "Tikuna Kadma'ah"
+          }
+        ],
+        "key": "parsha26"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "זה שייך לפרשת נח"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "More about Parshat Noach"
+          }
+        ],
+        "key": "parsha27"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "זה שייך לפרשת שלח לך"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "More about Parshat Shelach"
+          }
+        ],
+        "key": "parsha28"
+      },
+      {
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+          "Integer"
+        ],
+        "sectionNames": [
+          "Paragraph"
+        ],
+        "referenceableSections": [
+          false
+        ],
+        "titles": [
+          {
+            "primary": true,
+            "lang": "he",
+            "text": "עוד לפרשת וירא אליו"
+          },
+          {
+            "primary": true,
+            "lang": "en",
+            "text": "More about Parshat Vayera"
+          }
+        ],
+        "key": "parsha29"
+      }
+    ],
+    "nodeType": "SchemaNode",
+    "match_templates": [
+      {
+        "term_slugs": [
+          "zohar-chadash"
+        ]
+      }
+    ],
+    "titles": [
+      {
+        "lang": "en",
+        "text": "New Zohar"
+      },
+      {
+        "lang": "en",
+        "text": "Zohar Hadash"
+      },
+      {
+        "lang": "he",
+        "text": "ז״ח"
+      },
+      {
+        "lang": "he",
+        "text": "זהר חדש"
+      },
+      {
+        "text": "ז\"ח",
+        "lang": "he"
+      },
+      {
+        "text": "ז”ח",
+        "lang": "he"
+      },
+      {
+        "text": "זוהר חדש",
+        "lang": "he",
+        "primary": true
+      },
+      {
+        "text": "Zohar Chadash",
+        "lang": "en",
+        "primary": true
+      }
+    ],
+    "key": "Zohar Chadash"
+  },
+  "order": [
+    10
+  ],
+  "authors": [],
+  "enDesc": "Zohar Chadash is a collection of manuscripts that were found containing material pertaining to the Zohar but not included in printed editions of the work. The manuscripts were later organized, mostly by Torah portion, and printed as their own work.",
+  "enShortDesc": "A collection of Zohar-related material found in manuscripts after the printing of the Zohar.",
+  "heShortDesc": "אוסף חומרים הקשורים לספר הזוהר שנמצאו בכתבי יד לאחר הדפסת הזוהר.",
+  "pubDate": [
+    1587
+  ],
+  "hasErrorMargin": true,
+  "compDate": [
+    1100,
+    1400
+  ],
+  "compPlace": "Middle-Age Spain",
+  "pubPlace": "Salonica / Thessaloniki",
+  "era": "AH",
+  "is_cited": true
+}

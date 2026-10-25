@@ -75,16 +75,39 @@
     for (const passage of chapter?.passages || []) {
       const row = text('div', '', 'passage');
       row.id = 'passage-' + passage.id;
-      row.append(text('span', passage.id, 'passage-number'));
+      const anchor = text('a', passage.id, 'passage-number');
+      anchor.href = '#lezen/' + encodeURIComponent(work.id) + '/' + encodeURIComponent(chapter.id) + '/' + encodeURIComponent(passage.id);
+      anchor.setAttribute('aria-label', passage.reference || passage.id);
+      row.append(anchor);
       const nl = text('p', passage.nl || 'Nederlandse vertaling nog niet beschikbaar.');
       nl.lang = 'nl';
       const original = text('p', passage.original || 'Grondtekst nog niet beschikbaar.', 'original');
       original.dir = 'rtl'; original.lang = passage.lang || 'he';
       row.append(nl, original);
+      if (passage.notes?.length || passage.uncertainties?.length) {
+        const details = text('details', '', 'passage-notes');
+        details.append(text('summary', 'Toelichting en tekstkeuzes' + (passage.uncertainties?.length ? ' · onzekere lezing' : '')));
+        for (const note of passage.notes || []) details.append(text('p', note));
+        for (const note of passage.uncertainties || []) details.append(text('p', 'Onzeker: ' + note));
+        if (passage.source?.url) {
+          const source = text('a', 'Vastgelegde bronrevisie');
+          source.href = passage.source.url;
+          details.append(source);
+        }
+        row.append(details);
+      }
       $('passages').append(row);
     }
     $('reader-source').replaceChildren();
+    $('reader-status').textContent = chapter ? 'Conceptvertaling · ' + chapter.coverage : library.status;
+    $('reader-status').hidden = !chapter;
     if (work.source) $('reader-source').append(text('p', 'Bron: ' + work.source + (work.license ? ' · Rechten: ' + work.license : '')));
+    for (const [url, label] of [[work.sourceUrl, 'Bronrevisie'], [work.historyUrl, 'Bijdragers en geschiedenis'], [work.licenseUrl, 'CC BY-SA 4.0']]) {
+      if (!url) continue;
+      const link = text('a', label);
+      link.href = url;
+      $('reader-source').append(link, document.createTextNode(' · '));
+    }
     const index = chapters.indexOf(chapter);
     $('previous').disabled = index <= 0;
     $('next').disabled = index < 0 || index >= chapters.length - 1;

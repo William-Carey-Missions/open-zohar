@@ -1,5 +1,473 @@
 {
   "version": 1,
   "title": "Open Zohar",
-  "works": []
+  "status": "Deeluitgave — conceptvertaling, corpus niet volledig",
+  "works": [
+    {
+      "id": "zohar-i",
+      "title": "Zohar I · Inleiding",
+      "source": "Hebreeuwse Wikisource, זוהר חלק א, revisie 3085399; folioverwijzingen volgens de Mantua-traditie. Bijdragers: zie bron en paginageschiedenis.",
+      "sourceUrl": "https://he.wikisource.org/w/index.php?oldid=3085399",
+      "historyUrl": "https://he.wikisource.org/w/index.php?title=%D7%96%D7%95%D7%94%D7%A8%20%D7%97%D7%9C%D7%A7%20%D7%90&action=history",
+      "license": "Grondtekst en nieuwe Nederlandse werkvertaling: CC BY-SA 4.0. Bronopmaak vereenvoudigd; varianten afzonderlijk toegelicht.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "chapters": [
+        {
+          "id": "1a",
+          "title": "I 1a",
+          "status": "conceptvertaling",
+          "completeFolio": true,
+          "coverage": "Volledig folio vertaald; onafhankelijke vakredactie nog open.",
+          "passages": [
+            {
+              "id": "1",
+              "nl": "Rabbi Chizkia begon: Er staat geschreven: “Als een roos tussen de doorns.” Wie is de roos? Dat is de gemeenschap van Israël. (Want er is een roos en er is een roos.) Zoals de roos tussen de doorns rood en wit in zich heeft, zo heeft ook de gemeenschap van Israël oordeel en ontferming in zich. Zoals de roos dertien bladeren heeft, zo heeft ook de gemeenschap van Israël dertien maten van ontferming die haar aan alle kanten omringen.",
+              "notes": [
+                "Hooglied 2:2. Sjosjanna wordt traditioneel als roos opgevat; de precieze botanische soort blijft onzeker.",
+                "Knesset Jisraël is hier de mystieke gemeenschap van Israël. De passage verbindt haar met oordeel (din) en ontferming (rachamim).",
+                "De bronnoot geeft als variant Rabbi Elazar in plaats van Rabbi Chizkia; de hoofdlezing is gevolgd."
+              ],
+              "uncertainties": [
+                "De aard van de dertien bladeren is niet botanisch verklaard; het getal draagt de symboliek."
+              ],
+              "original": "רבי חזקיה פתח, כתיב (שיר השירים ב) כשושנה בין החוחים, מאן שושנה? דא כנסת ישראל. (בגין דאית שושנה ואית שושנה). מה שושנה דאיהי בין החוחים אית בה סומק וחוור - אוף כנסת ישראל אית בה דין ורחמי. מה שושנה אית בה תליסר עלין - אוף כנסת ישראל אית בה תליסר מכילן דרחמי דסחרין לה מכל סטרהא.",
+              "lang": "arc",
+              "reference": "Zohar I 1a:1",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א א",
+                "paragraph": 1,
+                "sha256": "bd55d1fb121027bd6ec920e5830274b2d1845f76937bb67f790b5d8ecdcb2fb6",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "2",
+              "nl": "Ook “Elohim” hier brengt, vanaf het moment dat deze naam genoemd wordt, dertien woorden voort om de gemeenschap van Israël te omringen en te bewaken. Daarna wordt de naam nogmaals genoemd. Waarom wordt hij nogmaals genoemd? Om vijf stevige bladeren voort te brengen die de roos omringen. Die vijf worden “reddingen” genoemd en zijn vijf poorten. Over dit geheim staat geschreven: “De beker van reddingen zal ik heffen.” Dat is de beker van de zegening. De beker van de zegening moet op vijf vingers rusten en op niet meer, zoals de roos op vijf stevige bladeren rust, naar het beeld van vijf vingers. Deze roos is de beker van de zegening.",
+              "notes": [
+                "Genesis 1:1–3: tussen de eerste en tweede vermelding van Elohim staan dertien woorden; tussen de tweede en derde vijf. De vermelding zelf wordt niet meegeteld.",
+                "Psalm 116:13. De beker van de zegening is de rituele wijnbeker waarover de zegen wordt uitgesproken."
+              ],
+              "original": "אוף אלהים דהכא - משעתא דאדכר אפיק תליסר תיבין לסחרא לכנסת ישראל ולנטרא לה. ולבתר אדכר זמנא אחרא. אמאי אדכר זמנא אחרא? בגין לאפקא חמש עלין תקיפין דסחרין לשושנה ואינון חמש אקרון 'ישועות', ואינון חמש תרעין. ועל רזא דא כתיב (תהלים קטז יג) כוס ישועות אשא - דא כוס של ברכה. כוס של ברכה אצטריך למהוי על חמש אצבען ולא יתיר, כגוונא דשושנה דיתבא על חמש עלין תקיפין, דוגמא דחמש אצבען. ושושנה דא איהו כוס של ברכה.",
+              "lang": "arc",
+              "reference": "Zohar I 1a:2",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א א",
+                "paragraph": 2,
+                "sha256": "0473a53ad791ae006ae85a11067d963e244290311cce1e75344cd11bfcd74428",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "3",
+              "nl": "Van de tweede “Elohim” tot de derde “Elohim” zijn het vijf woorden. Van daar af: het licht dat geschapen werd, verborgen werd en in het verbond werd opgenomen. Dat ging de roos binnen en bracht zaad in haar voort. Dit wordt genoemd: “een boom die vrucht voortbrengt, waarin zijn zaad is”. Dat zaad bestaat in het teken van het verbond zelf. Zoals het beeld van het verbond bezaaid werd met tweeënveertig paringen van dat zaad, zo werd de ingegrifte, uitdrukkelijk genoemde Naam gezaaid in de tweeënveertig letters van het scheppingswerk.",
+              "notes": [
+                "Genesis 1:11. Het teken van het verbond verwijst naar de besnijdenis; de passage behoudt daarnaast de symboliek van zaad en vereniging.",
+                "De variantmarkering ס״א דא geeft “deze” naast “dat”. De hoofdlezing blijft in de vertaling staan."
+              ],
+              "uncertainties": [
+                "De syntaxis van שמא גליפא מפרש is compact; “de ingegrifte, uitdrukkelijk genoemde Naam” blijft een voorlopige weergave. Ook de verwijzing van “Dat” is niet geheel eenduidig."
+              ],
+              "original": "מאלהים תניינא עד אלהים תליתאה - חמש תיבין. מכאן ולהלאה - אור דאתברי ואתגניז ואתכליל בברית. ההוא דעאל בשושנה (ס\"א דא) ואפיק בה זרעא, ודא אקרי עץ עושה פרי אשר זרעו בו, וההוא זרע קיימא באות ברית ממש. וכמה דדיוקנא דברית אזדרע בארבעין ותרין זווגין דההוא זרעא - כך אזדרע שמא גליפא מפרש במ\"ב אתוון דעובדא דבראשית.",
+              "lang": "arc",
+              "reference": "Zohar I 1a:3",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א א",
+                "paragraph": 3,
+                "sha256": "54e9ee0462b8f280d18d4cd214ae066a2a04156cfae3f7572e991fae9e497826",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "4",
+              "nl": "“In het begin.” Rabbi Sjimon begon: “De bloesems zijn op het land verschenen.” “De bloesems”: dat is het scheppingswerk. “Zijn op het land verschenen”: wanneer? Op de derde dag, want er staat geschreven: “Het land bracht voort.” Toen zijn ze op het land verschenen. “De tijd van het snoeien is gekomen”: dat is de vierde dag, waarop de geweldenaars werden weggesnoeid; “lichten” staat er onvolledig geschreven. “En de stem van de tortelduif”: dat is de vijfde dag, waarop geschreven staat: “Laat het water wemelen”, om nakomelingen voort te brengen. “Wordt gehoord”: dat is de zesde dag, waarop geschreven staat: “Laten wij de mens maken”, die later het doen vóór het horen zou stellen, want er staat geschreven —",
+              "notes": [
+                "Hooglied 2:12, Genesis 1:12, 1:14, 1:20 en 1:26. Zamir kan op zang en op snoeien duiden; hier is snoeien gekozen wegens het daaropvolgende wegsnijden.",
+                "De onvolledige schrijfwijze מארת (“lichten”, zonder de gebruikelijke klinkerletter waw) laat een associatie met vervloeking toe.",
+                "Het vers loopt door op I 1b. Het streepje markeert de folio-overgang en behoort niet tot de brontekst."
+              ],
+              "original": "בראשית -- רבי שמעון פתח, (שיר ב יב) הנצנים נראו בארץ. הנצנים - דא עובדא דבראשית. נראו בארץ - אימתי? ביום השלישי דכתיב ותוצא הארץ, כדין נראו בארץ. עת הזמיר הגיע - דא יום רביעי דהוה ביה זמיר עריצים, מארת חסר. וקול התור - דא יום חמישי דכתיב ישרצו המים וגו' למעבד תולדות. נשמע - דא יום ששי, דכתיב נעשה אדם, דהוה עתיד למקדם עשיה לשמיעה, דכתיב",
+              "lang": "arc",
+              "reference": "Zohar I 1a:4",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א א",
+                "paragraph": 4,
+                "sha256": "06cf36b1ff5d5ea65eb873cc0e375c23e01692ea37a86e75246e8c8d5aeb2c90",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "title": "I 1b",
+          "status": "conceptvertaling",
+          "completeFolio": true,
+          "coverage": "Volledig folio vertaald; onafhankelijke vakredactie nog open.",
+          "passages": [
+            {
+              "id": "1",
+              "nl": "— hier: “Laten wij de mens maken”, en daar: “Wij zullen doen en wij zullen horen.” “In ons land”: dat is de sabbatdag, die het beeld is van het land van het leven (dat is de komende wereld, de wereld van de zielen, de wereld van de vertroostingen).",
+              "notes": [
+                "Vervolg van I 1a:4. Genesis 1:26 wordt verbonden met Exodus 24:7: “wij zullen doen en wij zullen horen”.",
+                "De tussen haakjes opgenomen omschrijving van de komende wereld staat ook zo in de bron; zij is geen nieuw toegevoegde toelichting."
+              ],
+              "original": "הכא נעשה אדם, וכתיב התם נעשה ונשמע. בארצנו - דא יום שבת דאיהו דוגמת ארץ החיים (שהוא עולם הבא, עולם הנשמות עולם הנחמות).",
+              "lang": "arc",
+              "reference": "Zohar I 1b:1",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 1,
+                "sha256": "b65801a604376ed86501dc549d80efa79c8fb072d400b4de836273c5cb0246a7",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "2",
+              "nl": "“De bloesems”: dat zijn de aartsvaders die de Gedachte binnengingen en de komende wereld binnengingen en daar verborgen werden. Van daar kwamen zij in verborgenheid tevoorschijn en werden verborgen in de ware profeten. Toen Jozef geboren werd, werden zij in hem verborgen. Jozef ging het heilige land binnen en plantte hen daar. Toen zijn ze “op het land verschenen” en werden zij daar geopenbaard. Wanneer werden zij zichtbaar? Toen de regenboog zich in de wereld openbaarde. Want wanneer de regenboog zichtbaar wordt, worden zij geopenbaard. Op dat moment is “de tijd van het snoeien gekomen”: de tijd om de schuldigen uit de wereld weg te snijden. Waarom werden zij gered? Omdat “de bloesems op het land zijn verschenen”. Als zij niet verschenen waren, zouden zij niet in de wereld zijn overgebleven en zou de wereld niet standhouden. Wie houdt de wereld in stand en zorgt dat de aartsvaders zich openbaren? De stem van de kleine kinderen die zich met de Tora bezighouden. Ter wille van die kinderen van de wereld wordt de wereld gered. Tegenover hen staat: “Wij zullen gouden snoeren voor je maken.” Dat zijn de kleine kinderen, de jonge knapen, want er staat geschreven: “Maak twee cherubs van goud.”",
+              "notes": [
+                "De bron opent met de variantmarkering “[andere lezing: een andere uitleg]”. De variant bij “in” luidt “in hen”.",
+                "Hooglied 1:11: het woord torei (“snoeren”) klinkt als tor (“tortelduif”).",
+                "De bron vermeldt Exodus 24:7 bij de cherubs; het daadwerkelijke citaat staat in Exodus 25:18. De fout blijft in het bronarchief controleerbaar."
+              ],
+              "uncertainties": [
+                "Het onderwerp van “Waarom werden zij gered?” is impliciet. Er is geen verklarend onderwerp in de vertaling ingevoegd."
+              ],
+              "original": "[נ\"א דבר אחר] הנצנים - אלין אינון אבהן דעאלו במחשבה ועאלו בעלמא דאתי, ואתגניזו תמן. ומתמן נפקו בגניזו, ואטמירו גו (נ\"א בהו) נביאי קשוט. אתיליד יוסף ואטמרו ביה. עאל יוסף בארעא קדישא ונציב לון תמן. וכדין נראו בארץ ואתגלו תמן. ואימתי אתחזון? בשעתא דאתגלי קשת בעלמא, דהא בשעתא דקשת אתחזי כדין אתגליין אינון. ובההיא שעתא עת הזמיר הגיע - עידן לקצץ חייבין מעלמא. אמאי אשתזיבו? בגין דהנצנים נראו בארץ ואלמלא דנראו לא אשתארון בעלמא, ועלמא לא אתקיים. ומאן מקיים עלמא וגרים לאבהן דאתגליין? קל ינוקי דלעאן באורייתא. ובגין אינון רביין דעלמא - עלמא אשתזיב. לקבליהון (שיר א יא) תורי זהב נעשה לך - אלין אינון ינוקי רביין עולמין, דכתיב (שמות כד ז) ועשית שנים כרובים זהב",
+              "lang": "arc",
+              "reference": "Zohar I 1b:2",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 2,
+                "sha256": "85b469b5100c59f7effa075f25d0a8921e4d0cc080c150a62039eae50eca3edf",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "3",
+              "nl": "“In het begin.” Rabbi Elazar begon: “Hef je ogen omhoog en zie: wie heeft deze geschapen?” “Hef je ogen omhoog”: naar welke plaats? Naar de plaats waarvan alle ogen afhankelijk zijn. Wat is die? De opening van de ogen. Daar zul je weten dat deze verborgen Oude, die bevraagd kan worden, “deze” heeft geschapen. Wie is dat? “Wie” — Mi. Het is degene die “vanaf het uiteinde van de hemel” wordt genoemd, boven, onder wiens gezag alles staat. Omdat hij bevraagd kan worden, terwijl hij op verborgen wijze bestaat en niet geopenbaard is, wordt hij Mi genoemd. Want hogerop is geen vraag mogelijk. Dit “uiteinde van de hemel” heet Mi.",
+              "notes": [
+                "Jesaja 40:26. Mi (מי) betekent “wie”, Ma (מה) “wat”, Eleh (אלה) “deze”. Hun letters en namen dragen de redenering; ze blijven daarom als technische termen staan.",
+                "“De opening van de ogen” herneemt de plaatsnaam Petach Enaïm (Genesis 38:14) in mystieke lezing. “Oude” duidt hier een verborgen goddelijke werkelijkheid aan."
+              ],
+              "original": "בראשית -- רבי אלעזר פתח, (ישעיה מ כו) שאו מרום עיניכם וראו מי ברא אלה. שאו מרום עיניכם לאן אתר? לאתר דכל עיינין תליאן ליה, ומאן איהו? פתח עינים. ותמן תנדעון דהאי סתים עתיקא דקיימא לשאלה ברא אלה. ומאן איהו? מי. ההוא דאקרי מקצה השמים לעילא דכלא קיימא ברשותיה. ועל דקיימא לשאלה ואיהו בארח סתים ולא אתגליא, אקרי מי, דהא לעילא לית תמן שאלה, והאי קצה השמים אקרי מי.",
+              "lang": "arc",
+              "reference": "Zohar I 1b:3",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 3,
+                "sha256": "de235127c7e021d0f8fc9a43939dfab9ecd2cf6000f99ce6a47158f37da9a075",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "4",
+              "nl": "Er is beneden een ander, en die heet “Wat” — Ma. Wat is het verschil tussen de een en de ander? De eerste, de verborgene die Mi heet, kan bevraagd worden. Wanneer een mens vragen stelt en zoekt om te aanschouwen en te begrijpen, van trede tot trede, tot aan het einde van alle treden, en daar aankomt: Ma — wat weet je? Wat heb je aanschouwd? Wat heb je onderzocht? Alles is nog even verborgen als eerst. Over dit geheim staat geschreven: “Wat zal ik je tot getuigenis geven? Waarmee zal ik je vergelijken?” Toen het heiligdom verwoest werd, klonk een stem die zei: “Wat zal ik je tot getuigenis geven?” Dag na dag heb ik vanaf de vroegste dagen tegen je getuigd, zoals geschreven staat: “Ik neem vandaag de hemel en de aarde tegen jullie tot getuigen.”",
+              "notes": [
+                "Klaagliederen 2:13; Deuteronomium 30:19. De vraagwoorden worden tegelijk als namen van mystieke treden gelezen.",
+                "De bronvariant na “Wat zal ik je tot getuigenis geven?” voegt toe: “En waarmee zal ik je vergelijken? Met die Ma zal ik tegen je getuigen.” Deze variant staat afzonderlijk van de hoofdvertaling."
+              ],
+              "original": "ואית אחרא לתתא ואקרי מ\"ה. מה בין האי להאי? אלא קדמאה סתימאה דאקרי מ\"י קיימא לשאלה. כיון דשאל בר נש, ומפשפש לאסתכלא ולמנדע מדרגא לדרגא, עד סוף כל דרגין. כיון דמטי תמן - מ\"ה - מה ידעת, מה אסתכלתא, מה פשפשתא, הא כלא סתים כדקדמיתא. ועל רזא דנא כתיב (איכה ב יג) מה אעידך מה אדמה לך. כד אתחריב בי מקדשא נפיק קלא ואמר מה אעידך, (נ\"א, ומה אדמה לך בההוא מ\"ה אעידך), בכל יומא ויומא אסהידת בך מיומין קדמאין, דכתיב (דברים ל יט) העדותי בכם היום את השמים ואת הארץ.",
+              "lang": "arc",
+              "reference": "Zohar I 1b:4",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 4,
+                "sha256": "f511411e3873f34048bddb28ead485466f3072c729c3b581652fcf260f597cea",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "5",
+              "nl": "“En waarmee zal ik je vergelijken?” Precies naar dat beeld heb ik je met heilige kronen gekroond en je heerschappij over [heel] de wereld gegeven, zoals geschreven staat: “Is dit de stad die men de volmaakte schoonheid noemt?” Ik heb je genoemd: “Jeruzalem, gebouwd als een stad die met haar verbonden is.”",
+              "notes": [
+                "Klaagliederen 2:15 en Psalm 122:3. Het gewone “met zichzelf verbonden” wordt hier gelezen als verbonden met een hemelse tegenhanger. Vierkante haken rond “heel” volgen de tekstgetuige."
+              ],
+              "original": "ומה אדמה לך - בההוא גוונא ממש עטרית לך בעטרין קדישין, עבדית לך שלטנו על [כל] עלמא, דכתיב (איכה ב טו) הזאת העיר שיאמרו כלילת יופי וגו', קרינא לך (תהלים קכב ב) ירושלם הבנויה כעיר שחברה לה.",
+              "lang": "arc",
+              "reference": "Zohar I 1b:5",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 5,
+                "sha256": "c8ce97beaa44698eba6475b7a29091b45b5b4893c1c77ca69a15e28a0d1b35dd",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "6",
+              "nl": "“Waaraan zal ik je gelijkstellen?” Zoals jij hier verkeert, zo is het, als men zo mag spreken, ook boven. Zoals het heilige volk nu niet in heilige ordeningen bij jou binnentreedt, zo zweer ik je dat ik boven niet zal binnentreden totdat jouw menigten beneden bij jou binnentreden. Dat is je vertroosting: deze trede stel ik in alles aan je gelijk. Nu jij hier zo verkeert: “Zo groot als de zee is je breuk.” En als je zegt dat je geen standvastigheid en genezing hebt: “Wie zal je genezen?” Zeker, die verborgen, hoogste trede, waarin alles bestaat, zal je genezen en je oprichten.",
+              "notes": [
+                "Klaagliederen 2:13. In de slotvraag blijft “Wie” tegelijk vraagwoord en de naam Mi uit de voorafgaande uitleg. “Boven” en “beneden” worden niet door verklarende namen vervangen."
+              ],
+              "original": "(איכה ב יג) מה אשוה לך - כגוונא דאנת יתבה, הכי הוא כביכול לעילא. כגוונא דלא עאלין השתא בך עמא קדישא בסדרין קדישין -- הכי אומינא לך דלא איעול אנא לעילא, עד דיעלון בך אוכלוסך לתתא. ודא איהו נחמה דילך, הואיל דדרגא דא אשוה לך בכלא. והשתא דאנת הכא - גדול כים שברך. ואי תימא דלית לך קיימא ואסוותא - מ\"י ירפא לך, ודאי ההוא דרגא סתימאה עלאה דכלא קיימא ביה, ירפא לך ויוקים לך.",
+              "lang": "arc",
+              "reference": "Zohar I 1b:6",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 6,
+                "sha256": "59c41c356752974f8f8e504ca974e500af3dcd1093ad2b28407ccef84454af31",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "7",
+              "nl": "Mi is “het uiteinde van de hemel” boven; Ma is “tot aan het uiteinde van de hemel” beneden. (Het uiteinde van de hemel beneden.) Dat heeft Jakob geërfd: hij reikt van het ene uiteinde tot het andere, van het eerste uiteinde, dat Mi is, tot het laatste uiteinde, dat Ma is, omdat hij in het midden staat. Daarom: “Wie heeft deze geschapen?”",
+              "notes": [
+                "Deuteronomium 4:32 en Exodus 26:28 klinken door in de uiteinden van de hemel en het reiken van uiteinde tot uiteinde. De herhaling tussen haakjes staat in de bron."
+              ],
+              "original": "מ\"י קצה השמים לעילא , מ\"ה ועד קצה השמים לתתא. (קצה השמים לתתא) ודא ירית יעקב, דאיהו מבריח מן הקצה אל הקצה; מן הקצה קדמאה דאיהו מ\"י, אל הקצה בתראה דאיהו מ\"ה, בגין דקאים באמצעיתא, ועל דא מי ברא אלה.",
+              "lang": "arc",
+              "reference": "Zohar I 1b:7",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 7,
+                "sha256": "9983b6fad5571011b5313c5486c1b544eb0fa3d73d2977219ccd9164bc551f83",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "8",
+              "nl": "Rabbi Sjimon zei: “Elazar, mijn zoon, houd op met spreken, dan zal het verborgene van het hoogste geheim geopenbaard worden, dat de mensen van de wereld niet kennen.” Rabbi Elazar zweeg. Rabbi Sjimon huilde en bleef een ogenblik staan. Rabbi Sjimon zei: “Elazar, wat betekent ‘deze’? Als je zegt: de sterren en de sterrenbeelden — die zijn daar toch altijd zichtbaar, en zij zijn door Ma geschapen, zoals er staat: ‘Door het woord van JHWH zijn de hemelen gemaakt.’ Als het om verborgen dingen gaat, zou er niet ‘deze’ moeten staan, want dat duidt op iets geopenbaards. Dit geheim werd mij pas geopenbaard toen ik eens aan de oever van de zee was. Elia kwam en zei tegen mij: ‘Rabbi, weet je wat “Wie heeft deze geschapen?” betekent?’ Ik zei tegen hem: ‘Deze hemelen en hun legers zijn het werk van de Heilige, gezegend zij Hij. Een mens moet ze aanschouwen en Hem zegenen, zoals geschreven staat: “Wanneer ik uw hemelen zie, het werk van uw vingers … JHWH, onze Heer, hoe machtig is uw naam op heel de aarde!”’”",
+              "notes": [
+                "De bron geeft “een tijdsduur” als variant bij “een ogenblik”. De toevoeging “in de wereld” bij degenen die zondigden staat eveneens als variant in de bron.",
+                "De bron noemt Psalm 33:7; het citaat over het woord van JHWH staat in Psalm 33:6. Het slot combineert Psalm 8:4 met 8:10.",
+                "Kavod en andere technische termen krijgen waar mogelijk een Nederlandse weergave; de Godsnaam יהו״ה wordt als JHWH weergegeven. Geen uitspraak wordt verondersteld."
+              ],
+              "original": "אמר רבי שמעון, אלעזר בני פסוק מילך, ויתגלי סתימא דרזא עלאה דבני עלמא לא ידעין. שתיק רבי אלעזר. בכה רבי שמעון וקאים רגעא (נ\"א, שעתא) חדא. א\"ר שמעון, אלעזר מאי אלה? אי תימא כוכביא ומזלי - הא אתחזאן תמן תדיר, ובמ\"ה אתבריאו כמא דאת אמר (תהלים לג ז) בדבר יהו\"ה שמים נעשו. אי על מלין סתימין - לא לכתוב אלה דהא אתגליא איהו. אלא רזא דא לא אתגליא בר יומא חד דהוינא על כיף ימא, ואתא אליהו ואמר לי \"רבי ידעת מה הוא מי ברא אלה?\" אמינא ליה אלין שמיא וחיליהון עובדא דקב\"ה, דאית ליה לבר נש לאסתכלא בהו ולברכא ליה, דכתיב (שם ח ד) כי אראה שמיך מעשה אצבעותיך וגו' יהו\"ה אדונינו מה אדיר שמך בכל הארץ.",
+              "lang": "arc",
+              "reference": "Zohar I 1b:8",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף א ב",
+                "paragraph": 8,
+                "sha256": "cb2c377226eb484891f9300affe6722f9d8fa0a191adb8beaf03381d17073924",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2a",
+          "title": "I 2a",
+          "status": "conceptvertaling",
+          "completeFolio": true,
+          "coverage": "Volledig folio vertaald; onafhankelijke vakredactie nog open.",
+          "passages": [
+            {
+              "id": "1",
+              "nl": "Hij zei tegen mij: “Rabbi, er was een verborgen zaak bij de Heilige, gezegend zij Hij, en Hij openbaarde haar in de hemelse leerschool. Dit is zij. Toen de Verborgene van alle verborgenen zich wilde openbaren, maakte Hij eerst één punt. Dat steeg op om Gedachte te worden. Daarin tekende Hij alle gestalten en grifte Hij alle graveringen. In de verborgen, heilige lamp grifte Hij de gravering van één verborgen gestalte: het heilige der heiligen, een diep bouwwerk dat uit de Gedachte voortkwam en Mi werd genoemd, het begin van het bouwwerk. Het bestaat en bestaat niet, diep en verborgen. Het wordt met geen andere naam aangeduid dan Mi. Het wilde zich openbaren en met een naam genoemd worden. Het bekleedde zich met een kostbaar, stralend gewaad en schiep ‘deze’ — Eleh — en Eleh kwam op in de Naam. Deze letters verbonden zich met die andere letters en de naam Elohim werd volledig. Voordat het Eleh schiep, was het niet opgeklommen tot de naam Elohim. Zij die zondigden met het kalf zeiden over dit geheim: ‘Deze zijn je goden, Israël.’ Zoals Mi zich met Eleh verbond, zo blijft deze Naam voortdurend verbonden. Door dit geheim houdt de wereld stand.”",
+              "notes": [
+                "Vervolg van Sjimons verslag van Elia’s woorden. Exodus 32:8 wordt door het woord Eleh met de letteruitleg verbonden.",
+                "Mi (מי) en Eleh (אלה) bevatten samen de letters van Elohim (אלהים); voor de naam worden de letters herschikt.",
+                "De bronvarianten luiden “aanvang” bij “begin”, “deze” na “naam”, en “in de wereld” bij het zondigen met het kalf."
+              ],
+              "uncertainties": [
+                "Botsina kan lamp of lichtbron betekenen; “heilige lamp” is voorlopig. De wisseling tussen onpersoonlijke en persoonlijke verwijzingen in het Aramees laat meer dan één interpretatie toe."
+              ],
+              "original": "אמר לי, רבי מלה סתימא הוה קמי קב\"ה, וגלי במתיבתא עלאה, ודא הוא. בשעתא דסתימא דכל סתימין בעא לאתגלייא - עבד ברישא נקודה חדא. ודא סליק למהוי מחשבה. צייר בה כל ציורין, חקק בה כל גליפין, ואגליף גו בוצינא קדישא סתימא, גליפו דחד ציורא סתימאה קדש קדישין, בניינא עמיקא דנפק מגו מחשבה, ואקרי מ\"י. שירותא (נ\"א ראשיתא) לבנינא. קיימא ולא קיימא. עמיק וסתים. בשמא לא אקרי אלא מ\"י. בעא לאתגלייא ולאתקרי בשמא (דא), ואתלבש בלבוש יקר דנהיר וברא אלה וסליק אל\"ה בשמא. אתחברון אתוון אלין באלין, ואשתלים בשמא אלהים. ועד לא ברא אלה - לא סליק בשמא אלהים. ואינון דחבו (נ\"א בעלמא) בעגלא - על רזא דנא אמרו (שמות לב ח) אלה אלהיך ישראל. וכמה דאשתתף מ\"י באל\"ה - הכי הוא שמא דאשתתף תדיר, וברזא דא אתקיים עלמא.",
+              "lang": "arc",
+              "reference": "Zohar I 2a:1",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב א",
+                "paragraph": 1,
+                "sha256": "571648fe14e68542a2b302aa134f023bf4e232d96693a043d32b9f0a34b48dae",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "2",
+              "nl": "Elia vloog weg en ik zag hem niet meer. Van hem leerde ik de zaak kennen en drong ik door tot haar geheim en verborgenheid. Rabbi Elazar en alle metgezellen kwamen en wierpen zich voor hem neer. Zij huilden en zeiden: “Als wij alleen maar in de wereld gekomen waren om dit te horen, zou dat genoeg zijn.”",
+              "notes": [
+                "De eerste twee zinnen behoren nog tot Sjimons verslag. Daarna neemt de verteller de beschrijving over."
+              ],
+              "original": "ופרח אליהו ולא חמינא ליה. ומניה ידענא מלה, דאוקימנא על רזא וסתרא דילה. אתא רבי אלעזר וכלהו חברייא ואשתטחו קמיה. בכו ואמרו אלמלא לא אתינא לעלמא אלא למשמע דא די.",
+              "lang": "arc",
+              "reference": "Zohar I 2a:2",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב א",
+                "paragraph": 2,
+                "sha256": "51ed0198bafa312176c3e98d567a48d3cb8106fbafedc35fe26fcd16a3c3f37b",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "3",
+              "nl": "Rabbi Sjimon zei: “Daarom zijn de hemelen en hun legers door Ma geschapen, zoals geschreven staat: ‘Wanneer ik uw hemelen zie, het werk van uw vingers …’, en er staat geschreven: ‘Hoe machtig is uw naam op heel de aarde, U die uw luister boven de hemelen hebt gesteld.’ ‘Boven de hemelen’: dat is het opklimmen in de Naam. Want het schiep een licht voor zijn licht; het ene bekleedde zich met het andere en klom op tot de hoogste Naam. Daarom: ‘In het begin schiep Elohim.’ Dit is de hoogste Elohim. Want Ma was nog niet zo en was nog niet opgebouwd, totdat deze letters, Eleh, van boven naar beneden werden getrokken. De moeder leende haar dochter haar gewaden en tooide haar met haar sieraden. Wanneer tooit zij haar naar behoren met haar sieraden? Wanneer al wat mannelijk is voor haar verschijnt, zoals geschreven staat: ‘Voor het aangezicht van de Heer JHWH.’ Zij heet ‘Heer’, zoals er staat: ‘Zie, de ark van het verbond, de Heer van heel de aarde.’ Dan gaat de he naar buiten en komt de jod binnen. Zij tooit zich met mannelijke gewaden tegenover alle mannen van Israël. De andere letters trekt Israël van boven naar deze plaats. ‘Deze zal ik gedenken’: ik zal ze met mijn mond noemen en mijn tranen uitstorten (met het verlangen van mijn ziel, om deze letters te trekken). Dan zal ik ze van boven ‘voortleiden tot het huis van Elohim’, zodat zij Elohim wordt naar zijn beeld. En waarmee? ‘Met een stem van jubel en dank, een feestvierende menigte.’”",
+              "notes": [
+                "Psalm 8:4, 8:2/10; Genesis 1:1; Exodus 23:17; Jozua 3:11; Psalm 42:5. Het citaat uit Psalm 8 verbindt formuleringen uit meer dan één vers.",
+                "Moeder en dochter zijn mystieke gestalten. Het wisselen van he (ה) naar jod (י) verbindt Ma (מה) met Mi (מי). De rollen en het grammaticale geslacht worden zoveel mogelijk behouden.",
+                "“Deze” in Psalm 42:5 wordt als Eleh gelezen. “Voortleiden” volgt de mystieke lezing van אדדם, geen nieuwe vertaling van de hele psalm.",
+                "De bron heeft bij “deze letters” tevens de haakjeslezing “uit deze”."
+              ],
+              "uncertainties": [
+                "“Een licht voor zijn licht” en de verwijzingen in “zodat zij Elohim wordt naar zijn beeld” blijven syntactisch onzeker. Geen uitgewerkte sefirot-identificatie is aan de vertaling toegevoegd."
+              ],
+              "original": "אמר רבי שמעון, על דא שמיא וחיליהון במ\"ה אתבריאו, דכתיב (תהלים ח ד) כי אראה שמיך מעשה אצבעותיך וגו', וכתיב (שם י) מ\"ה אדיר שמך בכל הארץ אשר תנה הודך על השמים - \"על השמים\" איהו לסלקא בשמא, בגין דברא נהורא לנהוריה, ואתלבש דא בדא, וסליק בשמא עלאה. ועל דא בראשית ברא אלהים - דא אלהים עלאה, דהא מ\"ה לא הוי הכי ולא אתבני, אלא בשעתא דאתמשכן אתוון אלין (מאילין) אל\"ה מלעילא לתתא, ואימא אוזיפת לברתא מאנהא וקשיטא לה בקישוטהא. ואימתי קשיטא לה בקישוטהא כדקא חזי? בשעתא דאתחזון קמה כל דכורא, דכתיב (שמות כג יז) אל פני האדון יהו\"ה. ודא אקרי אדון, כמה דאת אמר (יהושע ג יא) הנה ארון הברית אדון כל הארץ. כדין נפקת ה ואעילת י, ואתקשיטת במאני דכורא לקבליהון דכל דכר בישראל, ואתוון אחרנין משכן לון ישראל מעילא לגבי אתר דא. אלה אזכרה (תהלים מב ה) -- אדכרנא בפומאי ושפיכנא דמעאי (ברעות נפשי, בגין לאמשכא אתוון אלין), וכדין אדדם מעילא עד בית אלהים, למהוי אלהים כגוונא דיליה. ובמאי? (שם) בקול רנה ותודה המון חוגג.",
+              "lang": "arc",
+              "reference": "Zohar I 2a:3",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב א",
+                "paragraph": 3,
+                "sha256": "d9dee66ed01e4c3ab420d5b82d257f61456eb91610f8e44e00f912f40cb9c566",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "4",
+              "nl": "Rabbi Elazar zei: “Mijn zwijgen heeft een heiligdom boven en een heiligdom beneden gebouwd. Waarlijk: een woord is één sela waard, zwijgen twee. ‘Een woord is één sela waard’: dat is wat ik zei en waarmee ik een beweging wekte. ‘Zwijgen twee’: dat is mijn zwijgen, waardoor twee werelden tegelijk geschapen en gebouwd werden.”",
+              "notes": [
+                "Sela is een munt-/waarde-eenheid. Het spreekwoord waardeert zwijgen op het dubbele van spreken. De tekst past beide waarden op de twee werelden toe."
+              ],
+              "original": "א\"ר אלעזר שתיקה דילי בנא מקדשא לעילא ובנא מקדשא לתתא ובודאי מלה בסלע משתוקא בתרין. מלה בסלע מה דאמרנא ואתערנא ביה, משתוקא בשתים מה דשתיקנא, דאברו ואיבנו תרין עלמין כחדא.",
+              "lang": "arc",
+              "reference": "Zohar I 2a:4",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב א",
+                "paragraph": 4,
+                "sha256": "602d9f5f4396fe3bf9e7845d9434c239014896fe2bc01cb382652d325b7b7ca2",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "5",
+              "nl": "Rabbi Sjimon zei: “Van hier af volgt de voltooiing van het vers: ‘Hij die hun leger in getal naar buiten voert.’ Er zijn twee treden, die elk afzonderlijk aangeduid moeten worden. De ene is wat Ma genoemd wordt, de andere Mi. De ene is boven, de andere beneden. De bovenste wordt aangeduid met: ‘Hij die hun leger in getal naar buiten voert.’ ‘Hij die naar buiten voert’: Hij die bekend is en wiens gelijke er niet is. Zo ook: ‘Hij die brood uit de aarde voortbrengt.’ ‘Hij die voortbrengt’: Hij die bekend is — dit is de onderste trede. Alles is één. ‘In getal’: zeshonderdduizend zijn het, die als één bestaan en legers naar hun soorten voortbrengen die niet te tellen zijn. ‘Hen allen’: zowel die zeshonderdduizend als al hun legers. ‘Bij naam roept Hij’: wat betekent ‘bij naam roept Hij’? Als je zegt dat Hij hen bij hun eigen namen roept, dan is het niet zo; dan had er ‘bij zijn naam’ moeten staan. Zolang deze trede nog niet tot de Naam was opgeklommen en Mi werd genoemd, bracht zij niets voort en voerde zij de verborgen dingen niet naar hun soorten naar buiten, al waren die allemaal in haar verborgen. Zodra zij Eleh schiep en opklom in haar naam en Elohim werd genoemd, voerde zij hen door de kracht van deze Naam in hun volheid naar buiten. Dat is: ‘Bij naam roept Hij.’ Met die naam van Hem riep Hij iedere soort en voerde die naar buiten om in haar volheid te bestaan. Zo ook: ‘Zie, Ik heb bij naam geroepen.’ Ik heb mijn Naam genoemd om Betsalel in zijn volle bestaan te bevestigen.”",
+              "notes": [
+                "Jesaja 40:26; de broodzegening; Exodus 31:2. De uitleg van “bij naam” stelt de goddelijke Naam centraal, in plaats van de afzonderlijke namen van de sterren.",
+                "Bij “hen allen” staat in het Aramees verkort “die zestig”; de vertaling herneemt de voorafgaande zeshonderdduizend. De bron vermeldt daarnaast “op dezelfde wijze” als variant.",
+                "“Boven” staat als haakjeslezing bij de opklimming tot de Naam."
+              ],
+              "uncertainties": [
+                "Het betoog over “bij zijn naam” is grammaticaal moeilijk; de woordelijke tegenstelling is behouden en nog niet onafhankelijk gecontroleerd."
+              ],
+              "original": "אמר רבי שמעון, מכאן ולהלאה שלימו דקרא דכתיב (ישעיה מ כו) המוציא במספר צבאם - תרין דרגין אינון דאצטריך למהוי רשים כל חד מנייהו. חד דא דאתמר מ\"ה וחד מ\"י. דא עלאה ודא תתאה. דא עלאה רשים ואמר המוציא במספר צבאם - המוציא - ההוא דאשתמודע ולית כוותיה. כגוונא דא המוציא לחם מן הארץ - המוציא - ההוא דאשתמודעא - דא דרגא תתאה, וכלא חד. במספר שתין רבוא אינון דקיימין כחדא, ואפיקו חילין לזינייהו דלית לון חושבנא. (נ\"א: כגוונא דא) לכלם - בין אינון שתין, בין כל חילין דילהון. בשם יקרא - מאי בשם יקרא? אי תימא דקרא לון בשמהתהון - לאו הכי הוא - דאם כן \"בשמו\" מבעי ליה. אלא בזמנא דדרגא דא לא סליק בשמא (לעילא) ואקרי מ\"י, לא אוליד ולא אפיק טמירין לזיניה, אע\"ג דכלהו הוו טמירין ביה. כיון דברא אלה ואסתלק בשמיה ואקרי אלהים - כדין בחילא דשמא דא אפיק לון בשלימו. ודא הוא בשם יקרא - בההוא שם דיליה קרא ואפיק כל זינא וזינא לאתקיימא בשלימותיה. כגוונא דא (שמות לא ב) ראה קראתי בשם - אדכרנא שמי לאתקיימא בצלאל על קיום אשלמותיה.",
+              "lang": "arc",
+              "reference": "Zohar I 2a:5",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב א",
+                "paragraph": 5,
+                "sha256": "48986abe8e59c009e0aa390de6ebc486bc8624dd74afe0233b33efa59387709b",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "6",
+              "nl": "“Door de overvloed van krachten.” Wat betekent “door de overvloed van krachten”? Dit is de hoogste van de treden, waarin alle verlangens opstijgen en waarin zij omhooggaan —",
+              "notes": [
+                "Jesaja 40:26. De zin loopt door op I 2b:1. Het streepje is een redactionele folio-overgang."
+              ],
+              "original": "מרוב אונים (ישעיה מ כו). מאי מרוב אונים? דא ריש דרגין דסליקו ביה כל רעותין, ואסתלקו ביה",
+              "lang": "arc",
+              "reference": "Zohar I 2a:6",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב א",
+                "paragraph": 6,
+                "sha256": "c4d04475a30099bccd11c82dceeeab520d355dc6bc3cdfa08e6a0d4c6679eeda",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "title": "I 2b · alleen de openingsalinea",
+          "status": "conceptvertaling",
+          "completeFolio": false,
+          "coverage": "Alleen openingsalinea vertaald; overige tekst op dit folio ontbreekt nog.",
+          "passages": [
+            {
+              "id": "1",
+              "nl": "— op verborgen wijze. “En machtig in kracht”: dat is het geheim van de hoogste wereld die tot de naam Elohim is opgeklommen, zoals wij gezegd hebben. “Niet één ontbreekt”: van die zeshonderdduizend die Hij door de kracht van de Naam naar buiten voerde. Omdat “niet één ontbreekt”, worden overal waar Israëlieten stierven en om hun zonden gestraft werden, hun aantallen geteld. Van die zeshonderdduizend ontbreekt zelfs niet één, zodat alles één gestalte vormt. Zoals boven niet één ontbreekt, zo ontbreekt ook beneden niet één.",
+              "notes": [
+                "Vervolg van I 2a:6 en einde van deze openingsuitleg. Alleen deze eerste alinea van I 2b is hier vertaald; de rest van het folio blijft open.",
+                "“Zeshonderdduizend” herneemt de symbolische telling van Israël. De passage formuleert een mystieke eenheid boven en beneden."
+              ],
+              "original": "בארח סתים. ואמיץ כ\"ח - דא רזא דעלמא עלאה דאסתלק בשם 'אלהים' כדקאמרן. איש לא נעדר - מאינון שתין רבוא דאפיק בחילא דשמא. ובגין דאיש לא נעדר - בכל אתר דמיתו ישראל ואתענשו בחובייהו - אתמנון, ולא אעדר מאינון שתין רבוא אפילו חד, בגין למהוי כלא דיוקנא חדא. כמה דאיש לא נעדר לעילא, אוף הכי לא נעדר לתתא.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:1",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 1,
+                "sha256": "7527e955c278f8e3f81ac4eed4b6e6c29c3eaa63c2ac64c484c0b15dab213ba7",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -100,3 +100,8 @@ body.alternate-font .prose { font-family: var(--font-body); }
  #topnav .topnav-version { display: none; }
  #app-container { min-height: 0; }
 }
+
+.passage-notes { grid-column: 2 / -1; font: 400 15px/1.6 var(--font-body); color: var(--text-secondary); }
+.passage-notes summary { cursor: pointer; padding: 6px 0; }
+.passage-notes p { margin: 10px 0; }
+#reader-source { margin-top: 32px; font-size: 16px; }
