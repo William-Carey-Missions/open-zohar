@@ -82,11 +82,27 @@
     }
     function linkedParagraph(element,value,language) {
       element.replaceChildren();
-      for(const token of core.tokenize(value,entries,language)){
-        if(!token.id){element.append(document.createTextNode(token.text));continue;}
-        const entry=byId.get(token.section+'/'+token.id), a=link(routeFor(entry),token.text,'knowledge-link');
+      const quotes = [];
+      const append = (content, token) => {
+        const parent = quotes.at(-1)?.element || element;
+        if (!token.id) { parent.append(document.createTextNode(content)); return; }
+        const entry=byId.get(token.section+'/'+token.id), a=link(routeFor(entry),content,'knowledge-link');
         a.dataset.entry=token.section+'/'+token.id;a.title=entry.title+' — '+entry.summary;
-        a.setAttribute('aria-haspopup','dialog');element.append(a);
+        a.setAttribute('aria-haspopup','dialog');parent.append(a);
+      };
+      for(const token of core.tokenize(value,entries,language)) {
+        const parts = language === 'nl' ? token.text.split(/([“”‘’])/u) : [token.text];
+        for (const part of parts) {
+          if (!part) continue;
+          if (language === 'nl' && (part === '“' || part === '‘')) {
+            const em=make('em','','citation');
+            (quotes.at(-1)?.element || element).append(em);
+            quotes.push({close:part === '“' ? '”' : '’',element:em});
+            append(part,token);
+          } else if (language === 'nl' && part === quotes.at(-1)?.close) {
+            append(part,token); quotes.pop();
+          } else append(part,token);
+        }
       }
     }
     document.getElementById('entry-dialog-close').onclick=()=>dialog.close();
