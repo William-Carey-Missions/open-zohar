@@ -33,7 +33,7 @@
   const settings = $('settings');
   $('settings-open').addEventListener('click', () => settings.showModal());
   $('settings-close').addEventListener('click', () => settings.close());
-  const sections = ['lezen','woordenboek','wiki','over','bronnen','zoeken'];
+  const sections = ['lezen','inleiding','woordenboek','wiki','over','bronnen','zoeken'];
   const knowledgePromise = fetch('data/knowledge.json', {cache:'no-store'}).then(r => { if(!r.ok) throw Error('knowledge'); return r.json(); }).then(data => Array.isArray(data.dictionary) && Array.isArray(data.wiki) && Array.isArray(data.sources) ? data : null).catch(() => null);
   let library = { works: [] };
   let loadError = false;
@@ -152,13 +152,14 @@
       if (active) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
     });
     $('mobile-section').value = current;
-    $('chapter-title').textContent = {lezen: document.title.split(' — ')[0], woordenboek: 'Woordenboek', wiki: 'Wiki', over: 'Over deze uitgave', bronnen: 'Bronnen en verantwoording', zoeken: 'Zoeken'}[current];
+    $('chapter-title').textContent = {lezen: document.title.split(' — ')[0], inleiding: 'Inleiding op de Zohar', woordenboek: 'Woordenboek', wiki: 'Wiki', over: 'Over deze uitgave', bronnen: 'Bronnen en verantwoording', zoeken: 'Zoeken'}[current];
     if (current === 'lezen') {
       chapterView(parts[1], parts[2]);
       knowledge.setReadingHash('#lezen/' + encodeURIComponent($('work-select').value) + '/' + encodeURIComponent($('chapter-select').value) + (parts[3] ? '/' + encodeURIComponent(parts[3]) : ''));
       if (parts[3]) document.getElementById('passage-' + parts[3])?.scrollIntoView({block:'center'});
     }
     if (current === 'woordenboek' || current === 'wiki') { knowledge.render(current, parts[1]); window.scrollTo(0,0); }
+    if (current === 'inleiding') window.scrollTo(0,0);
     if (current === 'zoeken') search($('topnav-search-input').value.trim());
   }
   $('mobile-section').onchange = () => { location.hash = $('mobile-section').value; };

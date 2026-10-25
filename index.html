@@ -6,16 +6,16 @@
 <title>Open Zohar — Leesomgeving</title>
 <meta name="description" content="Open Zohar: een leesomgeving voor grondtekst en Nederlandse vertaling. Deeluitgave met een Nederlandse conceptvertaling en gekoppelde Aramese grondtekst.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/openvertaling.css"><link rel="stylesheet" href="css/corpus.css?v=20261025-3">
-<script src="js/knowledge-core.js?v=20261025-3" defer></script>
-<script src="js/knowledge-ui.js?v=20261025-3" defer></script>
-<script src="js/app.js?v=20261025-3" defer></script>
+<link rel="stylesheet" href="css/openvertaling.css"><link rel="stylesheet" href="css/corpus.css?v=20261025-4">
+<script src="js/knowledge-core.js?v=20261025-4" defer></script>
+<script src="js/knowledge-ui.js?v=20261025-4" defer></script>
+<script src="js/app.js?v=20261025-4" defer></script>
 </head>
 <body data-project="open-zohar">
 <a class="skip-link" href="#content">Naar de inhoud</a>
 <nav id="topnav" aria-label="Hoofdnavigatie">
  <div class="topnav-brand"><a href="#lezen" class="brand-name">Open Zohar</a><span class="topnav-version">Deeluitgave · concept</span></div>
- <div class="topnav-links"><a href="#lezen" data-section="lezen">Tekst</a><a href="#woordenboek" data-section="woordenboek">Woordenboek</a><a href="#wiki" data-section="wiki">Wiki</a><a href="#over" data-section="over">Over</a><a href="#bronnen" data-section="bronnen">Bronnen</a></div>
+ <div class="topnav-links"><a href="#lezen" data-section="lezen">Tekst</a><a href="#inleiding" data-section="inleiding">Inleiding</a><a href="#woordenboek" data-section="woordenboek">Woordenboek</a><a href="#wiki" data-section="wiki">Wiki</a><a href="#over" data-section="over">Over</a><a href="#bronnen" data-section="bronnen">Bronnen</a></div>
  <form id="search-form" role="search"><input type="search" id="topnav-search-input" class="topnav-search-input" placeholder="Zoeken… (Ctrl+K)" aria-label="Zoeken in Open Zohar"></form>
  <button class="topnav-tekstopties" id="settings-open" type="button" aria-haspopup="dialog" aria-controls="settings"><b aria-hidden="true">Aa</b><span>Tekstopties</span></button>
  <button class="topnav-theme" id="theme-toggle" type="button" aria-label="Wissel licht en donker">◐</button>
@@ -26,6 +26,7 @@
   <div id="sidebar-tree">
    <a class="tree-book-label" href="#lezen" data-section="lezen">Lezen</a>
    <div id="work-links"></div>
+   <a class="tree-book-label" href="#inleiding" data-section="inleiding">Inleiding op de Zohar</a>
    <a class="tree-book-label" href="#woordenboek" data-section="woordenboek">Woordenboek</a>
    <a class="tree-book-label" href="#wiki" data-section="wiki">Wiki</a>
    <a class="tree-book-label" href="#over" data-section="over">Over deze uitgave</a>
@@ -34,7 +35,7 @@
   <div class="sidebar-footer">Een eigen leesomgeving.<br>Vormgeving van <a href="https://openvertaling.nl/">Open Vertaling</a>.<br><a href="https://github.com/William-Carey-Missions/open-zohar">Bekijk de repository</a></div>
  </nav>
  <div id="main-wrapper"><main id="content" tabindex="-1">
-  <div id="mobile-library"><label for="mobile-section">Ga naar</label><select id="mobile-section"><option value="lezen">Lezen</option><option value="woordenboek">Woordenboek</option><option value="wiki">Wiki</option><option value="over">Over deze uitgave</option><option value="bronnen">Bronnen en verantwoording</option><option value="zoeken">Zoeken</option></select></div>
+  <div id="mobile-library"><label for="mobile-section">Ga naar</label><select id="mobile-section"><option value="lezen">Lezen</option><option value="inleiding">Inleiding op de Zohar</option><option value="woordenboek">Woordenboek</option><option value="wiki">Wiki</option><option value="over">Over deze uitgave</option><option value="bronnen">Bronnen en verantwoording</option><option value="zoeken">Zoeken</option></select></div>
   <div id="content-topbar"><h2 id="chapter-title">Open Zohar</h2><span class="edition-label">Grondtekst &amp; Nederlands</span></div>
   <section id="lezen" aria-label="Leestekst">
    <div id="reader-intro" class="reader-intro"><div class="hebrew-title" lang="he" dir="rtl">הזוהר</div><h1>De Zohar lezen en onderzoeken.</h1><div class="prose"><p>Een rustige plek voor de oorspronkelijke tekst en een Nederlandse vertaling, met ruimte om beide naast elkaar te lezen.</p></div></div>
@@ -43,6 +44,34 @@
    <div id="reader-status" class="notice" role="status" hidden></div>
    <div id="passages" class="prose"></div><div id="reader-source" class="prose"></div>
    <nav id="chapter-actions" aria-label="Gedeelten" hidden><button class="action-btn" id="previous">Vorig gedeelte</button><button class="action-btn" id="next">Volgend gedeelte</button></nav>
+  </section>
+  <section id="inleiding" class="prose" hidden>
+   <h1>Inleiding op de Zohar</h1>
+   <p>De Zohar nodigt je uit om langzaam te lezen. Een bloem, een bijbelwoord of een ontmoeting onderweg kan het begin worden van een gesprek over God, de wereld en de mens. Wie meteen een sluitend stelsel zoekt, raakt gemakkelijk de draad kwijt. Wie de vragen, beelden en stemmen volgt, kan stap voor stap ontdekken hoe deze tekst betekenis opbouwt.</p>
+   <p>Deze inleiding is een moderne wegwijzer bij de leesomgeving. De oorspronkelijke inleiding van de Zohar zelf begint bij <a href="#lezen/zohar-i/1a/1">Zohar I, folio 1a</a>.</p>
+   <h2>Wat voor boek is de Zohar?</h2>
+   <p><em>Sefer ha-Zohar</em> betekent ‘Boek van de glans’. Het behoort tot de kabbala, de joodse mystieke traditie. Bijbeluitleg en verhalen over Rabbi Sjimon bar Jochai en zijn metgezellen wisselen elkaar af. De gesprekken verkennen verborgen samenhangen in de Tora. Veel tekst is geschreven in een eigen, literaire vorm van het Aramees. <a href="https://www.jtsa.edu/torah/exploring-kabbalah-episode-4/">Eitan Fishbane bespreekt dit karakter van de Zohar bij het Jewish Theological Seminary</a>.</p>
+   <p>Lees bijvoorbeeld de eerste bladzijde zonder te proberen elk detail meteen te verklaren. Let eerst op het vertrekpunt: welke bijbeltekst wordt aangehaald? Welke vraag stelt de spreker? Vervolgens kun je nagaan hoe de uitleg van een zichtbaar beeld naar een verborgen betekenis beweegt. Het woordenboek helpt bij losse woorden; de wiki brengt personen en grotere onderwerpen bij elkaar.</p>
+   <h2>Traditie en ontstaansgeschiedenis</h2>
+   <p>Traditioneel wordt de Zohar toegeschreven aan Rabbi Sjimon bar Jochai, een geleerde uit de tweede eeuw. Historisch onderzoek plaatst het ontstaan van de literatuur vooral in het laatdertiende- en vroegveertiende-eeuwse Spanje. Mozes de León speelde een belangrijke rol in de verspreiding. Het corpus groeide in verschillende kringen en fasen. Zie <a href="https://www.jtsa.edu/torah/exploring-kabbalah-episode-4/">Fishbanes toelichting op auteurschap en datering</a>.</p>
+   <p>Dit onderscheid helpt ook bij de namen. In de openingszin spreekt <a href="#wiki/rabbi-chizkia">Rabbi Chizkia</a>. Daarmee kennen we zijn rol in die passage, maar nog geen betrouwbare levensbeschrijving. De bron vermeldt bovendien een variant met Rabbi Elazar. Vraag bij zo’n naam dus eerst: wat doet deze spreker in het gesprek, en wat weten we werkelijk over zijn identiteit? De toelichting onder de passage houdt die vragen uit elkaar.</p>
+   <h2>Een verzameling met een geschiedenis</h2>
+   <p>De Zohar is doorgegeven in uiteenlopende handschriften. De vroege drukkers moesten daaruit teksten kiezen en ordenen. De uitgaven van Mantua en Cremona in de zestiende eeuw waren bepalend voor de latere boekvorm, maar stemden onderling niet geheel overeen. Wat wij als één boek openslaan, heeft dus een geschiedenis van verzamelen, rangschikken en overleveren. De <a href="https://exhibition.nli.org.il/en/exhibition-items-en/zohar">National Library of Israel belicht de rol van de Italiaanse drukken</a>.</p>
+   <p>De gebruikelijke drie hoofdvolumes volgen grotendeels de gedeelten van de Tora en bevatten ook teksten met eigen titels en vormen. Daarnaast worden <a href="#wiki/zohar-chadasj">Zohar Chadasj</a> en <a href="#wiki/tikkoenei">Tikkoenei Zohar</a> afzonderlijk uitgegeven. Deze indeling is een hulpmiddel om teksten terug te vinden; zij betekent niet dat alle onderdelen tegelijk zijn geschreven. Voor de ontwikkeling van de verzameling en haar vertalingen zie <a href="https://correspondencesjournal.com/ojs/ojs/index.php/home/article/view/40/0">Boaz Huss, <em>Translations of the Zohar</em></a>.</p>
+   <p>Verwijzingen als ‘I 1a’ noemen een volume en een foliozijde. De letters a en b geven de twee zijden van een blad aan. De passagecijfers in deze leesomgeving zijn aanvullingen om kortere stukken rechtstreeks te kunnen openen. Meer hierover staat bij <a href="#wiki/folio">folioverwijzingen</a>.</p>
+   <h2>God, verborgenheid en symboliek</h2>
+   <p>De tien <em>sefirot</em> verbeelden onderscheiden aspecten van het goddelijke leven. <em>Ein Sof</em> duidt de goddelijke oneindigheid aan. De <em>Sjechina</em>, Gods aanwezigheid, krijgt vrouwelijke beelden; liefde, scheiding en hereniging drukken verhoudingen binnen de goddelijke eenheid uit. Ook oordeel en ontferming staan in een dynamische verhouding. De veelheid aan beelden blijft verbonden met de belijdenis van één God. <a href="https://www.jtsa.edu/torah/exploring-kabbalah-episode-4/">Fishbane licht deze symboliek toe</a>.</p>
+   <p>Voor een eerste lezing hoef je zulke termen niet vooraf uit het hoofd te leren. Schrijf liever op welke woorden in een passage met elkaar worden verbonden. Betekent ‘boven’ hier een plaats, of wijst het op een verborgen niveau? Wat gebeurt er wanneer dezelfde spreker vervolgens over ‘beneden’ spreekt? Probeer een beeld eerst binnen zijn zin en gesprek te begrijpen. Eén woordenboekbetekenis kan de hele uitleg niet vervangen.</p>
+   <h2>Samen lezen: de roos</h2>
+   <p>De <a href="#lezen/zohar-i/1a/1">opening op I 1a</a> begint met een vers uit Hooglied: <em>‘Als een roos tussen de doorns.’</em> Rabbi Chizkia vraagt wie die roos is en verbindt haar met de gemeenschap van Israël. Vervolgens worden rood en wit verbonden met oordeel en ontferming. De dertien bladeren of bloembladen worden betrokken op dertien maten van ontferming. De tekst beweegt zo van een bloem naar een gemeenschap en vandaar naar haar verhouding tot God.</p>
+   <p>Daarna verschuift de aandacht naar woorden tussen vermeldingen van de godsnaam in Genesis. Het tellen van woorden, de getallen dertien en vijf en het beeld van de beker worden onderdeel van hetzelfde betoog. Je kunt deze beweging in drie stappen volgen: lees de aangehaalde bijbelwoorden, benoem de verbinding die de spreker legt en kijk hoe de volgende zin daarop voortbouwt. De <a href="#wiki/roos">wiki over de roos</a> en het lemma <a href="#woordenboek/sjosjanna">sjosjanna</a> helpen bij de details.</p>
+   <p>Ook klank en letters dragen betekenis. In het gesprek over <a href="#wiki/mi-eleh">Mi en Eleh</a> spelen de Hebreeuwse woorden voor ‘wie?’ en ‘deze’ een rol bij de uitleg van de naam Elohim. Een Nederlandse vertaling kan die letterverbinding niet vanzelf laten horen. Houd daarom de grondtekst en de toelichting erbij; juist daar zie je waarom een uitspraak in het Nederlands soms raadselachtig blijft.</p>
+   <h2>Wie spreekt er, en tegen wie?</h2>
+   <p>Geef bij een gesprek elke stem even de ruimte. Een vraag, een antwoord en een aangehaald verhaal kunnen in één alinea staan. Bepaal telkens wie spreekt en waar een citaat begint of eindigt. De cursieve citaten helpen daarbij. Via de namen kun je bijvoorbeeld doorklikken naar <a href="#wiki/rabbi-sjimon">Rabbi Sjimon</a>, <a href="#wiki/rabbi-elazar">Rabbi Elazar</a> en de <a href="#wiki/metgezellen">metgezellen</a>.</p>
+   <p>Bij de <a href="#wiki/letterdialoog">dialoog van de letters</a> kun je nog een andere leesvraag stellen: welk argument voert elke letter aan, en waarom wordt dat argument aanvaard of afgewezen? Zo volg je de opbouw van het verhaal voordat je alle symbolische verwijzingen probeert te ontrafelen.</p>
+   <h2>Beginnen in deze uitgave</h2>
+   <p>Begin met <a href="#lezen/zohar-i/1a/1">de eerste passage</a> en lees één korte eenheid tegelijk. Open de toelichting bij een moeilijke keuze. Vergelijk daarna de Nederlandse tekst met het Aramees en gebruik het <a href="#woordenboek">woordenboek</a> of de <a href="#wiki">wiki</a> voor een gerichte vraag. Herlees vervolgens de passage als geheel: helpt de uitleg om het gesprek beter te volgen?</p>
+   <p>Open Zohar is een deeluitgave. Op dit moment zijn 41 passages beschikbaar als Nederlandse conceptvertaling: I 1a–3a en de eerste twee alinea’s van 3b. Onafhankelijke vakredactie moet nog plaatsvinden. Vertaling, toelichting en deze moderne inleiding hebben elk een eigen functie; raadpleeg bij een onzekere lezing de bron en de vermelde tekstkeuzes. De <a href="#bronnen">bronverantwoording</a> beschrijft de gebruikte teksten en de voortgang.</p>
   </section>
   <section id="woordenboek" hidden>
    <div id="woordenboek-browse"><h1>Woordenboek</h1><p class="prose">Aramese en Hebreeuwse woorden uit de gelezen passages. Zoek op Nederlands, grondtekst of transliteratie.</p>
