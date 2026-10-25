@@ -51,6 +51,13 @@
     library = loaded;
   } catch { loadError = true; }
   const works = library.works;
+  if (library.progress) {
+    const p = library.progress;
+    const percent = p.mainDraftPercent.toLocaleString('nl-NL', {maximumFractionDigits:2});
+    document.querySelectorAll('[data-translation-progress]').forEach(element => {
+      element.textContent = p.translatedPassages + ' passages zijn als concept vertaald, met ' + p.completeDraftFolios + ' volledige foliozijden van de ' + p.mainFolioRegister.toLocaleString('nl-NL') + ' in de drie hoofdvolumes (' + percent + '%). De aanvullende werken tellen hierin niet mee. Onafhankelijk geredigeerd: 0%. Volgende nog onvoltooide foliozijde: ' + p.next + '.';
+    });
+  }
   const knowledge = window.createKnowledgeUI(await knowledgePromise, works);
   for (const work of works) {
     const link = text('a', work.title, 'tree-book-label');
@@ -74,7 +81,12 @@
     fill($('work-select'), works, work.id);
     fill($('chapter-select'), chapters, chapter?.id);
     $('chapter-title').textContent = chapter ? work.title + ' · ' + chapter.title : work.title;
+    let displayedSection = '';
     for (const passage of chapter?.passages || []) {
+      if (passage.sectionTitle && passage.sectionTitle !== displayedSection) {
+        $('passages').append(text('h2', passage.sectionTitle));
+        displayedSection = passage.sectionTitle;
+      }
       const row = text('div', '', 'passage');
       row.id = 'passage-' + passage.id;
       const anchor = text('a', passage.id, 'passage-number');
@@ -88,9 +100,9 @@
       original.dir = 'rtl'; original.lang = passage.lang || 'he';
       knowledge.linkedParagraph(original, passage.original || '', 'original');
       row.append(nl, original);
-      if (passage.notes?.length || passage.uncertainties?.length) {
+      if (passage.notes?.length || passage.uncertainties?.length || passage.source?.url) {
         const details = text('details', '', 'passage-notes');
-        details.append(text('summary', 'Toelichting en tekstkeuzes' + (passage.uncertainties?.length ? ' · onzekere lezing' : '')));
+        details.append(text('summary', (passage.notes?.length || passage.uncertainties?.length ? 'Toelichting en tekstkeuzes' : 'Bron van deze passage') + (passage.uncertainties?.length ? ' · onzekere lezing' : '')));
         for (const note of passage.notes || []) details.append(text('p', note));
         for (const note of passage.uncertainties || []) details.append(text('p', 'Onzeker: ' + note));
         if (passage.source?.url) {
@@ -111,7 +123,10 @@
     $('reader-status').textContent = chapter ? 'Conceptvertaling · ' + chapter.coverage : library.status;
     $('reader-status').hidden = !chapter;
     if (work.source) $('reader-source').append(text('p', 'Bron: ' + work.source + (work.license ? ' · Rechten: ' + work.license : '')));
-    for (const [url, label] of [[work.sourceUrl, 'Bronrevisie'], [work.historyUrl, 'Bijdragers en geschiedenis'], [work.licenseUrl, 'CC BY-SA 4.0']]) {
+    const chapterSources = [...new Map((chapter?.passages || []).filter(p => p.source?.url).map(p => [p.source.url, p.source])).values()];
+    const sourceLinks = chapterSources.length ? chapterSources.flatMap(s => [[s.url, 'Bronrevisie ' + s.revision], ['https://he.wikisource.org/w/index.php?curid=' + s.pageId + '&action=history', 'Bijdragers van bron ' + s.pageId]]) : [[work.sourceUrl, 'Bronrevisie'], [work.historyUrl, 'Bijdragers en geschiedenis']];
+    sourceLinks.push([work.licenseUrl, 'CC BY-SA 4.0']);
+    for (const [url, label] of sourceLinks) {
       if (!url) continue;
       const link = text('a', label);
       link.href = url;

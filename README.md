@@ -4,9 +4,9 @@ Nederlandse werkvertaling met gekoppelde Aramese grondtekst, in de bestaande vor
 
 ## Status op 25 oktober 2026
 
-**Onvolledige deeluitgave.** Beschikbaar: 41 conceptpassages, Zohar I 1a–3a en de eerste twee alinea’s van 3b, tot het slot van de letterdialoog. Dat zijn vijf volledig vertaalde foliozijden en één gedeeltelijk folio. Onafhankelijk geredigeerde passages: nul. De volledige Zohar is nog niet vertaald.
+**Onvolledige deeluitgave.** De actuele aantallen conceptpassages, volledig vertaalde bronfolia en het percentage van het hoofdregister staan in [het voortgangsregister](data/progress.json) en in de lokale leesomgeving. Onafhankelijk geredigeerde passages: nul. De volledige Zohar is nog niet vertaald.
 
-Het vertaaldoel omvat Zohar I–III met ingebedde traktaten en addenda; Zohar Chadasj en Tikkoenei Zohar worden afzonderlijk behandeld. De inventaris bevat 167 catalogusonderdelen. Alle overige tekst moet nog worden vertaald. Volgende passage: I 3b:3, uitleg van bara sjiet. Zie [corpusafbakening](docs/CORPUS.md), [bronnen en rechten](docs/BRONNEN.md), [inventaris](data/corpus.json) en [voortgang](data/progress.json).
+Het vertaaldoel omvat Zohar I–III met ingebedde traktaten en addenda; Zohar Chadasj en Tikkoenei Zohar worden afzonderlijk behandeld. De inventaris bevat 167 catalogusonderdelen. De nog onvoltooide tekst en de vastgestelde bronlacunes staan afzonderlijk in het voortgangsregister. Zie [corpusafbakening](docs/CORPUS.md), [bronnen en rechten](docs/BRONNEN.md), [inventaris](data/corpus.json) en [voortgang](data/progress.json).
 
 ## Lezen
 
@@ -26,7 +26,7 @@ De inhoud staat in data/knowledge.json. Het is een groeiend naslagwerk, geen vol
 
 ## Tekstdata en controle
 
-- data/translations/zohar-i-introduction.json: bewerkbare werkvertaling en noten.
+- data/translations/: bewerkbare werkvertalingen en noten, verdeeld over tekstblokken.
 - data/sources/: Wikisource-revisies en catalogusmomentopnamen.
 - data/source-manifest.json: naamsvermelding, revisies en teksthashes.
 - data/library.json: gegenereerde leesdata met bronkoppelingen.
@@ -36,7 +36,7 @@ De inhoud staat in data/knowledge.json. Het is een groeiend naslagwerk, geen vol
 node scripts/build-corpus.mjs
 node scripts/validate-corpus.mjs
 node --check js/app.js
-node --test tests/knowledge.test.cjs
+node --test tests/knowledge.test.cjs tests/source-segments.test.mjs
 node scripts/validate-knowledge.mjs
 ~~~
 

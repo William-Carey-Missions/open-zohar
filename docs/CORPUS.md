@@ -31,11 +31,13 @@ De bronverwerving omvat de dertig Wikisource-containers met het titelprefix “�
 
 De automatische markeringscontrole vindt voor acht registerposities geen foliomarkering in de verworven containers: I 10b, I 172b, I 200b, II 176b, II 189a, II 189b, III 116a en III 116b. Bij I 10b is wel een sectiemarkering aanwezig; het verwijssjabloon bevat de ongeldige combinatie י|ב|א. Dit bewijst dus nog geen tekstlacune: het kan om ontbrekende opmaak of blanko posities gaan. Deze acht posities zijn afzonderlijk in corpus.json en progress.json vastgelegd.
 
+Daarnaast ontbreken in container 261497 afzonderlijke reguliere hoofdtekstsecties voor I 80b en 81a. Er zijn wel Sitre Tora-secties met die nummers. Hun verhouding tot de hoofdtekst en de historische paginering moet nog worden gecollationeerd; deze twee registerposities worden voorlopig niet als volledig vertaald geteld. De aanwezige Sitre Tora-secties zijn wel als afzonderlijk herkenbare deeltekst in de lezer opgenomen.
+
 Open controles: volledige folio- en alinea-dekking, vergelijking van de tekstgetuigen met een historische druk, verwerving van de addenda en van Zohar Chadasj. Een bekende catalogusafwijking betreft tikkoen 27, waarvan de Sefaria-index een bereik geeft dat met de eerste inleiding overlapt. Deze verwijzing is als onzeker gemarkeerd, niet gerepareerd op basis van een gok. Zohar Chadasj gebruikt in de Wikisource-index deels vier kolommen per blad; een automatisch gelijkteken met andere edities is onjuist.
 
 ## Huidige vertaaldekking
 
-Zohar I 1a, 1b, 2a, 2b en 3a zijn volledig als werkvertaling opgenomen. Van 3b zijn de eerste twee alinea’s vertaald; daarmee is de letterdialoog afgesloten. Totaal: 41 passages. Er zijn nul onafhankelijk geredigeerde passages. Volgende tekst: I 3b:3, uitleg van bara sjiet. Alle overige tekst, alle addenda, heel Zohar Chadasj en heel Tikkoenei Zohar moeten nog worden vertaald.
+De actuele vertaaldekking staat in [data/progress.json](../data/progress.json). Alleen foliozijden waarvan alle overgeleverde hoofdtekst- en ingebedde bronalinea’s op die positie zijn vertaald tellen mee als volledig concept. Het percentage gebruikt de 1.632 posities van het hoofdregister als noemer en sluit de aanvullende werken uit. Bronlacunes staan afzonderlijk vermeld. Er zijn nul onafhankelijk geredigeerde passages.
 
 Het woordenboek bevat 56 contextgebonden lemma’s, de wiki 24 artikelen. De lemma’s verwijzen terug naar beschikbare passages en noemen hun bronnen. De historische identiteit van Rabbi Chizkia is expliciet niet als vaststaand behandeld.
 
@@ -45,10 +47,10 @@ De brontitels hieronder blijven herkenbare eigennamen. “Niet vertaald” betre
 
 ### Hoofdvolumes en addenda
 
-- Introduction — Zohar, Introduction — gedeeltelijk vertaald als concept
-- Bereshit — Zohar, Bereshit — niet vertaald
-- Noach — Zohar, Noach — niet vertaald
-- Lech Lecha — Zohar, Lech Lecha — niet vertaald
+- Introduction — Zohar, Introduction — conceptpassages beschikbaar; concordantie met de catalogus nog open
+- Bereshit — Zohar, Bereshit — conceptpassages beschikbaar; concordantie met de catalogus nog open
+- Noach — Zohar, Noach — conceptpassages beschikbaar; concordantie met de catalogus nog open
+- Lech Lecha — Zohar, Lech Lecha — conceptpassages beschikbaar; concordantie met de catalogus nog open
 - Vayera — Zohar, Vayera — niet vertaald
 - Chayei Sara — Zohar, Chayei Sara — niet vertaald
 - Toldot — Zohar, Toldot — niet vertaald

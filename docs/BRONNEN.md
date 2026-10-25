@@ -10,6 +10,8 @@ Voor de eerste 41 passages: Hebreeuwse Wikisource, ongevocaliseerde tekstcontain
 
 Wijzigingen: navigatie en opmaak verwijderd, citaatsjablonen tot tekst teruggebracht, een bronvoetnoot over de naam Chizkia afzonderlijk toegelicht, stabiele alineanummers toegevoegd en een nieuwe Nederlandse werkvertaling gemaakt. Varianten tussen haakjes blijven in de grondtekst staan en worden toegelicht. De ruwe wikitekst blijft lokaal bewaard. De Nederlandse tekst bevat geen overgenomen moderne vertaling. Zij is met AI opgesteld en moet nog onafhankelijk door een kenner van het Zohar-Aramees worden gecontroleerd.
 
+De uitbreiding gebruikt ook de volgende vastgelegde tekstcontainers van hetzelfde hoofdvolume. Elke passage noemt zijn eigen pagina-id, revisie, sectie, sectievoorkomen en alineanummer. Het bronmanifest bevat de bijbehorende paginageschiedenis en controlesom. De technische volledigheidscontrole vergelijkt de vertaalde alinea’s met alle reguliere bronsegmenten van het betreffende folio; dit vervangt geen vergelijking met een historische druk.
+
 ## Verworven en onderzochte bronnen
 
 | Bron | Rechten/gebruik | Verwerving en status |

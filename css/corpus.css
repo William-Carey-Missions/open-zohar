@@ -134,7 +134,7 @@ body.alternate-font .prose { font-family: var(--font-body); }
 .entry-dialog-heading h2 { font: 500 28px/1.25 var(--font-serif); margin: 7px 0 18px; }
 .entry-full-link { display: inline-block; color: var(--text-primary); margin-bottom: 24px; font: 400 15px var(--font-body); }
 #entry-dialog .prose { font-size: 19px; }
-@media (min-width: 901px) and (max-width: 1250px) { #topnav { flex-wrap: wrap; height: auto; padding-block: 12px; } #app-container { min-height: calc(100vh - 110px); } }
+@media (min-width: 901px) and (max-width: 1400px) { #topnav { flex-wrap: wrap; height: auto; padding-block: 12px; } #app-container { min-height: calc(100vh - 110px); } }
 @media (max-width: 480px) { #entry-dialog { padding: 22px; } .entry-card strong { font-size: 22px; } }
 @media print { #entry-dialog { display: none !important; } .knowledge-link { text-decoration: none; } }
 
@@ -142,3 +142,5 @@ body.alternate-font .prose { font-family: var(--font-body); }
 
 #passages .citation { font-style: italic; }
 #passages .citation .knowledge-link { font-style: inherit; }
+
+#topnav .topnav-brand { flex-shrink: 0; }

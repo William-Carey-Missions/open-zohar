@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {sourceSegments,assembleChapters} from './source-segments.mjs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -20,34 +21,15 @@ const catalogues=[];
 for(const file of catalogueFiles){const data=await read('data/sources/'+file);catalogues.push({file:'data/sources/'+file,title:data.title,url:'https://www.sefaria.org/api/v2/raw/index/'+encodeURIComponent(data.title),retrieved:'2026-10-25',sha256:sha(JSON.stringify(data)),hashEncoding:'JSON.stringify van het geparste JSON-object'});}
 const manifest=pages.map(({file,page,rev,content})=>({file,pageId:page.pageid,title:page.title,revision:rev.revid,timestamp:rev.timestamp,sha256:sha(content),url:'https://he.wikisource.org/w/index.php?oldid='+rev.revid,historyUrl:'https://he.wikisource.org/w/index.php?title='+encodeURIComponent(page.title)+'&action=history',license:'CC-BY-SA-4.0',attribution:'Bijdragers aan de Hebreeuwse Wikisource; zie gekoppelde paginageschiedenis.'}));
 await write('data/source-manifest.json',{date:'2026-10-25',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',pages:manifest,catalogues});
-const tr=await read('data/translations/zohar-i-introduction.json');
-const witness=pages.find(p=>p.page.pageid===tr.sourcePageId && p.rev.revid===tr.sourceRevision);
-if(!witness) throw Error('Vastgelegde bronrevisie ontbreekt');
-function paragraphs(section){
- const start=witness.content.indexOf('<קטע התחלה=דף '+section+'/>');
- const end=witness.content.indexOf('<קטע סוף=דף '+section+'/>',start);
- if(start<0||end<0) throw Error('Bronsectie ontbreekt: '+section);
- return witness.content.slice(start,end).replace(/<קטע (?:התחלה|סוף)=[^>]*\/>/g,'').replace(/^={2,}.*?={2,}\s*$/gm,'').replace(/\{\{ממ זהר משולב\|[^}]+\}\}/g,'').trim().split(/\n\s*\n/).filter(p=>p.trim()).map(p=>p.trim());
-}
-function plain(raw){
- let illustration=0;
- raw=raw.replace(/\[\[קובץ:[^\]]+\]\]/g,()=> '[איור '+(++illustration)+']').replace(/\{\{'\}\}/g, '′');
- let value=raw.replace(/\{\{הערה\|[\s\S]*?\}\}/g,'');
- value=value.replace(/\{\{ממ\|([^{}]+)\}\}/g,(_,v)=>'('+v.replaceAll('|',' ')+')');
- value=value.replace(/\{\{צ\|([^{}]+)\}\}/g,'$1').replace(/'{2,}/g,'').replace(/<\/?(?:small|big)>/g,'').replace(/\s+/g,' ').trim();
- if(/\{\{|\}\}|\[\[|<[^>]+>/.test(value)) throw Error('Onverwerkte bronopmaak');
- return value;
-}
-const sections={'1a':'א א','1b':'א ב','2a':'ב א','2b':'ב ב','3a':'ג א','3b':'ג ב'};
-const chapters=tr.chapters.map(ch=>{
- const raw=paragraphs(sections[ch.id]);
- if(ch.completeFolio && raw.length!==ch.passages.length) throw Error('Folio onvolledig: '+ch.id);
- return {id:ch.id,title:ch.title,status:'conceptvertaling',completeFolio:ch.completeFolio,coverage:ch.completeFolio?'Volledig folio vertaald; onafhankelijke vakredactie nog open.':ch.passages.length+' van '+raw.length+' alinea’s vertaald; overige tekst op dit folio ontbreekt nog.',passages:ch.passages.map((p,i)=>{
-  if(!raw[i]||!p.nl?.trim()) throw Error('Bron of vertaling ontbreekt');
-  return {...p,original:plain(raw[i]),lang:'arc',reference:'Zohar I '+ch.id+':'+p.id,status:'concept',source:{file:witness.file,pageId:tr.sourcePageId,revision:tr.sourceRevision,section:'דף '+sections[ch.id],paragraph:i+1,sha256:sha(raw[i]),url:'https://he.wikisource.org/w/index.php?oldid='+tr.sourceRevision}};
- })};
-});
-await write('data/library.json',{version:1,title:'Open Zohar',status:'Deeluitgave — conceptvertaling, corpus niet volledig',works:[{id:'zohar-i',title:'Zohar I · Inleiding',source:'Hebreeuwse Wikisource, זוהר חלק א, revisie 3085399; folioverwijzingen volgens de Mantua-traditie. Bijdragers: zie bron en paginageschiedenis.',sourceUrl:'https://he.wikisource.org/w/index.php?oldid=3085399',historyUrl:'https://he.wikisource.org/w/index.php?title='+encodeURIComponent('זוהר חלק א')+'&action=history',license:'Grondtekst en nieuwe Nederlandse werkvertaling: CC BY-SA 4.0. Bronopmaak vereenvoudigd; varianten afzonderlijk toegelicht.',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',chapters}]});
+const translationFiles=(await fs.readdir(root+'data/translations')).filter(f=>f.endsWith('.json')).sort();
+const translations=await Promise.all(translationFiles.map(f=>read('data/translations/'+f)));
+const segments=sourceSegments(pages,{maxFolio:Math.max(84,...translations.flatMap(tr=>tr.chapters.map(c=>parseInt(c.id)+1)))});
+const chapters=assembleChapters(translations,segments,sha);
+const nextFolio=Array.from({length:501},(_,i)=>(Math.floor(i/2)+1)+(i%2?'b':'a')).find(id=>!chapters.some(c=>c.id===id&&c.completeFolio))||null;
+const nextReference=nextFolio?'Zohar I '+nextFolio:'Zohar II 2a';
+const nextAvailableFolio=Array.from({length:501},(_,i)=>(Math.floor(i/2)+1)+(i%2?'b':'a')).find(id=>!chapters.some(c=>c.id===id&&c.completeFolio)&&segments.some(s=>s.folio===id&&s.kind==='hoofdtekst'));
+const nextAvailableReference=nextAvailableFolio?'Zohar I '+nextAvailableFolio:'Zohar II 2a';
+await write('data/library.json',{version:1,title:'Open Zohar',status:'Deeluitgave — conceptvertaling, corpus niet volledig',progress:{translatedPassages:chapters.reduce((n,ch)=>n+ch.passages.length,0),completeDraftFolios:chapters.filter(ch=>ch.completeFolio).length,mainFolioRegister:1632,mainDraftPercent:Number((chapters.filter(ch=>ch.completeFolio).length/1632*100).toFixed(2)),targetCompleteFolios:164,next:nextReference},works:[{id:'zohar-i',title:'Zohar I',source:'Hebreeuwse Wikisource, vastgelegde revisies per passage; folioverwijzingen volgens de Mantua-traditie. Bijdragers: zie bron en paginageschiedenis.',sourceUrl:'https://he.wikisource.org/w/index.php?oldid=3085399',historyUrl:'https://he.wikisource.org/w/index.php?title='+encodeURIComponent('זוהר חלק א')+'&action=history',license:'Grondtekst en nieuwe Nederlandse werkvertaling: CC BY-SA 4.0. Bronopmaak vereenvoudigd; varianten afzonderlijk toegelicht.',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',chapters}]});
 const title=(n,lang='en')=>n.titles?.find(t=>t.primary&&t.lang===lang)?.text||n.key||'';
 const z=await read('data/sources/zohar-sefaria-index.json');
 const zc=await read('data/sources/zohar-chadash-sefaria-index.json');
@@ -57,7 +39,7 @@ function schemaParts(n,path=[]){
  const next=[...path,n.key];
  if(n.nodes){for(const child of n.nodes) schemaParts(child,next);return;}
  const ref=next.join(', ');
- parts.push({id:'catalogue-'+parts.length,collection:next[0]==='Zohar'?'zohar':'zohar-chadash',title:title(n),titleHe:title(n,'he'),reference:ref,url:'https://www.sefaria.org/'+encodeURIComponent(ref.replaceAll(' ','_')),status:ref==='Zohar, Introduction'?'gedeeltelijk-vertaald-concept':'niet-vertaald',sourceCollation:'open'});
+ parts.push({id:'catalogue-'+parts.length,collection:next[0]==='Zohar'?'zohar':'zohar-chadash',title:title(n),titleHe:title(n,'he'),reference:ref,url:'https://www.sefaria.org/'+encodeURIComponent(ref.replaceAll(' ','_')),status:['Zohar, Introduction','Zohar, Bereshit','Zohar, Noach','Zohar, Lech Lecha'].includes(ref)?'conceptpassages-beschikbaar-concordantie-open':'niet-vertaald',sourceCollation:'open'});
 }
 schemaParts(z.schema);schemaParts(zc.schema);
 for(const n of tk.alt_structs.Tikkunim.nodes){
@@ -98,6 +80,6 @@ for(const folio of folios){
  folio.sourceStatus=folio.sourceCandidates.length?'foliomarkering-aanwezig-niet-gecollationeerd':'geen-foliomarkering-gevonden';
 }
 const unmarkedFolios=folios.filter(f=>!f.sourceCandidates.length).map(f=>f.reference);
-await write('data/corpus.json',{version:1,date:'2026-10-25',scope:'Zohar in drie hoofdvolumes met ingebedde traktaten en afzonderlijke addenda; Zohar Chadasj en Tikkoenei Zohar afzonderlijk. Geen claim van volledigheid van alle handschriften of latere commentaren.',parts,embedded,folios,unmarkedFolios,issues:[{id:'marker-i-10b',status:'open',description:'Zohar I 10b heeft een sectiemarkering in container 261494, maar het verwijssjabloon luidt {{ממ זהר משולב|י|ב|א}} in plaats van een geldige volume/folio/zijde-combinatie. Geen automatisch bewijs van ontbrekende tekst.'},{id:'source-completeness',status:'open',description:'Dertig Wikisource-containers zijn verworven; dit is geen bewijs dat alle folios, ingebedde teksten en addenda aanwezig zijn. Vergelijking met historische druk blijft nodig.'},{id:'tikkun-27',status:'open',description:'De Sefaria-catalogus geeft tikkoen 27 als 12b:2–17b:4, overlappend met de inleiding. Deze catalogusafwijking niet stilzwijgend als bronpaginering overnemen.'},{id:'chadash-pagination',status:'open',description:'Wikisource gebruikt deels vier kolommen per blad, Sefaria een andere indeling. Geen gelijkstelling zonder concordantie.'}]});
-await write('data/progress.json',{date:'2026-10-25',complete:false,translatedPassages:chapters.reduce((n,ch)=>n+ch.passages.length,0),completeDraftFolios:chapters.filter(ch=>ch.completeFolio).map(ch=>'Zohar I '+ch.id),partialDraftFolios:chapters.filter(ch=>!ch.completeFolio).map(ch=>'Zohar I '+ch.id+': '+ch.passages.length+' alinea’s'),independentlyReviewedPassages:0,next:tr.next,remaining:'Alle overige passages van Zohar I–III, de addenda, geheel Zohar Chadasj en geheel Tikkoenei Zohar; onafhankelijke redactie van alle werkvertalingen.',mainFolioRegister:folios.length,untranslatedMainFolios:folios.filter(f=>f.status==='niet-vertaald').length,inventoryParts:parts.length,acquiredMainContainers:30,sourceCompletenessVerified:false,unmarkedMainFolios:unmarkedFolios});
+await write('data/corpus.json',{version:1,date:'2026-10-25',scope:'Zohar in drie hoofdvolumes met ingebedde traktaten en afzonderlijke addenda; Zohar Chadasj en Tikkoenei Zohar afzonderlijk. Geen claim van volledigheid van alle handschriften of latere commentaren.',parts,embedded,folios,unmarkedFolios,issues:[{id:'missing-i-80b-81a',status:'open',description:'I 80b en81a hebben geen reguliere hoofdtekstsecties in container 261497. De gelijkgenummerde Sitre Tora-secties worden voorlopig afzonderlijk gehouden; hun concordantie met de hoofdtekst is nog niet vastgesteld.'},{id:'marker-i-10b',status:'open',description:'Zohar I 10b heeft een sectiemarkering in container 261494, maar het verwijssjabloon luidt {{ממ זהר משולב|י|ב|א}} in plaats van een geldige volume/folio/zijde-combinatie. Geen automatisch bewijs van ontbrekende tekst.'},{id:'source-completeness',status:'open',description:'Dertig Wikisource-containers zijn verworven; dit is geen bewijs dat alle folios, ingebedde teksten en addenda aanwezig zijn. Vergelijking met historische druk blijft nodig.'},{id:'tikkun-27',status:'open',description:'De Sefaria-catalogus geeft tikkoen 27 als 12b:2–17b:4, overlappend met de inleiding. Deze catalogusafwijking niet stilzwijgend als bronpaginering overnemen.'},{id:'chadash-pagination',status:'open',description:'Wikisource gebruikt deels vier kolommen per blad, Sefaria een andere indeling. Geen gelijkstelling zonder concordantie.'}]});
+await write('data/progress.json',{date:'2026-10-25',complete:false,translatedPassages:chapters.reduce((n,ch)=>n+ch.passages.length,0),completeDraftFolios:chapters.filter(ch=>ch.completeFolio).map(ch=>'Zohar I '+ch.id),mainDraftPercent:Number((chapters.filter(ch=>ch.completeFolio).length/folios.length*100).toFixed(2)),targetDraftPercent:10,targetCompleteFolios:Math.ceil(folios.length*0.1),partialDraftFolios:chapters.filter(ch=>!ch.completeFolio).map(ch=>'Zohar I '+ch.id+': '+ch.passages.length+' alinea’s'),independentlyReviewedPassages:0,next:nextReference,nextAvailableSource:nextAvailableReference,knownSourceGaps:['Zohar I 80b','Zohar I 81a'],remaining:'Alle overige passages van Zohar I–III, de addenda, geheel Zohar Chadasj en geheel Tikkoenei Zohar; onafhankelijke redactie van alle werkvertalingen.',mainFolioRegister:folios.length,untranslatedMainFolios:folios.filter(f=>f.status==='niet-vertaald').length,inventoryParts:parts.length,acquiredMainContainers:30,sourceCompletenessVerified:false,unmarkedMainFolios:unmarkedFolios});
 console.log(JSON.stringify({passages:chapters.reduce((n,ch)=>n+ch.passages.length,0),parts:parts.length,folios:folios.length,sourcePages:manifest.length}));
