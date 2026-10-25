@@ -35,7 +35,9 @@ Open controles: volledige folio- en alinea-dekking, vergelijking van de tekstget
 
 ## Huidige vertaaldekking
 
-Zohar I 1a, 1b en 2a zijn volledig als werkvertaling opgenomen; van 2b uitsluitend de eerste alinea, die de lopende uitleg afsluit. Totaal: 19 passages. Er zijn nul onafhankelijk geredigeerde passages. Volgende tekst: I 2b vanaf de opening van Rav Hamnoena de Oude. Alle overige tekst, alle addenda, heel Zohar Chadasj en heel Tikkoenei Zohar moeten nog worden vertaald.
+Zohar I 1a, 1b, 2a, 2b en 3a zijn volledig als werkvertaling opgenomen. Van 3b zijn de eerste twee alinea’s vertaald; daarmee is de letterdialoog afgesloten. Totaal: 41 passages. Er zijn nul onafhankelijk geredigeerde passages. Volgende tekst: I 3b:3, uitleg van bara sjiet. Alle overige tekst, alle addenda, heel Zohar Chadasj en heel Tikkoenei Zohar moeten nog worden vertaald.
+
+Het woordenboek bevat 56 contextgebonden lemma’s, de wiki 24 artikelen. De lemma’s verwijzen terug naar beschikbare passages en noemen hun bronnen. De historische identiteit van Rabbi Chizkia is expliciet niet als vaststaand behandeld.
 
 ## Onderdeellijst
 

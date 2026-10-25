@@ -4,7 +4,7 @@ Gecontroleerd op 25 oktober 2026.
 
 ## Gebruikte tekstgetuige
 
-Voor de eerste 19 passages: Hebreeuwse Wikisource, ongevocaliseerde tekstcontainer [זוהר חלק א, revisie 3085399](https://he.wikisource.org/w/index.php?oldid=3085399), gewijzigd 28 september 2026. Naamsvermelding: **de bijdragers aan de Hebreeuwse Wikisource**, met hun [paginageschiedenis](https://he.wikisource.org/w/index.php?title=%D7%96%D7%95%D7%94%D7%A8_%D7%97%D7%9C%D7%A7_%D7%90&action=history). Wikisource kwalificeert de tekst als nog niet nagekeken. Het project heeft deze grondtekst niet kritisch vastgesteld.
+Voor de eerste 41 passages: Hebreeuwse Wikisource, ongevocaliseerde tekstcontainer [זוהר חלק א, revisie 3085399](https://he.wikisource.org/w/index.php?oldid=3085399), gewijzigd 28 september 2026. Naamsvermelding: **de bijdragers aan de Hebreeuwse Wikisource**, met hun [paginageschiedenis](https://he.wikisource.org/w/index.php?title=%D7%96%D7%95%D7%94%D7%A8_%D7%97%D7%9C%D7%A7_%D7%90&action=history). Wikisource kwalificeert de tekst als nog niet nagekeken. Het project heeft deze grondtekst niet kritisch vastgesteld.
 
 [Het rechtenbeleid van Wikisource](https://he.wikisource.org/w/index.php?oldid=2914737) vermeldt CC BY-SA 4.0 voor bijdragen. De overgenomen digitale tekst, de Nederlandse bewerking en de nieuwe toelichtingen worden gedeeld onder [Creative Commons Naamsvermelding–GelijkDelen 4.0 Internationaal](https://creativecommons.org/licenses/by-sa/4.0/). Er wordt geen aanspraak gemaakt op nieuwe rechten in de middeleeuwse tekst zelf. Vermeld bij hergebruik Open Zohar en de Wikisource-bijdragers, link naar bronrevisie en licentie, vermeld wijzigingen en behoud de toepasselijke gelijkdelenvoorwaarden.
 
@@ -54,3 +54,9 @@ Herbouw met node scripts/build-corpus.mjs en controleer met node scripts/validat
 | botsina | lamp/lichtbron; onzekerheid bij de passage vermeld |
 
 Zie [CORPUS.md](CORPUS.md) voor de corpusafbakening en bibliografie. Vormgeving en lettertypen blijven afzonderlijk verantwoord in SOURCE.json en licenses/.
+
+## Woordenboek, wiki en letterfiguren
+
+De naslaginhoud in data/knowledge.json is in eigen Nederlands geschreven en deelt dezelfde CC BY-SA 4.0-licentie. Iedere ingang noemt primaire tekstverwijzingen en/of bibliografische bronnen. Zoekvormen en aanklikbare vormen zijn contextgebonden; er wordt geen automatische morfologische analyse of volledige lexicale dekking geclaimd. Een Zohar-personage wordt niet uitsluitend op grond van een gelijkluidende naam historisch geïdentificeerd.
+
+I 2b:7 bevat vier bronafbeeldingen van lettervormen. In de vereenvoudigde grondtekst staan herkenbare genummerde afbeeldingsmarkeringen; afzonderlijke links verwijzen naar de oorspronkelijke bestandsbeschrijvingen. De afbeeldingen zijn niet als nieuwe reconstructies in de vertaling ingevoegd.

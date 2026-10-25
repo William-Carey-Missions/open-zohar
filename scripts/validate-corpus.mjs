@@ -47,6 +47,6 @@ const html=await fs.readFile(root+'index.html','utf8');
 for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
  const link=match[1].replaceAll('&amp;','&');
  if(/^(https?:|mailto:)/.test(link))continue;
- await fs.access(root+decodeURIComponent(link));
+ await fs.access(root+decodeURIComponent(link.split('?')[0]));
 }
 console.log(JSON.stringify({valid:true,passages:count,completeDraftFolios:complete,sourceRecords:manifest.pages.length,catalogueParts:corpus.parts.length,baseStylesheet:'ongewijzigd'}));

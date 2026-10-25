@@ -6,14 +6,16 @@
 <title>Open Zohar — Leesomgeving</title>
 <meta name="description" content="Open Zohar: een leesomgeving voor grondtekst en Nederlandse vertaling. Deeluitgave met een Nederlandse conceptvertaling en gekoppelde Aramese grondtekst.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/openvertaling.css"><link rel="stylesheet" href="css/corpus.css">
-<script src="js/app.js" defer></script>
+<link rel="stylesheet" href="css/openvertaling.css"><link rel="stylesheet" href="css/corpus.css?v=20261025-2">
+<script src="js/knowledge-core.js?v=20261025-2" defer></script>
+<script src="js/knowledge-ui.js?v=20261025-2" defer></script>
+<script src="js/app.js?v=20261025-2" defer></script>
 </head>
 <body data-project="open-zohar">
 <a class="skip-link" href="#content">Naar de inhoud</a>
 <nav id="topnav" aria-label="Hoofdnavigatie">
  <div class="topnav-brand"><a href="#lezen" class="brand-name">Open Zohar</a><span class="topnav-version">Deeluitgave · concept</span></div>
- <div class="topnav-links"><a href="#lezen" data-section="lezen">Tekst</a><a href="#over" data-section="over">Over</a><a href="#bronnen" data-section="bronnen">Bronnen</a></div>
+ <div class="topnav-links"><a href="#lezen" data-section="lezen">Tekst</a><a href="#woordenboek" data-section="woordenboek">Woordenboek</a><a href="#wiki" data-section="wiki">Wiki</a><a href="#over" data-section="over">Over</a><a href="#bronnen" data-section="bronnen">Bronnen</a></div>
  <form id="search-form" role="search"><input type="search" id="topnav-search-input" class="topnav-search-input" placeholder="Zoeken… (Ctrl+K)" aria-label="Zoeken in Open Zohar"></form>
  <button class="topnav-tekstopties" id="settings-open" type="button" aria-haspopup="dialog" aria-controls="settings"><b aria-hidden="true">Aa</b><span>Tekstopties</span></button>
  <button class="topnav-theme" id="theme-toggle" type="button" aria-label="Wissel licht en donker">◐</button>
@@ -24,13 +26,15 @@
   <div id="sidebar-tree">
    <a class="tree-book-label" href="#lezen" data-section="lezen">Lezen</a>
    <div id="work-links"></div>
+   <a class="tree-book-label" href="#woordenboek" data-section="woordenboek">Woordenboek</a>
+   <a class="tree-book-label" href="#wiki" data-section="wiki">Wiki</a>
    <a class="tree-book-label" href="#over" data-section="over">Over deze uitgave</a>
    <a class="tree-book-label" href="#bronnen" data-section="bronnen">Bronnen en verantwoording</a>
   </div>
   <div class="sidebar-footer">Een eigen leesomgeving.<br>Vormgeving van <a href="https://openvertaling.nl/">Open Vertaling</a>.<br><a href="https://github.com/William-Carey-Missions/open-zohar">Bekijk de repository</a></div>
  </nav>
  <div id="main-wrapper"><main id="content" tabindex="-1">
-  <div id="mobile-library"><label for="mobile-section">Ga naar</label><select id="mobile-section"><option value="lezen">Lezen</option><option value="over">Over deze uitgave</option><option value="bronnen">Bronnen en verantwoording</option><option value="zoeken">Zoeken</option></select></div>
+  <div id="mobile-library"><label for="mobile-section">Ga naar</label><select id="mobile-section"><option value="lezen">Lezen</option><option value="woordenboek">Woordenboek</option><option value="wiki">Wiki</option><option value="over">Over deze uitgave</option><option value="bronnen">Bronnen en verantwoording</option><option value="zoeken">Zoeken</option></select></div>
   <div id="content-topbar"><h2 id="chapter-title">Open Zohar</h2><span class="edition-label">Grondtekst &amp; Nederlands</span></div>
   <section id="lezen" aria-label="Leestekst">
    <div id="reader-intro" class="reader-intro"><div class="hebrew-title" lang="he" dir="rtl">הזוהר</div><h1>De Zohar lezen en onderzoeken.</h1><div class="prose"><p>Een rustige plek voor de oorspronkelijke tekst en een Nederlandse vertaling, met ruimte om beide naast elkaar te lezen.</p></div></div>
@@ -40,12 +44,30 @@
    <div id="passages" class="prose"></div><div id="reader-source" class="prose"></div>
    <nav id="chapter-actions" aria-label="Gedeelten" hidden><button class="action-btn" id="previous">Vorig gedeelte</button><button class="action-btn" id="next">Volgend gedeelte</button></nav>
   </section>
-  <section id="over" class="prose" hidden><h1>Over Open Zohar</h1><p>Open Zohar is een zelfstandige leesomgeving met dezelfde vormgeving als Open Vertaling: een overzichtelijke navigatie, rustige leestekst en persoonlijke tekstopties.</p><p>Deze deeluitgave bevat negentien passages: Zohar I 1a–2a en de openingsalinea van 2b. Dit is een nieuwe Nederlandse conceptvertaling uit het Aramees. Onafhankelijke vakredactie is nog niet uitgevoerd. Het overige corpus is nog niet vertaald.</p><p>Je kunt nu al de tekstgrootte, het lettertype en het lichte of donkere thema instellen. De instellingen blijven op dit apparaat bewaard.</p></section>
-  <section id="bronnen" class="prose" hidden><h1>Bronnen en verantwoording</h1><p>De grondtekst komt uit de Hebreeuwse Wikisource, met vaste revisies en SHA-256-controlesommen. De vertaling is nieuw gemaakt uit het Aramees. Brontekst en vertaling blijven per passage gekoppeld. Toelichting, tekstvarianten en onzekere lezingen staan afzonderlijk onder elke passage.</p><p>De grondtekstbijdragen en de Nederlandse bewerking worden gedeeld onder <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, met naamsvermelding van <a href="https://he.wikisource.org/w/index.php?title=%D7%96%D7%95%D7%94%D7%A8_%D7%97%D7%9C%D7%A7_%D7%90&amp;action=history">de Wikisource-bijdragers</a>. Bronopmaak is vereenvoudigd; de oorspronkelijke bronbestanden blijven beschikbaar.</p><h2>Corpus en voortgang</h2><p>De uitgave omvat als doel de drie hoofdvolumes met hun ingebedde traktaten en addenda. Zohar Chadasj en Tikkoenei Zohar worden afzonderlijk behandeld. De catalogus telt 167 onderdelen; dat zijn geen 167 zelfstandige historische werken. Het hoofdregister bevat 1.632 folio-posities, exclusief de afzonderlijk geregistreerde addenda; de tekstdekking moet nog worden gecontroleerd.</p><p>Gereed als concept: drie volledige foliozijden en één openingsalinea. Onafhankelijk geredigeerd: nul passages. De volledige brondekking is nog niet vastgesteld.</p><p><a href="docs/CORPUS.md">Corpusafbakening en bibliografie</a> · <a href="docs/BRONNEN.md">Bronnen en rechten</a> · <a href="data/corpus.json">Volledige inventaris</a> · <a href="data/progress.json">Voortgangsregister</a> · <a href="data/source-manifest.json">Bronrevisies en naamsvermelding</a></p><h2>Vormgeving</h2><p>De basisstylesheet is overgenomen uit <a href="https://github.com/William-Carey-Missions/website-open-bijbelvertaling">de Open Vertaling-repository</a>. De lettertypen worden lokaal geladen; de bijbehorende licenties staan in de repository.</p><p><a href="https://github.com/William-Carey-Missions/open-zohar">Broncode en ontwikkeling van Open Zohar</a></p></section>
+  <section id="woordenboek" hidden>
+   <div id="woordenboek-browse"><h1>Woordenboek</h1><p class="prose">Aramese en Hebreeuwse woorden uit de gelezen passages. Zoek op Nederlands, grondtekst of transliteratie.</p>
+    <label class="reference-search">Zoek een woord<input id="woordenboek-query" type="search" placeholder="Bijvoorbeeld: roos, שושנה of shoshanna" autocomplete="off"></label>
+    <p id="woordenboek-count" class="entry-meta" role="status"></p><div id="woordenboek-list" class="knowledge-list"></div>
+   </div><article id="woordenboek-article" class="prose reference-article" hidden></article>
+  </section>
+  <section id="wiki" hidden>
+   <div id="wiki-browse"><h1>Wiki</h1><p class="prose">Wie spreekt hier, en wat betekenen de beelden? Personen, begrippen en teksten met bronnen en verwijzingen naar de lezer.</p>
+    <div class="reference-filters"><label class="reference-search">Zoek een artikel<input id="wiki-query" type="search" placeholder="Bijvoorbeeld: Rabbi Chizkia" autocomplete="off"></label>
+    <label class="reference-search">Onderwerp<select id="wiki-kind"><option value="alle">Alle onderwerpen</option><option value="persoon">Personen</option><option value="begrip">Begrippen</option><option value="tekst">Teksten</option><option value="leeshulp">Leeshulp</option></select></label></div>
+    <p id="wiki-count" class="entry-meta" role="status"></p><div id="wiki-list" class="knowledge-list"></div>
+   </div><article id="wiki-article" class="prose reference-article" hidden></article>
+  </section>
+  <section id="over" class="prose" hidden><h1>Over Open Zohar</h1><p>Open Zohar is een zelfstandige leesomgeving met dezelfde vormgeving als Open Vertaling: een overzichtelijke navigatie, rustige leestekst en persoonlijke tekstopties.</p><p>Deze deeluitgave bevat 41 passages: Zohar I 1a–3a en de eerste twee alinea’s van 3b, tot en met het slot van de letterdialoog. Dit is een nieuwe Nederlandse conceptvertaling uit het Aramees. Onafhankelijke vakredactie is nog niet uitgevoerd. Het overige corpus is nog niet vertaald.</p><p>Namen en woorden met een gestippelde onderstreping openen korte uitleg. Vanuit die uitleg ga je naar het volledige wikiartikel of woordenboeklemma en terug naar je passage.</p><p>Je kunt de tekstgrootte, het lettertype en het lichte of donkere thema instellen. De instellingen blijven op dit apparaat bewaard.</p></section>
+  <section id="bronnen" class="prose" hidden><h1>Bronnen en verantwoording</h1><p>De grondtekst komt uit de Hebreeuwse Wikisource, met vaste revisies en SHA-256-controlesommen. De vertaling is nieuw gemaakt uit het Aramees. Brontekst en vertaling blijven per passage gekoppeld. Toelichting, tekstvarianten en onzekere lezingen staan afzonderlijk onder elke passage.</p><p>De grondtekstbijdragen en de Nederlandse bewerking worden gedeeld onder <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, met naamsvermelding van <a href="https://he.wikisource.org/w/index.php?title=%D7%96%D7%95%D7%94%D7%A8_%D7%97%D7%9C%D7%A7_%D7%90&amp;action=history">de Wikisource-bijdragers</a>. Bronopmaak is vereenvoudigd; de oorspronkelijke bronbestanden blijven beschikbaar.</p><h2>Corpus en voortgang</h2><p>De uitgave omvat als doel de drie hoofdvolumes met hun ingebedde traktaten en addenda. Zohar Chadasj en Tikkoenei Zohar worden afzonderlijk behandeld. De catalogus telt 167 onderdelen; dat zijn geen 167 zelfstandige historische werken. Het hoofdregister bevat 1.632 folio-posities, exclusief de afzonderlijk geregistreerde addenda; de tekstdekking moet nog worden gecontroleerd.</p><p>Gereed als concept: vijf volledige foliozijden en twee alinea’s van 3b. Het woordenboek bevat 56 contextgebonden lemma’s en de wiki 24 artikelen. Onafhankelijk geredigeerd: nul passages. De volledige brondekking is nog niet vastgesteld.</p><p><a href="docs/CORPUS.md">Corpusafbakening en bibliografie</a> · <a href="docs/BRONNEN.md">Bronnen en rechten</a> · <a href="data/corpus.json">Volledige inventaris</a> · <a href="data/progress.json">Voortgangsregister</a> · <a href="data/source-manifest.json">Bronrevisies en naamsvermelding</a></p><h2>Vormgeving</h2><p>De basisstylesheet is overgenomen uit <a href="https://github.com/William-Carey-Missions/website-open-bijbelvertaling">de Open Vertaling-repository</a>. De lettertypen worden lokaal geladen; de bijbehorende licenties staan in de repository.</p><p><a href="https://github.com/William-Carey-Missions/open-zohar">Broncode en ontwikkeling van Open Zohar</a></p></section>
   <section id="zoeken" hidden><h1>Zoeken</h1><p id="search-query"></p><p id="search-count" role="status"></p><div id="search-results"></div></section>
   <noscript><p>Deze leesomgeving gebruikt JavaScript voor de navigatie en tekstopties. De tekstuitgave is nog in voorbereiding.</p></noscript>
  </main></div>
 </div>
+<dialog id="entry-dialog" aria-labelledby="entry-dialog-title">
+ <div class="entry-dialog-heading"><h2 id="entry-dialog-title"></h2><button type="button" id="entry-dialog-close" class="action-btn" aria-label="Uitleg sluiten">×</button></div>
+ <a id="entry-dialog-full" class="entry-full-link"></a>
+ <div id="entry-dialog-body" class="prose"></div>
+</dialog>
 <dialog id="settings" aria-labelledby="settings-title">
  <button type="button" id="settings-close" class="action-btn close" aria-label="Tekstopties sluiten">×</button><h2 id="settings-title">Weergave</h2>
  <label class="setting" for="theme">Thema<select id="theme"><option value="auto">Automatisch</option><option value="licht">Licht</option><option value="donker">Donker</option></select></label>

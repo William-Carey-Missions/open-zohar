@@ -1,0 +1,2823 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "license": "CC-BY-SA-4.0",
+  "status": "Groeiend naslagwerk bij de beschikbare passages; geen volledig historisch woordenboek.",
+  "sources": [
+    {
+      "id": "opening",
+      "title": "Zohar I 1a–3b — vastgelegde Aramese tekst",
+      "url": "https://he.wikisource.org/w/index.php?oldid=3085399",
+      "note": "Primaire tekstgetuige; Nederlandse uitleg in eigen woorden."
+    },
+    {
+      "id": "huss",
+      "title": "Boaz Huss, Translations of the Zohar (2016), pp. 81–128",
+      "url": "https://correspondencesjournal.com/ojs/ojs/index.php/home/article/view/40/0",
+      "note": "Historische en bibliografische achtergrond, geen vertaaltekst overgenomen."
+    },
+    {
+      "id": "genesis",
+      "title": "Genesis 1–2",
+      "url": "https://www.sefaria.org/Genesis.1?lang=he"
+    },
+    {
+      "id": "hooglied",
+      "title": "Hooglied 2",
+      "url": "https://www.sefaria.org/Song_of_Songs.2?lang=he"
+    },
+    {
+      "id": "psalm116",
+      "title": "Psalm 116:13",
+      "url": "https://www.sefaria.org/Psalms.116.13?lang=he"
+    },
+    {
+      "id": "exodus34",
+      "title": "Exodus 34:6–7",
+      "url": "https://www.sefaria.org/Exodus.34.6-7?lang=he"
+    },
+    {
+      "id": "jesaja40",
+      "title": "Jesaja 40:26",
+      "url": "https://www.sefaria.org/Isaiah.40.26?lang=he"
+    },
+    {
+      "id": "exodus24",
+      "title": "Exodus 24:7",
+      "url": "https://www.sefaria.org/Exodus.24.7?lang=he"
+    },
+    {
+      "id": "koningen",
+      "title": "2 Koningen 18 — koning Hizkia",
+      "url": "https://www.sefaria.org/II_Kings.18?lang=he"
+    },
+    {
+      "id": "elia",
+      "title": "1 Koningen 17 — Elia",
+      "url": "https://www.sefaria.org/I_Kings.17?lang=he"
+    },
+    {
+      "id": "jozef",
+      "title": "Genesis 37 — Jozef",
+      "url": "https://www.sefaria.org/Genesis.37?lang=he"
+    },
+    {
+      "id": "jakob",
+      "title": "Genesis 28 — Jakob",
+      "url": "https://www.sefaria.org/Genesis.28?lang=he"
+    },
+    {
+      "id": "tikkunei",
+      "title": "Tikkoenei Zohar — catalogus",
+      "url": "https://www.sefaria.org/Tikkunei_Zohar"
+    },
+    {
+      "id": "chadash",
+      "title": "Zohar Chadasj — catalogus",
+      "url": "https://www.sefaria.org/Zohar_Chadash"
+    },
+    {
+      "id": "corpus",
+      "title": "Zohar — catalogus",
+      "url": "https://www.sefaria.org/Zohar?tab=contents"
+    },
+    {
+      "id": "ezekiel9",
+      "title": "Ezechiël 9 — het teken op het voorhoofd",
+      "url": "https://www.sefaria.org/Ezekiel.9?lang=he"
+    }
+  ],
+  "dictionary": [
+    {
+      "id": "rabbi",
+      "section": "woordenboek",
+      "title": "Rabbi",
+      "original": "רבי",
+      "transliteration": "rabbi",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Leraar; titel van een rabbijnse geleerde.",
+      "explanation": "De titel alleen identificeert geen persoon. Volledige namen verwijzen naar een afzonderlijk wikiartikel.",
+      "aliases": [
+        "rabbi",
+        "רבי"
+      ],
+      "match": {
+        "nl": [
+          "Rabbi"
+        ],
+        "original": [
+          "רבי"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "sjosjanna",
+      "section": "woordenboek",
+      "title": "Sjosjanna",
+      "original": "שושנה",
+      "transliteration": "shoshanna",
+      "language": "Hebreeuws",
+      "summary": "Roos; de precieze plantnaam is contextafhankelijk.",
+      "explanation": "De opening verbindt de roos met Israël, rood en wit en dertien en vijf bladeren. De werkvertaling kiest ‘roos’, zonder botanische vaststelling.",
+      "aliases": [
+        "shoshanna",
+        "שושנה"
+      ],
+      "match": {
+        "nl": [
+          "roos"
+        ],
+        "original": [
+          "שושנה",
+          "לשושנה",
+          "בשושנה"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1",
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/roos"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "knesset-jisrael",
+      "section": "woordenboek",
+      "title": "Knesset Jisraël",
+      "original": "כנסת ישראל",
+      "transliteration": "keneset yisrael",
+      "language": "Hebreeuws",
+      "summary": "Gemeenschap of vergadering van Israël.",
+      "explanation": "In de opening is dit een collectieve, vrouwelijke gestalte met mystieke betekenis. Het gaat niet om een moderne politieke instelling.",
+      "aliases": [
+        "keneset yisrael",
+        "כנסת ישראל"
+      ],
+      "match": {
+        "nl": [
+          "gemeenschap van Israël"
+        ],
+        "original": [
+          "כנסת ישראל",
+          "לכנסת ישראל"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/gemeenschap-israel"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "din",
+      "section": "woordenboek",
+      "title": "Din",
+      "original": "דין",
+      "transliteration": "din",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Oordeel; gericht.",
+      "explanation": "Het rood van de roos wordt verbonden met din, naast de ontferming die bij wit hoort. Niet overal met ‘straf’ gelijkstellen.",
+      "aliases": [
+        "din",
+        "דין"
+      ],
+      "match": {
+        "nl": [
+          "oordeel"
+        ],
+        "original": [
+          "דין"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "rachamim",
+      "section": "woordenboek",
+      "title": "Rachamim",
+      "original": "רחמי",
+      "transliteration": "rachamei; rachamim",
+      "language": "Hebreeuws",
+      "summary": "Ontferming; barmhartigheid.",
+      "explanation": "Oordeel en ontferming zijn in de opening samen aanwezig. Dertien maten van ontferming omringen Israël.",
+      "aliases": [
+        "rachamei; rachamim",
+        "רחמי"
+      ],
+      "match": {
+        "nl": [
+          "ontferming",
+          "barmhartigheid"
+        ],
+        "original": [
+          "רחמי",
+          "ורחמי",
+          "דרחמי"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/dertien-maten"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "alin",
+      "section": "woordenboek",
+      "title": "Alin",
+      "original": "עלין",
+      "transliteration": "alin",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Bladeren; bij een bloem ook als bloembladeren opgevat.",
+      "explanation": "Dezelfde vorm staat bij dertien en bij vijf bladeren. De symboliek is duidelijker dan de botanische precisie.",
+      "aliases": [
+        "alin",
+        "עלין"
+      ],
+      "match": {
+        "nl": [
+          "bladeren"
+        ],
+        "original": [
+          "עלין"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1",
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "telisar",
+      "section": "woordenboek",
+      "title": "Telisar",
+      "original": "תליסר",
+      "transliteration": "telisar",
+      "language": "Aramees",
+      "summary": "Dertien.",
+      "explanation": "Het getal verbindt bladeren en eigenschappen van ontferming met een woordtelling in Genesis.",
+      "aliases": [
+        "telisar",
+        "תליסר"
+      ],
+      "match": {
+        "nl": [
+          "dertien"
+        ],
+        "original": [
+          "תליסר"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "chamesj",
+      "section": "woordenboek",
+      "title": "Chamesj",
+      "original": "חמש",
+      "transliteration": "chamesh",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Vijf.",
+      "explanation": "Het getal verbindt stevige bladeren, poorten en vingers die de beker dragen.",
+      "aliases": [
+        "chamesh",
+        "חמש"
+      ],
+      "match": {
+        "nl": [
+          "vijf"
+        ],
+        "original": [
+          "חמש"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "elohim",
+      "section": "woordenboek",
+      "title": "Elohim",
+      "original": "אלהים",
+      "transliteration": "elohim",
+      "language": "Hebreeuws",
+      "summary": "Een Hebreeuwse aanduiding van God.",
+      "explanation": "Herhaling en letters van deze naam zijn deel van de redenering. Daarom blijft de naam in de Nederlandse tekst staan.",
+      "aliases": [
+        "elohim",
+        "אלהים"
+      ],
+      "match": {
+        "nl": [
+          "Elohim"
+        ],
+        "original": [
+          "אלהים"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/2",
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/mi-eleh"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "tevot",
+      "section": "woordenboek",
+      "title": "Tevot",
+      "original": "תיבין",
+      "transliteration": "tevin",
+      "language": "Aramees",
+      "summary": "Woorden.",
+      "explanation": "De opening telt woorden tussen vermeldingen van Elohim. Dat is iets anders dan het tellen van letters.",
+      "aliases": [
+        "tevin",
+        "תיבין"
+      ],
+      "match": {
+        "nl": [
+          "woorden"
+        ],
+        "original": [
+          "תיבין"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "jesjoeot",
+      "section": "woordenboek",
+      "title": "Jesjoeot",
+      "original": "ישועות",
+      "transliteration": "yeshuot",
+      "language": "Hebreeuws",
+      "summary": "Reddingen; uitreddingen.",
+      "explanation": "Dit Hebreeuwse meervoud staat in het psalmvers over de beker en wordt op vijf bladeren betrokken.",
+      "aliases": [
+        "yeshuot",
+        "ישועות"
+      ],
+      "match": {
+        "nl": [
+          "reddingen"
+        ],
+        "original": [
+          "ישועות"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "kos-sjel-beracha",
+      "section": "woordenboek",
+      "title": "Kos sjel beracha",
+      "original": "כוס של ברכה",
+      "transliteration": "kos shel berakhah",
+      "language": "Hebreeuws",
+      "summary": "Beker van de zegening.",
+      "explanation": "De beker wordt met de roos vergeleken. Vijf vingers en vijf stevige bladeren verbinden de beelden.",
+      "aliases": [
+        "kos shel berakhah",
+        "כוס של ברכה"
+      ],
+      "match": {
+        "nl": [
+          "beker van de zegening"
+        ],
+        "original": [
+          "כוס של ברכה"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/beker-zegening"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "or",
+      "section": "woordenboek",
+      "title": "Or",
+      "original": "אור",
+      "transliteration": "or",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Licht.",
+      "explanation": "Het licht wordt in de opening geschapen, verborgen en in het verbond opgenomen. De betekenis is niet uitsluitend fysiek.",
+      "aliases": [
+        "or",
+        "אור"
+      ],
+      "match": {
+        "nl": [
+          "licht"
+        ],
+        "original": [
+          "אור"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/3"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "berit",
+      "section": "woordenboek",
+      "title": "Berit",
+      "original": "ברית",
+      "transliteration": "berit",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Verbond.",
+      "explanation": "De passage verbindt verbond, zaad en het lichamelijke teken van het verbond. Die samenhang blijft in de vertaling zichtbaar.",
+      "aliases": [
+        "berit",
+        "ברית"
+      ],
+      "match": {
+        "nl": [
+          "verbond"
+        ],
+        "original": [
+          "ברית",
+          "בברית",
+          "דברית"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/3"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/verbond"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "zera",
+      "section": "woordenboek",
+      "title": "Zera",
+      "original": "זרעא",
+      "transliteration": "zera",
+      "language": "Hebreeuws",
+      "summary": "Zaad.",
+      "explanation": "Plantengroei en voortplanting vormen samen de beeldspraak van de passage.",
+      "aliases": [
+        "zera",
+        "זרעא"
+      ],
+      "match": {
+        "nl": [
+          "zaad"
+        ],
+        "original": [
+          "זרעא",
+          "דזרעא"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/3"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "sjem",
+      "section": "woordenboek",
+      "title": "Sjem",
+      "original": "שמא",
+      "transliteration": "shema; shem",
+      "language": "Aramees",
+      "summary": "Naam.",
+      "explanation": "Het noemen van de naam en zijn letters spelen een rol in de uitleg van schepping en openbaring.",
+      "aliases": [
+        "shema; shem",
+        "שמא"
+      ],
+      "match": {
+        "nl": [
+          "Naam"
+        ],
+        "original": [
+          "שמא",
+          "בשמא",
+          "דשמא"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/3",
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "beresjit",
+      "section": "woordenboek",
+      "title": "Beresjiet",
+      "original": "בראשית",
+      "transliteration": "bereshit",
+      "language": "Hebreeuws",
+      "summary": "In het begin.",
+      "explanation": "De Zohar onderzoekt de letters en volgorde van het eerste woord van Genesis, naast zijn betekenis in de zin.",
+      "aliases": [
+        "bereshit",
+        "בראשית"
+      ],
+      "match": {
+        "nl": [
+          "In het begin"
+        ],
+        "original": [
+          "בראשית"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/4",
+        "zohar-i/2b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "nitsanim",
+      "section": "woordenboek",
+      "title": "Nitsanim",
+      "original": "הנצנים",
+      "transliteration": "nitsanim",
+      "language": "Hebreeuws",
+      "summary": "Bloesems; knoppen.",
+      "explanation": "De uitleg verbindt ze eerst met scheppingsdagen, daarna met de aartsvaders.",
+      "aliases": [
+        "nitsanim",
+        "הנצנים"
+      ],
+      "match": {
+        "nl": [
+          "bloesems"
+        ],
+        "original": [
+          "הנצנים"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/4",
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/bloesems"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "zamir",
+      "section": "woordenboek",
+      "title": "Zamir",
+      "original": "זמיר",
+      "transliteration": "zamir",
+      "language": "Hebreeuws",
+      "summary": "Zang of snoeien, naar het verband.",
+      "explanation": "Omdat de passage op het wegsnijden van geweldenaars doelt, kiest de werkvertaling hier voor snoeien.",
+      "aliases": [
+        "zamir",
+        "זמיר"
+      ],
+      "match": {
+        "nl": [
+          "snoeien"
+        ],
+        "original": [
+          "זמיר",
+          "הזמיר"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/4"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "tor",
+      "section": "woordenboek",
+      "title": "Tor",
+      "original": "תור",
+      "transliteration": "tor",
+      "language": "Hebreeuws",
+      "summary": "Tortelduif.",
+      "explanation": "De vogel uit het Hooglied wordt in de redenering verbonden met schepping en nakomelingen.",
+      "aliases": [
+        "tor",
+        "תור"
+      ],
+      "match": {
+        "nl": [
+          "tortelduif"
+        ],
+        "original": [
+          "התור"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/4"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "sjabbat",
+      "section": "woordenboek",
+      "title": "Sjabbat",
+      "original": "שבת",
+      "transliteration": "shabbat",
+      "language": "Hebreeuws",
+      "summary": "Sabbat; de zevende dag.",
+      "explanation": "De passage verbindt de sabbat met het land van het leven en de komende wereld.",
+      "aliases": [
+        "shabbat",
+        "שבת"
+      ],
+      "match": {
+        "nl": [
+          "sabbatdag",
+          "sabbat"
+        ],
+        "original": [
+          "שבת"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/sabbat"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "avahan",
+      "section": "woordenboek",
+      "title": "Avahan",
+      "original": "אבהן",
+      "transliteration": "avahan",
+      "language": "Aramees",
+      "summary": "Vaders; hier de aartsvaders.",
+      "explanation": "Zij worden als verborgen aanwezig voorgesteld in Gedachte, profeten en Jozef.",
+      "aliases": [
+        "avahan",
+        "אבהן"
+      ],
+      "match": {
+        "nl": [
+          "aartsvaders"
+        ],
+        "original": [
+          "אבהן",
+          "לאבהן"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "machsjavah",
+      "section": "woordenboek",
+      "title": "Machsjavah",
+      "original": "מחשבה",
+      "transliteration": "machshavah",
+      "language": "Hebreeuws",
+      "summary": "Gedachte.",
+      "explanation": "Het woord benoemt hier een verborgen werkelijkheid of stadium. De Nederlandse hoofdletter markeert die functie.",
+      "aliases": [
+        "machshavah",
+        "מחשבה"
+      ],
+      "match": {
+        "nl": [
+          "Gedachte"
+        ],
+        "original": [
+          "מחשבה",
+          "במחשבה"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2",
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "alma",
+      "section": "woordenboek",
+      "title": "Alma",
+      "original": "עלמא",
+      "transliteration": "alma",
+      "language": "Aramees",
+      "summary": "Wereld.",
+      "explanation": "De wereld van mensen en mystieke boven- of benedenwerelden moeten uit de context worden onderscheiden.",
+      "aliases": [
+        "alma",
+        "עלמא"
+      ],
+      "match": {
+        "nl": [
+          "wereld",
+          "werelden"
+        ],
+        "original": [
+          "עלמא",
+          "בעלמא",
+          "מעלמא"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "alma-deate",
+      "section": "woordenboek",
+      "title": "Alma de-ate",
+      "original": "עלמא דאתי",
+      "transliteration": "alma de-ate",
+      "language": "Aramees",
+      "summary": "De komende wereld.",
+      "explanation": "De uitdrukking kan in deze uitleg ook een bovenwereld aanduiden, niet alleen een latere tijd.",
+      "aliases": [
+        "alma de-ate",
+        "עלמא דאתי"
+      ],
+      "match": {
+        "nl": [
+          "komende wereld"
+        ],
+        "original": [
+          "עלמא דאתי",
+          "בעלמא דאתי"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/komende-wereld"
+      ],
+      "languageCode": "arc"
+    },
+    {
+      "id": "kesjet",
+      "section": "woordenboek",
+      "title": "Kesjet",
+      "original": "קשת",
+      "transliteration": "qeshet",
+      "language": "Hebreeuws",
+      "summary": "Boog; hier regenboog.",
+      "explanation": "Het verschijnen van de regenboog hangt in deze uitleg samen met de aartsvaders en het voortbestaan van de wereld.",
+      "aliases": [
+        "qeshet",
+        "קשת"
+      ],
+      "match": {
+        "nl": [
+          "regenboog"
+        ],
+        "original": [
+          "קשת"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "tora",
+      "section": "woordenboek",
+      "title": "Tora",
+      "original": "אורייתא",
+      "transliteration": "orayta; torah",
+      "language": "Aramees",
+      "summary": "Onderricht; de Tora.",
+      "explanation": "De stem van kinderen die Tora leren houdt in de passage de wereld in stand. Niet beperken tot een willekeurige wet.",
+      "aliases": [
+        "orayta; torah",
+        "אורייתא"
+      ],
+      "match": {
+        "nl": [
+          "Tora"
+        ],
+        "original": [
+          "אורייתא",
+          "באורייתא"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/tora"
+      ],
+      "languageCode": "arc"
+    },
+    {
+      "id": "jenoekei",
+      "section": "woordenboek",
+      "title": "Jenoekei",
+      "original": "ינוקי",
+      "transliteration": "yenuqei",
+      "language": "Aramees",
+      "summary": "Kleine kinderen.",
+      "explanation": "Hier gaat het om kinderen die zich met de Tora bezighouden. De vertaling volgt die concrete context.",
+      "aliases": [
+        "yenuqei",
+        "ינוקי"
+      ],
+      "match": {
+        "nl": [
+          "kleine kinderen"
+        ],
+        "original": [
+          "ינוקי"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "mi",
+      "section": "woordenboek",
+      "title": "Mi",
+      "original": "מי",
+      "transliteration": "mi",
+      "language": "Hebreeuws",
+      "summary": "Wie?",
+      "explanation": "Het vraagwoord benoemt ook een verborgen trede. Zijn letters vormen samen met Eleh de naam Elohim.",
+      "aliases": [
+        "mi",
+        "מי"
+      ],
+      "match": {
+        "nl": [
+          "Mi"
+        ],
+        "original": [
+          "מי"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/3",
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/mi-eleh"
+      ],
+      "caseSensitive": true,
+      "languageCode": "he"
+    },
+    {
+      "id": "ma",
+      "section": "woordenboek",
+      "title": "Ma",
+      "original": "מה",
+      "transliteration": "mah; ma",
+      "language": "Hebreeuws",
+      "summary": "Wat?",
+      "explanation": "Het vraagwoord vormt in de naamuitleg een tegenhanger van Mi. In de vergelijking מה … אוף … betekent dezelfde geschreven vorm: zoals … zo ook … . Niet ieder voorkomen benoemt een mystieke trede.",
+      "aliases": [
+        "mah; ma",
+        "מה"
+      ],
+      "match": {
+        "nl": [
+          "Ma"
+        ],
+        "original": [
+          "מה"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/4"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/mi-eleh"
+      ],
+      "caseSensitive": true,
+      "languageCode": "he"
+    },
+    {
+      "id": "eleh",
+      "section": "woordenboek",
+      "title": "Eleh",
+      "original": "אלה",
+      "transliteration": "eleh",
+      "language": "Hebreeuws",
+      "summary": "Deze.",
+      "explanation": "De letters van het aanwijzende woord worden in de uitleg bij de naam Elohim betrokken.",
+      "aliases": [
+        "eleh",
+        "אלה"
+      ],
+      "match": {
+        "nl": [
+          "Eleh"
+        ],
+        "original": [
+          "אלה"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/mi-eleh"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "setim",
+      "section": "woordenboek",
+      "title": "Setim",
+      "original": "סתים",
+      "transliteration": "setim",
+      "language": "Aramees",
+      "summary": "Verborgen; afgesloten.",
+      "explanation": "Onkenbaarheid en een nog niet geopende toestand zijn verschillende mogelijkheden van dit woord.",
+      "aliases": [
+        "setim",
+        "סתים"
+      ],
+      "match": {
+        "nl": [
+          "verborgen"
+        ],
+        "original": [
+          "סתים",
+          "סתימא",
+          "סתימאה"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/3"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "darga",
+      "section": "woordenboek",
+      "title": "Darga",
+      "original": "דרגא",
+      "transliteration": "darga",
+      "language": "Aramees",
+      "summary": "Trede; rang; niveau.",
+      "explanation": "De passage onderzoekt van trede tot trede. Zij beschrijft daarmee geen letterlijke trap.",
+      "aliases": [
+        "darga",
+        "דרגא"
+      ],
+      "match": {
+        "nl": [
+          "trede",
+          "treden"
+        ],
+        "original": [
+          "דרגא",
+          "מדרגא",
+          "דרגין"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/4"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "leela",
+      "section": "woordenboek",
+      "title": "Leëla",
+      "original": "לעילא",
+      "transliteration": "le-eila",
+      "language": "Aramees",
+      "summary": "Boven; omhoog.",
+      "explanation": "De richting geeft in deze context vaak een mystieke verhouding aan.",
+      "aliases": [
+        "le-eila",
+        "לעילא"
+      ],
+      "match": {
+        "nl": [
+          "boven"
+        ],
+        "original": [
+          "לעילא",
+          "מלעילא"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/7"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "letata",
+      "section": "woordenboek",
+      "title": "Letata",
+      "original": "לתתא",
+      "transliteration": "le-tata",
+      "language": "Aramees",
+      "summary": "Beneden; omlaag.",
+      "explanation": "Het beneden wordt met het boven vergeleken; de beelden werken in elkaar door.",
+      "aliases": [
+        "le-tata",
+        "לתתא"
+      ],
+      "match": {
+        "nl": [
+          "beneden"
+        ],
+        "original": [
+          "לתתא"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/7"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "koedsja",
+      "section": "woordenboek",
+      "title": "Koedsja berich hoe",
+      "original": "קב\"ה",
+      "transliteration": "qudsha berikh hu",
+      "language": "Hebreeuws",
+      "summary": "De Heilige, gezegend zij Hij.",
+      "explanation": "Een vaste aanduiding van God. Deze tekstgetuige gebruikt de afkorting van de langere formule.",
+      "aliases": [
+        "qudsha berikh hu",
+        "קב\"ה"
+      ],
+      "match": {
+        "nl": [
+          "de Heilige, gezegend zij Hij",
+          "de Heilige"
+        ],
+        "original": [
+          "קב\"ה"
+        ]
+      },
+      "references": [
+        "zohar-i/1b/8"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "chavraya",
+      "section": "woordenboek",
+      "title": "Chavraya",
+      "original": "חברייא",
+      "transliteration": "chavrayya",
+      "language": "Aramees",
+      "summary": "Metgezellen.",
+      "explanation": "De kring van gesprekspartners binnen de vertelwereld. Niet automatisch een historisch deelnemersregister.",
+      "aliases": [
+        "chavrayya",
+        "חברייא"
+      ],
+      "match": {
+        "nl": [
+          "metgezellen"
+        ],
+        "original": [
+          "חברייא"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/metgezellen"
+      ],
+      "languageCode": "arc"
+    },
+    {
+      "id": "metivta",
+      "section": "woordenboek",
+      "title": "Metivta",
+      "original": "מתיבתא",
+      "transliteration": "metivta",
+      "language": "Aramees",
+      "summary": "Leerschool; academie.",
+      "explanation": "Hier gaat het om een hemelse leerschool waar een verborgen zaak wordt geopenbaard.",
+      "aliases": [
+        "metivta",
+        "מתיבתא"
+      ],
+      "match": {
+        "nl": [
+          "leerschool"
+        ],
+        "original": [
+          "מתיבתא",
+          "במתיבתא"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "nekoeda",
+      "section": "woordenboek",
+      "title": "Nekoeda",
+      "original": "נקודה",
+      "transliteration": "nequdah",
+      "language": "Hebreeuws",
+      "summary": "Punt.",
+      "explanation": "Het ene punt hoort bij de beschrijving van het verborgen begin en de Gedachte.",
+      "aliases": [
+        "nequdah",
+        "נקודה"
+      ],
+      "match": {
+        "nl": [
+          "punt"
+        ],
+        "original": [
+          "נקודה"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "botsina",
+      "section": "woordenboek",
+      "title": "Botsina",
+      "original": "בוצינא",
+      "transliteration": "botsina",
+      "language": "Aramees",
+      "summary": "Lamp; lichtbron.",
+      "explanation": "De precieze weergave blijft bij de passage onzeker. Het is een beeld voor een verborgen gestalte.",
+      "aliases": [
+        "botsina",
+        "בוצינא"
+      ],
+      "match": {
+        "nl": [
+          "lamp"
+        ],
+        "original": [
+          "בוצינא"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "levoesj",
+      "section": "woordenboek",
+      "title": "Levoesj",
+      "original": "לבוש",
+      "transliteration": "levush",
+      "language": "Hebreeuws",
+      "summary": "Gewaad; bekleding.",
+      "explanation": "Het gewaad verbeeldt hoe iets dat verborgen is zich kan openbaren.",
+      "aliases": [
+        "levush",
+        "לבוש"
+      ],
+      "match": {
+        "nl": [
+          "gewaad",
+          "gewaden"
+        ],
+        "original": [
+          "לבוש",
+          "בלבוש"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/1"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "he",
+      "section": "woordenboek",
+      "title": "He",
+      "original": "ה",
+      "transliteration": "he",
+      "language": "Hebreeuws",
+      "summary": "De vijfde letter van het Hebreeuwse alfabet.",
+      "explanation": "In deze uitleg wordt de vervanging van he door jod besproken.",
+      "aliases": [
+        "he",
+        "ה"
+      ],
+      "match": {
+        "nl": [
+          "he"
+        ],
+        "original": [
+          "ה"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/3"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "caseSensitive": true,
+      "languageCode": "he"
+    },
+    {
+      "id": "jod",
+      "section": "woordenboek",
+      "title": "Jod",
+      "original": "י",
+      "transliteration": "yod",
+      "language": "Hebreeuws",
+      "summary": "De tiende letter van het Hebreeuwse alfabet.",
+      "explanation": "In de passage neemt deze letter de plaats in van he; beide moeten herkenbaar blijven.",
+      "aliases": [
+        "yod",
+        "י"
+      ],
+      "match": {
+        "nl": [
+          "jod"
+        ],
+        "original": [
+          "י"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/3"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "sela",
+      "section": "woordenboek",
+      "title": "Sela",
+      "original": "סלע",
+      "transliteration": "sela",
+      "language": "Hebreeuws",
+      "summary": "Een munt- of waarde-eenheid.",
+      "explanation": "Een spreekwoord waardeert zwijgen op tweemaal de waarde van spreken. De uitleg betrekt dat op twee werelden.",
+      "aliases": [
+        "sela",
+        "סלע"
+      ],
+      "match": {
+        "nl": [
+          "sela"
+        ],
+        "original": [
+          "סלע",
+          "בסלע"
+        ]
+      },
+      "references": [
+        "zohar-i/2a/4"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "atwan",
+      "section": "woordenboek",
+      "title": "Atwan",
+      "original": "אתוון",
+      "transliteration": "atwan; otiyyot",
+      "language": "Aramees",
+      "summary": "Letters.",
+      "explanation": "De letterdialoog geeft de letters een stem: zij vragen met welke letter de wereld wordt geschapen.",
+      "aliases": [
+        "atwan; otiyyot",
+        "אתוון"
+      ],
+      "match": {
+        "nl": [
+          "letters"
+        ],
+        "original": [
+          "אתוון"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "languageCode": "arc"
+    },
+    {
+      "id": "raz",
+      "section": "woordenboek",
+      "title": "Raz",
+      "original": "רזא",
+      "transliteration": "raza; raz",
+      "language": "Aramees",
+      "summary": "Geheim.",
+      "explanation": "Een verborgen samenhang tussen schriftwoorden, namen en de werkelijkheid die de uitleg probeert te ontvouwen.",
+      "aliases": [
+        "raza; raz",
+        "רזא"
+      ],
+      "match": {
+        "nl": [
+          "geheim"
+        ],
+        "original": [
+          "רזא",
+          "ברזא"
+        ]
+      },
+      "references": [
+        "zohar-i/1a/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "at",
+      "section": "woordenboek",
+      "title": "At",
+      "original": "את",
+      "transliteration": "at; ot",
+      "language": "Aramees",
+      "summary": "Letter; teken, afhankelijk van het verband.",
+      "explanation": "In de dialoog introduceert dit een letter. De gelijkgeschreven vorm in Genesis heeft niet overal dezelfde grammaticale functie.",
+      "aliases": [
+        "at; ot",
+        "את"
+      ],
+      "match": {
+        "nl": [],
+        "original": [
+          "את"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "rav",
+      "section": "woordenboek",
+      "title": "Rav",
+      "original": "רב",
+      "transliteration": "rav",
+      "language": "Hebreeuws en Aramees",
+      "summary": "Meester; leraar.",
+      "explanation": "Titel in de naam Rav Hamnoena. De titel alleen is geen identificatie met een bepaalde naamgenoot.",
+      "aliases": [
+        "rav",
+        "רב"
+      ],
+      "match": {
+        "nl": [
+          "Rav"
+        ],
+        "original": [
+          "רב"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "he"
+    },
+    {
+      "id": "sava",
+      "section": "woordenboek",
+      "title": "Sava",
+      "original": "סבא",
+      "transliteration": "sava",
+      "language": "Aramees",
+      "summary": "De oude; de oudere.",
+      "explanation": "Deze aanduiding onderscheidt de leraar in de vertelling.",
+      "aliases": [
+        "sava",
+        "סבא"
+      ],
+      "match": {
+        "nl": [
+          "de Oude"
+        ],
+        "original": [
+          "סבא"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/2"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "related": [],
+      "languageCode": "arc"
+    },
+    {
+      "id": "emet",
+      "section": "woordenboek",
+      "title": "Emet",
+      "original": "אמת",
+      "transliteration": "emet",
+      "language": "Hebreeuws",
+      "summary": "Waarheid.",
+      "explanation": "De slotletter tav draagt het argument in de letterdialoog.",
+      "aliases": [
+        "אמת",
+        "emet"
+      ],
+      "match": {
+        "nl": [
+          "waarheid"
+        ],
+        "original": [
+          "אמת",
+          "אמ\"ת"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/4"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "sjekera",
+      "section": "woordenboek",
+      "title": "Sjekera",
+      "original": "שקרא",
+      "transliteration": "shiqra",
+      "language": "Aramees",
+      "summary": "Leugen; onwaarheid.",
+      "explanation": "De tekst laat zien hoe de leugen een waar element gebruikt om stand te houden.",
+      "aliases": [
+        "שקרא",
+        "shiqra"
+      ],
+      "match": {
+        "nl": [
+          "leugen",
+          "onwaarheid"
+        ],
+        "original": [
+          "שקרא"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/5"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "arc"
+    },
+    {
+      "id": "tsaddiek",
+      "section": "woordenboek",
+      "title": "Tsaddiek",
+      "original": "צדיק",
+      "transliteration": "tsaddiq",
+      "language": "Hebreeuws",
+      "summary": "Rechtvaardige.",
+      "explanation": "De letter tsadi is met dit woord verbonden. De lettervorm en de aanduiding van een rechtvaardige zijn verschillende uitleglagen.",
+      "aliases": [
+        "צדיק",
+        "tsaddiq"
+      ],
+      "match": {
+        "nl": [
+          "rechtvaardige"
+        ],
+        "original": [
+          "צדיק",
+          "צדיקים"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/7"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "bet",
+      "section": "woordenboek",
+      "title": "Bet",
+      "original": "ב",
+      "transliteration": "bet",
+      "language": "Hebreeuws",
+      "summary": "De tweede letter van het Hebreeuwse alfabet.",
+      "explanation": "De letter waarmee Beresjiet begint wordt met zegening verbonden.",
+      "aliases": [
+        "ב",
+        "bet"
+      ],
+      "match": {
+        "nl": [
+          "bet"
+        ],
+        "original": [
+          "ב"
+        ]
+      },
+      "references": [
+        "zohar-i/3a/10"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "alef",
+      "section": "woordenboek",
+      "title": "Alef",
+      "original": "א",
+      "transliteration": "alef",
+      "language": "Hebreeuws",
+      "summary": "De eerste letter van het Hebreeuwse alfabet.",
+      "explanation": "De dialoog geeft alef een functie als teken van eenheid, terwijl bet de schepping begint.",
+      "aliases": [
+        "א",
+        "alef"
+      ],
+      "match": {
+        "nl": [
+          "alef"
+        ],
+        "original": [
+          "א"
+        ]
+      },
+      "references": [
+        "zohar-i/3b/1"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "sjaddai",
+      "section": "woordenboek",
+      "title": "Sjaddai",
+      "original": "שדי",
+      "transliteration": "shaddai",
+      "language": "Hebreeuws",
+      "summary": "Een Godsnaam.",
+      "explanation": "De letter sjin beroept zich op haar positie aan het begin van deze naam.",
+      "aliases": [
+        "שדי",
+        "shaddai"
+      ],
+      "match": {
+        "nl": [
+          "Sjaddai"
+        ],
+        "original": [
+          "שדי",
+          "שד\"י"
+        ]
+      },
+      "references": [
+        "zohar-i/2b/5"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "he"
+    },
+    {
+      "id": "jhwh",
+      "section": "woordenboek",
+      "title": "JHWH",
+      "original": "יהוה",
+      "transliteration": "YHWH",
+      "language": "Hebreeuws",
+      "summary": "De vierletterige geschreven Godsnaam.",
+      "explanation": "De werkvertaling gebruikt JHWH zonder een uitspraak vast te leggen. De afzonderlijke letters spelen mee in de uitleg.",
+      "aliases": [
+        "יהוה",
+        "YHWH"
+      ],
+      "match": {
+        "nl": [
+          "JHWH"
+        ],
+        "original": [
+          "יהוה",
+          "יהו\"ה"
+        ]
+      },
+      "references": [
+        "zohar-i/3a/5"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "languageCode": "he"
+    }
+  ],
+  "wiki": [
+    {
+      "id": "rabbi-chizkia",
+      "section": "wiki",
+      "title": "Rabbi Chizkia",
+      "kind": "persoon",
+      "summary": "Een rabbijnse leraar die de Zohar opent met de uitleg van de roos tussen de doorns.",
+      "sections": [
+        {
+          "title": "Zijn rol",
+          "paragraphs": [
+            "In Zohar I 1a begint Chizkia met Hooglied 2:2. Hij vraagt wie de roos is en antwoordt: de gemeenschap van Israël. Rood en wit, dertien bladeren en vijf stevige bladeren verbindt hij met oordeel, ontferming en de beker van de zegening."
+          ]
+        },
+        {
+          "title": "Historische identiteit",
+          "paragraphs": [
+            "De bron noemt hier alleen naam en titel, zonder geboortejaar, woonplaats of levensbeschrijving. De naam identificeert een spreker in de Zohar; zijn historische identiteit kan niet alleen uit deze passage worden vastgesteld.",
+            "Chizkia, Chizkiya, Hizkiyah en Hezekiah zijn transcriptievarianten. De koning Hizkia uit 2 Koningen 18 behoort tot een andere context en mag niet met deze rabbi worden vereenzelvigd."
+          ]
+        },
+        {
+          "title": "Een andere lezing",
+          "paragraphs": [
+            "De gebruikte tekstgetuige vermeldt Rabbi Elazar als variant bij de openingsnaam. De hoofdvertaling volgt Chizkia en verantwoordt de variant afzonderlijk. De naam staat dus niet in iedere tekstgetuige vast."
+          ]
+        },
+        {
+          "title": "Vertelwereld en geschiedenis",
+          "paragraphs": [
+            "De Zohar laat oude rabbijnen met elkaar spreken. De literaire rol van een spreker en de historische totstandkoming van het middeleeuwse corpus zijn verschillende onderzoeksvragen."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Rabbi Chizkia",
+          "Chizkia"
+        ],
+        "original": [
+          "רבי חזקיה"
+        ]
+      },
+      "aliases": [
+        "Rabbi Chizkia",
+        "Chizkia",
+        "רבי חזקיה"
+      ],
+      "related": [
+        "wiki/rabbi-elazar",
+        "wiki/metgezellen",
+        "wiki/roos"
+      ],
+      "sourceIds": [
+        "opening",
+        "koningen",
+        "huss"
+      ],
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "rabbi-sjimon",
+      "section": "wiki",
+      "title": "Rabbi Sjimon",
+      "kind": "persoon",
+      "summary": "Een centrale leraar in de Zohar, die Elazar in de tekst ‘mijn zoon’ noemt.",
+      "sections": [
+        {
+          "title": "In deze passages",
+          "paragraphs": [
+            "Sjimon legt de bloesems uit en neemt later het woord van Elazar over. Hij vertelt dat Elia hem aan de zee een verborgen uitleg van Mi en Eleh gaf."
+          ]
+        },
+        {
+          "title": "Auteurschap en overlevering",
+          "paragraphs": [
+            "De Zohar wordt traditioneel verbonden met Sjimon bar Jochai. De middeleeuwse tekstoverlevering is een afzonderlijke historische kwestie. Toespraken zijn daarom niet zonder meer letterlijk bewaarde verslagen van bijeenkomsten."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Rabbi Sjimon",
+          "Sjimon"
+        ],
+        "original": [
+          "רבי שמעון"
+        ]
+      },
+      "aliases": [
+        "Rabbi Sjimon",
+        "Sjimon",
+        "רבי שמעון"
+      ],
+      "related": [
+        "wiki/rabbi-elazar",
+        "wiki/elia",
+        "wiki/zohar"
+      ],
+      "sourceIds": [
+        "opening",
+        "huss"
+      ],
+      "references": [
+        "zohar-i/1a/4",
+        "zohar-i/1b/8"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "rabbi-elazar",
+      "section": "wiki",
+      "title": "Rabbi Elazar",
+      "kind": "persoon",
+      "summary": "Een gesprekspartner van Sjimon, die hem ‘mijn zoon’ noemt.",
+      "sections": [
+        {
+          "title": "Zijn bijdrage",
+          "paragraphs": [
+            "Elazar begint met Jesaja 40:26: ‘Wie heeft deze geschapen?’ Hij vraagt hoe het verborgene bevraagd kan worden. Daarna zwijgt hij zodat Sjimon verder kan gaan."
+          ]
+        },
+        {
+          "title": "Spreken en zwijgen",
+          "paragraphs": [
+            "Elazar gebruikt later het spreekwoord over één en twee sela. Zijn zwijgen heeft ruimte gemaakt voor een uitleg van twee werelden."
+          ]
+        },
+        {
+          "title": "Variant in de opening",
+          "paragraphs": [
+            "Bij de roos staat Elazar als alternatieve spreker in de bronnoot. Daar volgt de hoofdvertaling de naam Chizkia."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Rabbi Elazar",
+          "Elazar"
+        ],
+        "original": [
+          "רבי אלעזר"
+        ]
+      },
+      "aliases": [
+        "Rabbi Elazar",
+        "Elazar",
+        "רבי אלעזר"
+      ],
+      "related": [
+        "wiki/rabbi-sjimon",
+        "wiki/rabbi-chizkia"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/1b/3",
+        "zohar-i/1b/8",
+        "zohar-i/2a/4"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "elia",
+      "section": "wiki",
+      "title": "Elia",
+      "kind": "persoon",
+      "summary": "De bijbelse profeet die in Sjimons verhaal verborgen onderricht onthult.",
+      "sections": [
+        {
+          "title": "In de Zohar",
+          "paragraphs": [
+            "Sjimon vertelt dat Elia hem aan de zee een uitleg van de Godsnaam gaf en daarna verdween. Het is een openbaringsscène binnen de vertelling."
+          ]
+        },
+        {
+          "title": "Bijbelse achtergrond",
+          "paragraphs": [
+            "Elia is bekend uit Koningen. De uitleg aan Sjimon staat niet in het bijbelverhaal van 1 Koningen 17; de Zohar geeft de profeet hier de rol van hemelse leraar."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Elia"
+        ],
+        "original": [
+          "אליהו"
+        ]
+      },
+      "aliases": [
+        "Elia",
+        "אליהו"
+      ],
+      "related": [
+        "wiki/rabbi-sjimon",
+        "wiki/mi-eleh"
+      ],
+      "sourceIds": [
+        "opening",
+        "elia"
+      ],
+      "references": [
+        "zohar-i/1b/8",
+        "zohar-i/2a/1",
+        "zohar-i/2a/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "jozef",
+      "section": "wiki",
+      "title": "Jozef",
+      "kind": "persoon",
+      "summary": "De bijbelse Jozef wordt in de bloesemuitleg drager van de verborgen aartsvaders.",
+      "sections": [
+        {
+          "title": "De plaatselijke uitleg",
+          "paragraphs": [
+            "In I 1b worden de aartsvaders in Jozef verborgen. Wanneer hij het heilige land binnengaat, plant hij hen daar. Personen dragen zo een mystieke samenhang."
+          ]
+        },
+        {
+          "title": "Bijbelse achtergrond",
+          "paragraphs": [
+            "Jozef is de zoon van Jakob uit Genesis. De passage gebruikt hem voor een uitleg van Hooglied, niet voor een gewone levensbeschrijving."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Jozef"
+        ],
+        "original": [
+          "יוסף"
+        ]
+      },
+      "aliases": [
+        "Jozef",
+        "יוסף"
+      ],
+      "related": [
+        "wiki/bloesems",
+        "wiki/jakob"
+      ],
+      "sourceIds": [
+        "opening",
+        "jozef"
+      ],
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "jakob",
+      "section": "wiki",
+      "title": "Jakob",
+      "kind": "persoon",
+      "summary": "De bijbelse aartsvader die in de uitleg Mi en Ma verbindt.",
+      "sections": [
+        {
+          "title": "Van uiteinde tot uiteinde",
+          "paragraphs": [
+            "De tekst stelt Jakob in het midden tussen een bovenste en onderste uiteinde van de hemel. Het beeld beschrijft samenhang tussen mystieke treden."
+          ]
+        },
+        {
+          "title": "Betekenisdrager",
+          "paragraphs": [
+            "Dit is geen geografische beschrijving van een reis. Een bekende bijbelse persoon krijgt een functie in de uitleg."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Jakob"
+        ],
+        "original": [
+          "יעקב"
+        ]
+      },
+      "aliases": [
+        "Jakob",
+        "יעקב"
+      ],
+      "related": [
+        "wiki/mi-eleh",
+        "wiki/jozef"
+      ],
+      "sourceIds": [
+        "opening",
+        "jakob"
+      ],
+      "references": [
+        "zohar-i/1b/7"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "rav-hamnoena",
+      "section": "wiki",
+      "title": "Rav Hamnoena de Oude",
+      "kind": "persoon",
+      "summary": "De leraar die de letterdialoog inleidt.",
+      "sections": [
+        {
+          "title": "Zijn vraag",
+          "paragraphs": [
+            "Hij merkt op dat Genesis begint met bet, bet, alef, alef. Dat wordt de aanleiding voor een verhaal waarin de letters in omgekeerde volgorde voor God verschijnen."
+          ]
+        },
+        {
+          "title": "Identificatie",
+          "paragraphs": [
+            "De naam alleen bewijst geen identificatie met een bepaalde talmoedische geleerde. Rav is een titel; ‘de Oude’ onderscheidt de figuur in deze vertelling."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Rav Hamnoena de Oude",
+          "Rav Hamnoena"
+        ],
+        "original": [
+          "רב המנונא סבא"
+        ]
+      },
+      "aliases": [
+        "Rav Hamnoena de Oude",
+        "Rav Hamnoena",
+        "רב המנונא סבא"
+      ],
+      "related": [
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/2b/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "betsalel",
+      "section": "wiki",
+      "title": "Betsalel",
+      "kind": "persoon",
+      "summary": "De vakman uit Exodus wiens roeping bij naam als voorbeeld wordt gebruikt.",
+      "sections": [
+        {
+          "title": "In de uitleg",
+          "paragraphs": [
+            "De passage citeert Exodus 31:2 om het noemen van een naam te verbinden met de voltooiing van een bestaan. Het betoog gaat verder dan het alledaagse gebruik van een persoonsnaam."
+          ]
+        }
+      ],
+      "match": {
+        "nl": [
+          "Betsalel"
+        ],
+        "original": [
+          "בצלאל"
+        ]
+      },
+      "aliases": [
+        "Betsalel",
+        "בצלאל"
+      ],
+      "related": [
+        "wiki/mi-eleh"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/2a/5"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "zohar",
+      "section": "wiki",
+      "title": "De Zohar",
+      "kind": "tekst",
+      "summary": "Een verzameling mystieke schriftuitleg en vertellingen, grotendeels in het Aramees.",
+      "sections": [
+        {
+          "title": "Hoe de tekst werkt",
+          "paragraphs": [
+            "Rabbijnse leraren spreken over woorden, letters, namen en getallen als toegang tot verborgen betekenissen."
+          ]
+        },
+        {
+          "title": "Corpus",
+          "paragraphs": [
+            "Het vertaaldoel omvat drie hoofdvolumes, ingebedde teksten en addenda. Zohar Chadasj en Tikkoenei Zohar hebben afzonderlijke registers. De volledige vertaling is nog niet gereed."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/zohar-chadasj",
+        "wiki/tikkoenei",
+        "wiki/folio"
+      ],
+      "sourceIds": [
+        "corpus",
+        "huss"
+      ],
+      "references": [],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "metgezellen",
+      "section": "wiki",
+      "title": "De metgezellen",
+      "kind": "begrip",
+      "summary": "De kring van gesprekspartners in de Zohar.",
+      "sections": [
+        {
+          "title": "Samen leren",
+          "paragraphs": [
+            "Chavraya benadrukt hun verbondenheid. In I 2a reageren de metgezellen huilend op Sjimons uitleg."
+          ]
+        },
+        {
+          "title": "Historische grens",
+          "paragraphs": [
+            "Een naam in een scène is op zichzelf geen bewijs voor historische identiteit, datering of feitelijke aanwezigheid."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/rabbi-sjimon",
+        "wiki/rabbi-chizkia",
+        "woordenboek/chavraya"
+      ],
+      "sourceIds": [
+        "opening",
+        "huss"
+      ],
+      "references": [
+        "zohar-i/2a/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "roos",
+      "section": "wiki",
+      "title": "De roos tussen de doorns",
+      "kind": "begrip",
+      "summary": "Het openingsbeeld voor de gemeenschap van Israël.",
+      "sections": [
+        {
+          "title": "De redenering",
+          "paragraphs": [
+            "Hooglied 2:2 geeft het uitgangspunt. Rood en wit staan voor oordeel en ontferming. Dertien bladeren en vijf stevige bladeren verbinden de bloem met goddelijke bescherming en de beker."
+          ]
+        },
+        {
+          "title": "Vertaalkeuze",
+          "paragraphs": [
+            "Sjosjanna is niet in ieder verband botanisch dezelfde plant. Hier kiest de werkvertaling ‘roos’, met behoud van onzekerheid over de precieze soort."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "woordenboek/sjosjanna",
+        "wiki/gemeenschap-israel",
+        "wiki/beker-zegening"
+      ],
+      "sourceIds": [
+        "opening",
+        "hooglied"
+      ],
+      "references": [
+        "zohar-i/1a/1",
+        "zohar-i/1a/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "gemeenschap-israel",
+      "section": "wiki",
+      "title": "De gemeenschap van Israël",
+      "kind": "begrip",
+      "summary": "Israël als collectieve, vrouwelijke gestalte.",
+      "sections": [
+        {
+          "title": "De roos",
+          "paragraphs": [
+            "De openingspassage spreekt over de gemeenschap alsof zij een roos is die bescherming en ontferming ontvangt. Volk en mystieke werkelijkheid liggen in de beeldspraak over elkaar."
+          ]
+        },
+        {
+          "title": "Plaatselijk lezen",
+          "paragraphs": [
+            "Een specifieke identificatie met een sefira wordt niet zonder toelichting overal ingevuld. Het verband van de passage blijft leidend."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/roos",
+        "woordenboek/knesset-jisrael"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/1a/1"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "dertien-maten",
+      "section": "wiki",
+      "title": "Dertien maten van ontferming",
+      "kind": "begrip",
+      "summary": "Symbolische eigenschappen van ontferming die Israël omringen.",
+      "sections": [
+        {
+          "title": "Woordtelling",
+          "paragraphs": [
+            "De passage telt dertien woorden tussen de eerste en tweede Elohim in Genesis 1 en legt dat naast de dertien bladeren."
+          ]
+        },
+        {
+          "title": "Bijbels verband",
+          "paragraphs": [
+            "Exodus 34:6–7 beschrijft goddelijke ontferming en vormt de bijbelse achtergrond van deze taal. De opening zelf geeft geen lijst van alle dertien."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/roos",
+        "woordenboek/rachamim"
+      ],
+      "sourceIds": [
+        "opening",
+        "genesis",
+        "exodus34"
+      ],
+      "references": [
+        "zohar-i/1a/1",
+        "zohar-i/1a/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "beker-zegening",
+      "section": "wiki",
+      "title": "De beker van de zegening",
+      "kind": "begrip",
+      "summary": "Een rituele beker, in deze uitleg verbonden met de roos.",
+      "sections": [
+        {
+          "title": "Vijf vingers",
+          "paragraphs": [
+            "De vijf vingers onder de beker worden naast vijf stevige bladeren onder de bloem gezet. Psalm 116:13 levert de schriftverbinding."
+          ]
+        },
+        {
+          "title": "Beeld en ritueel",
+          "paragraphs": [
+            "De tekst verklaart een ritueel gebaar met een mystiek beeld. Dit is geen volledige handleiding voor de rituele voorschriften."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/roos",
+        "woordenboek/kos-sjel-beracha"
+      ],
+      "sourceIds": [
+        "opening",
+        "psalm116"
+      ],
+      "references": [
+        "zohar-i/1a/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "verbond",
+      "section": "wiki",
+      "title": "Verbond en zaad",
+      "kind": "begrip",
+      "summary": "Een samenhang van verbond, besnijdenis, zaad en vruchtbaarheid.",
+      "sections": [
+        {
+          "title": "Beelden behouden",
+          "paragraphs": [
+            "I 1a verbindt het verborgen licht met het verbond en spreekt vervolgens over zaad en het teken van het verbond. Het lichamelijke beeld hoort bij de mystieke uitleg."
+          ]
+        },
+        {
+          "title": "Tweeënveertig",
+          "paragraphs": [
+            "De tekst verbindt paringen en letters van een Naam. De compacte syntaxis van de naamomschrijving blijft als onzeker gemarkeerd."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "woordenboek/berit",
+        "woordenboek/zera"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/1a/3"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "bloesems",
+      "section": "wiki",
+      "title": "De bloesems op het land",
+      "kind": "begrip",
+      "summary": "Een uitleg van Hooglied waarin scheppingsdagen, aartsvaders en kinderen samenkomen.",
+      "sections": [
+        {
+          "title": "Twee uitleglijnen",
+          "paragraphs": [
+            "Eerst verwijzen de woorden van het vers naar de scheppingsdagen, daarna naar de aartsvaders die in profeten en Jozef verborgen zijn."
+          ]
+        },
+        {
+          "title": "Stem van kinderen",
+          "paragraphs": [
+            "De passage eindigt met de vraag wie de wereld in stand houdt: de stem van kinderen die Tora leren."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/jozef",
+        "wiki/tora",
+        "woordenboek/nitsanim"
+      ],
+      "sourceIds": [
+        "opening",
+        "hooglied"
+      ],
+      "references": [
+        "zohar-i/1a/4",
+        "zohar-i/1b/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "sabbat",
+      "section": "wiki",
+      "title": "De sabbat in de opening",
+      "kind": "begrip",
+      "summary": "De zevende dag wordt met het land van het leven verbonden.",
+      "sections": [
+        {
+          "title": "Doen en horen",
+          "paragraphs": [
+            "Na de koppeling van de mens en ‘wij zullen doen en horen’ worden de woorden ‘in ons land’ op de sabbat betrokken."
+          ]
+        },
+        {
+          "title": "Bovenwereld",
+          "paragraphs": [
+            "De bron spreekt over de komende wereld, de wereld van de zielen en de wereld van de vertroostingen. Die omschrijvingen zijn geen nieuwe toevoeging van de vertaler."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/komende-wereld",
+        "woordenboek/sjabbat"
+      ],
+      "sourceIds": [
+        "opening",
+        "exodus24"
+      ],
+      "references": [
+        "zohar-i/1b/1"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "komende-wereld",
+      "section": "wiki",
+      "title": "De komende wereld",
+      "kind": "begrip",
+      "summary": "Een uitdrukking die hier ook een verborgen bovenwereld kan aanduiden.",
+      "sections": [
+        {
+          "title": "De aartsvaders",
+          "paragraphs": [
+            "Zij worden in deze wereld verborgen. Het gaat niet eenvoudig om een later tijdstip op een kalender."
+          ]
+        },
+        {
+          "title": "Vertaalbeleid",
+          "paragraphs": [
+            "De naam blijft herkenbaar. Een specifieke mystieke identificatie wordt niet zonder onderbouwing in de hoofdtekst ingevuld."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "woordenboek/alma-deate",
+        "wiki/sabbat"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "mi-eleh",
+      "section": "wiki",
+      "title": "Mi, Ma, Eleh en Elohim",
+      "kind": "begrip",
+      "summary": "Vraagwoorden en letters worden namen voor verborgen en geopenbaarde verhoudingen.",
+      "sections": [
+        {
+          "title": "De woorden",
+          "paragraphs": [
+            "Mi betekent ‘wie’, Ma ‘wat’, Eleh ‘deze’. Jesaja vraagt: ‘Wie heeft deze geschapen?’ De Zohar leest de vraag ook als een beschrijving van goddelijke namen."
+          ]
+        },
+        {
+          "title": "Letterredenering",
+          "paragraphs": [
+            "De letters van Mi en Eleh vormen, herschikt, Elohim. Uitsluitend Nederlandse woorden zouden die samenhang onzichtbaar maken."
+          ]
+        },
+        {
+          "title": "Grens van weten",
+          "paragraphs": [
+            "De vraag ‘wat weet je?’ blijft van kracht. Het kunnen noemen van een naam heft niet iedere verborgenheid op."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "woordenboek/mi",
+        "woordenboek/ma",
+        "woordenboek/eleh",
+        "woordenboek/elohim",
+        "wiki/elia"
+      ],
+      "sourceIds": [
+        "opening",
+        "jesaja40"
+      ],
+      "references": [
+        "zohar-i/1b/3",
+        "zohar-i/2a/1"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "tora",
+      "section": "wiki",
+      "title": "Tora",
+      "kind": "begrip",
+      "summary": "Onderricht en Schrift als drager van verborgen betekenissen.",
+      "sections": [
+        {
+          "title": "Leren",
+          "paragraphs": [
+            "De stem van kinderen die Tora leren krijgt in de passage betekenis voor het voortbestaan van de wereld."
+          ]
+        },
+        {
+          "title": "Concrete tekst",
+          "paragraphs": [
+            "De uitleg grijpt terug op spelling, woorden, lettervolgorde en schriftverbanden. Zij is niet los van de geciteerde tekst opgebouwd."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "woordenboek/tora",
+        "wiki/letterdialoog"
+      ],
+      "sourceIds": [
+        "opening"
+      ],
+      "references": [
+        "zohar-i/1b/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "letterdialoog",
+      "section": "wiki",
+      "title": "De letters vóór de schepping",
+      "kind": "begrip",
+      "summary": "Een verhaal waarin de letters omgekeerd alfabetisch vragen met welke letter de wereld wordt geschapen.",
+      "sections": [
+        {
+          "title": "De vraag van Rav Hamnoena",
+          "paragraphs": [
+            "De eerste woorden van Genesis beginnen met bet-bet-alef-alef. De dialoog onderzoekt waarom de schepping niet eenvoudig bij alef begint."
+          ]
+        },
+        {
+          "title": "Woordspelingen",
+          "paragraphs": [
+            "Letters verwijzen naar Gods­namen, eigenschappen en dreigingen. Nederlandse betekenissen alleen kunnen de verbanden niet tonen; de noten noemen daarom de Hebreeuwse woorden."
+          ]
+        },
+        {
+          "title": "Literaire functie",
+          "paragraphs": [
+            "De handelende letters zijn deel van de mystieke uitleg. Het verhaal beschrijft niet taalkundig hoe het alfabet is ontstaan."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/rav-hamnoena",
+        "woordenboek/atwan",
+        "woordenboek/beresjit"
+      ],
+      "sourceIds": [
+        "opening",
+        "genesis"
+      ],
+      "references": [
+        "zohar-i/2b/2"
+      ],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "folio",
+      "section": "wiki",
+      "title": "Folio en vaste verwijzingen",
+      "kind": "leeshulp",
+      "summary": "I 1a betekent volume I, blad 1, voorzijde; 1b is de achterzijde.",
+      "sections": [
+        {
+          "title": "Alineanummers",
+          "paragraphs": [
+            "Het nummer na de dubbele punt, zoals I 1a:1, is een eigen alineanummer van Open Zohar. Het is niet automatisch gelijk aan andere edities."
+          ]
+        },
+        {
+          "title": "Controle",
+          "paragraphs": [
+            "De uitgave bewaart daarom ook een bronrevisie, foliomarkering en ruwe alinea naast iedere vertaling."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/zohar"
+      ],
+      "sourceIds": [
+        "opening",
+        "corpus"
+      ],
+      "references": [],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "zohar-chadasj",
+      "section": "wiki",
+      "title": "Zohar Chadasj",
+      "kind": "tekst",
+      "summary": "Een afzonderlijke verzameling aanvullend Zohar-materiaal.",
+      "sections": [
+        {
+          "title": "Vertaaldoel",
+          "paragraphs": [
+            "Ook deze verzameling hoort bij het doel van Open Zohar. De volledige tekstverwerving en Nederlandse vertaling staan nog open."
+          ]
+        },
+        {
+          "title": "De naam",
+          "paragraphs": [
+            "Chadasj betekent ‘nieuw’. De bundeltitel maakt niet alle verzamelde stukken automatisch tot één later geschreven compositie."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/zohar",
+        "wiki/tikkoenei"
+      ],
+      "sourceIds": [
+        "huss",
+        "chadash"
+      ],
+      "references": [],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    },
+    {
+      "id": "tikkoenei",
+      "section": "wiki",
+      "title": "Tikkoenei Zohar",
+      "kind": "tekst",
+      "summary": "Een afzonderlijke verzameling met uitlegcycli op Beresjiet.",
+      "sections": [
+        {
+          "title": "Indeling",
+          "paragraphs": [
+            "Het register onderscheidt twee inleidingen, zeventig tikkoeniem en tien aanvullende tikkoeniem. Het is een aparte verzameling binnen het vertaaldoel."
+          ]
+        },
+        {
+          "title": "Voortgang",
+          "paragraphs": [
+            "Een ongevocaliseerde tekstgetuige is verworven. Collatie en de volledige Nederlandse vertaling staan open."
+          ]
+        }
+      ],
+      "match": {},
+      "aliases": [],
+      "related": [
+        "wiki/zohar",
+        "wiki/zohar-chadasj",
+        "woordenboek/beresjit"
+      ],
+      "sourceIds": [
+        "tikkunei",
+        "huss"
+      ],
+      "references": [],
+      "status": "Redactionele werknotitie; onafhankelijke vakcontrole nog open."
+    }
+  ]
+}

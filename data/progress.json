@@ -1,20 +1,22 @@
 {
   "date": "2026-10-25",
   "complete": false,
-  "translatedPassages": 19,
+  "translatedPassages": 41,
   "completeDraftFolios": [
     "Zohar I 1a",
     "Zohar I 1b",
-    "Zohar I 2a"
+    "Zohar I 2a",
+    "Zohar I 2b",
+    "Zohar I 3a"
   ],
   "partialDraftFolios": [
-    "Zohar I 2b: openingsalinea"
+    "Zohar I 3b: 2 alinea’s"
   ],
   "independentlyReviewedPassages": 0,
-  "next": "Zohar I 2b, vanaf פתיחת רב המנונא סבא / בראשית — רב המנונא סבא אמר",
+  "next": "Zohar I 3b:3, uitleg van bara sjiet",
   "remaining": "Alle overige passages van Zohar I–III, de addenda, geheel Zohar Chadasj en geheel Tikkoenei Zohar; onafhankelijke redactie van alle werkvertalingen.",
   "mainFolioRegister": 1632,
-  "untranslatedMainFolios": 1628,
+  "untranslatedMainFolios": 1626,
   "inventoryParts": 167,
   "acquiredMainContainers": 30,
   "sourceCompletenessVerified": false,

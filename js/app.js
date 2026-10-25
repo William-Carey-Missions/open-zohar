@@ -33,7 +33,8 @@
   const settings = $('settings');
   $('settings-open').addEventListener('click', () => settings.showModal());
   $('settings-close').addEventListener('click', () => settings.close());
-  const sections = ['lezen','over','bronnen','zoeken'];
+  const sections = ['lezen','woordenboek','wiki','over','bronnen','zoeken'];
+  const knowledgePromise = fetch('data/knowledge.json', {cache:'no-store'}).then(r => { if(!r.ok) throw Error('knowledge'); return r.json(); }).then(data => Array.isArray(data.dictionary) && Array.isArray(data.wiki) && Array.isArray(data.sources) ? data : null).catch(() => null);
   let library = { works: [] };
   let loadError = false;
   const text = (tag, value, className) => {
@@ -43,13 +44,14 @@
     return element;
   };
   try {
-    const response = await fetch('data/library.json');
+    const response = await fetch('data/library.json', {cache:'no-store'});
     if (!response.ok) throw new Error('library');
     const loaded = await response.json();
     if (!Array.isArray(loaded.works)) throw new Error('schema');
     library = loaded;
   } catch { loadError = true; }
   const works = library.works;
+  const knowledge = window.createKnowledgeUI(await knowledgePromise, works);
   for (const work of works) {
     const link = text('a', work.title, 'tree-book-label');
     link.href = '#lezen/' + encodeURIComponent(work.id);
@@ -81,8 +83,10 @@
       row.append(anchor);
       const nl = text('p', passage.nl || 'Nederlandse vertaling nog niet beschikbaar.');
       nl.lang = 'nl';
+      knowledge.linkedParagraph(nl, passage.nl || '', 'nl');
       const original = text('p', passage.original || 'Grondtekst nog niet beschikbaar.', 'original');
       original.dir = 'rtl'; original.lang = passage.lang || 'he';
+      knowledge.linkedParagraph(original, passage.original || '', 'original');
       row.append(nl, original);
       if (passage.notes?.length || passage.uncertainties?.length) {
         const details = text('details', '', 'passage-notes');
@@ -93,6 +97,11 @@
           const source = text('a', 'Vastgelegde bronrevisie');
           source.href = passage.source.url;
           details.append(source);
+        }
+        for (const illustration of passage.illustrations || []) {
+          const source = text('a', illustration.label);
+          source.href = illustration.url;
+          details.append(text('p', ''), source);
         }
         row.append(details);
       }
@@ -130,6 +139,7 @@
       result.append(text('small', passage.nl || passage.original));
       $('search-results').append(result);
     }
+    count += knowledge.search(query, $('search-results'));
     $('search-count').textContent = works.length ? count + ' resultaten' : 'Er zijn nog geen teksten beschikbaar om te doorzoeken.';
   }
   function route() {
@@ -142,11 +152,13 @@
       if (active) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
     });
     $('mobile-section').value = current;
-    $('chapter-title').textContent = {lezen: document.title.split(' — ')[0], over: 'Over deze uitgave', bronnen: 'Bronnen en verantwoording', zoeken: 'Zoeken'}[current];
+    $('chapter-title').textContent = {lezen: document.title.split(' — ')[0], woordenboek: 'Woordenboek', wiki: 'Wiki', over: 'Over deze uitgave', bronnen: 'Bronnen en verantwoording', zoeken: 'Zoeken'}[current];
     if (current === 'lezen') {
       chapterView(parts[1], parts[2]);
+      knowledge.setReadingHash('#lezen/' + encodeURIComponent($('work-select').value) + '/' + encodeURIComponent($('chapter-select').value) + (parts[3] ? '/' + encodeURIComponent(parts[3]) : ''));
       if (parts[3]) document.getElementById('passage-' + parts[3])?.scrollIntoView({block:'center'});
     }
+    if (current === 'woordenboek' || current === 'wiki') { knowledge.render(current, parts[1]); window.scrollTo(0,0); }
     if (current === 'zoeken') search($('topnav-search-input').value.trim());
   }
   $('mobile-section').onchange = () => { location.hash = $('mobile-section').value; };

@@ -30,17 +30,19 @@ function paragraphs(section){
  return witness.content.slice(start,end).replace(/<קטע (?:התחלה|סוף)=[^>]*\/>/g,'').replace(/^={2,}.*?={2,}\s*$/gm,'').replace(/\{\{ממ זהר משולב\|[^}]+\}\}/g,'').trim().split(/\n\s*\n/).filter(p=>p.trim()).map(p=>p.trim());
 }
 function plain(raw){
+ let illustration=0;
+ raw=raw.replace(/\[\[קובץ:[^\]]+\]\]/g,()=> '[איור '+(++illustration)+']').replace(/\{\{'\}\}/g, '′');
  let value=raw.replace(/\{\{הערה\|[\s\S]*?\}\}/g,'');
  value=value.replace(/\{\{ממ\|([^{}]+)\}\}/g,(_,v)=>'('+v.replaceAll('|',' ')+')');
- value=value.replace(/\{\{צ\|([^{}]+)\}\}/g,'$1').replace(/'{2,}/g,'').replace(/<\/?small>/g,'').replace(/\s+/g,' ').trim();
- if(/\{\{|\}\}|<[^>]+>/.test(value)) throw Error('Onverwerkte bronopmaak');
+ value=value.replace(/\{\{צ\|([^{}]+)\}\}/g,'$1').replace(/'{2,}/g,'').replace(/<\/?(?:small|big)>/g,'').replace(/\s+/g,' ').trim();
+ if(/\{\{|\}\}|\[\[|<[^>]+>/.test(value)) throw Error('Onverwerkte bronopmaak');
  return value;
 }
-const sections={'1a':'א א','1b':'א ב','2a':'ב א','2b':'ב ב'};
+const sections={'1a':'א א','1b':'א ב','2a':'ב א','2b':'ב ב','3a':'ג א','3b':'ג ב'};
 const chapters=tr.chapters.map(ch=>{
  const raw=paragraphs(sections[ch.id]);
  if(ch.completeFolio && raw.length!==ch.passages.length) throw Error('Folio onvolledig: '+ch.id);
- return {id:ch.id,title:ch.title,status:'conceptvertaling',completeFolio:ch.completeFolio,coverage:ch.completeFolio?'Volledig folio vertaald; onafhankelijke vakredactie nog open.':'Alleen openingsalinea vertaald; overige tekst op dit folio ontbreekt nog.',passages:ch.passages.map((p,i)=>{
+ return {id:ch.id,title:ch.title,status:'conceptvertaling',completeFolio:ch.completeFolio,coverage:ch.completeFolio?'Volledig folio vertaald; onafhankelijke vakredactie nog open.':ch.passages.length+' van '+raw.length+' alinea’s vertaald; overige tekst op dit folio ontbreekt nog.',passages:ch.passages.map((p,i)=>{
   if(!raw[i]||!p.nl?.trim()) throw Error('Bron of vertaling ontbreekt');
   return {...p,original:plain(raw[i]),lang:'arc',reference:'Zohar I '+ch.id+':'+p.id,status:'concept',source:{file:witness.file,pageId:tr.sourcePageId,revision:tr.sourceRevision,section:'דף '+sections[ch.id],paragraph:i+1,sha256:sha(raw[i]),url:'https://he.wikisource.org/w/index.php?oldid='+tr.sourceRevision}};
  })};
@@ -97,5 +99,5 @@ for(const folio of folios){
 }
 const unmarkedFolios=folios.filter(f=>!f.sourceCandidates.length).map(f=>f.reference);
 await write('data/corpus.json',{version:1,date:'2026-10-25',scope:'Zohar in drie hoofdvolumes met ingebedde traktaten en afzonderlijke addenda; Zohar Chadasj en Tikkoenei Zohar afzonderlijk. Geen claim van volledigheid van alle handschriften of latere commentaren.',parts,embedded,folios,unmarkedFolios,issues:[{id:'marker-i-10b',status:'open',description:'Zohar I 10b heeft een sectiemarkering in container 261494, maar het verwijssjabloon luidt {{ממ זהר משולב|י|ב|א}} in plaats van een geldige volume/folio/zijde-combinatie. Geen automatisch bewijs van ontbrekende tekst.'},{id:'source-completeness',status:'open',description:'Dertig Wikisource-containers zijn verworven; dit is geen bewijs dat alle folios, ingebedde teksten en addenda aanwezig zijn. Vergelijking met historische druk blijft nodig.'},{id:'tikkun-27',status:'open',description:'De Sefaria-catalogus geeft tikkoen 27 als 12b:2–17b:4, overlappend met de inleiding. Deze catalogusafwijking niet stilzwijgend als bronpaginering overnemen.'},{id:'chadash-pagination',status:'open',description:'Wikisource gebruikt deels vier kolommen per blad, Sefaria een andere indeling. Geen gelijkstelling zonder concordantie.'}]});
-await write('data/progress.json',{date:'2026-10-25',complete:false,translatedPassages:chapters.reduce((n,ch)=>n+ch.passages.length,0),completeDraftFolios:chapters.filter(ch=>ch.completeFolio).map(ch=>'Zohar I '+ch.id),partialDraftFolios:['Zohar I 2b: openingsalinea'],independentlyReviewedPassages:0,next:'Zohar I 2b, vanaf פתיחת רב המנונא סבא / בראשית — רב המנונא סבא אמר',remaining:'Alle overige passages van Zohar I–III, de addenda, geheel Zohar Chadasj en geheel Tikkoenei Zohar; onafhankelijke redactie van alle werkvertalingen.',mainFolioRegister:folios.length,untranslatedMainFolios:folios.filter(f=>f.status==='niet-vertaald').length,inventoryParts:parts.length,acquiredMainContainers:30,sourceCompletenessVerified:false,unmarkedMainFolios:unmarkedFolios});
+await write('data/progress.json',{date:'2026-10-25',complete:false,translatedPassages:chapters.reduce((n,ch)=>n+ch.passages.length,0),completeDraftFolios:chapters.filter(ch=>ch.completeFolio).map(ch=>'Zohar I '+ch.id),partialDraftFolios:chapters.filter(ch=>!ch.completeFolio).map(ch=>'Zohar I '+ch.id+': '+ch.passages.length+' alinea’s'),independentlyReviewedPassages:0,next:tr.next,remaining:'Alle overige passages van Zohar I–III, de addenda, geheel Zohar Chadasj en geheel Tikkoenei Zohar; onafhankelijke redactie van alle werkvertalingen.',mainFolioRegister:folios.length,untranslatedMainFolios:folios.filter(f=>f.status==='niet-vertaald').length,inventoryParts:parts.length,acquiredMainContainers:30,sourceCompletenessVerified:false,unmarkedMainFolios:unmarkedFolios});
 console.log(JSON.stringify({passages:chapters.reduce((n,ch)=>n+ch.passages.length,0),parts:parts.length,folios:folios.length,sourcePages:manifest.length}));

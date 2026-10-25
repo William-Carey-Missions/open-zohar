@@ -1,0 +1,83 @@
+const fs=require('node:fs/promises');
+const http=require('node:http');
+const path=require('node:path');
+const {chromium}=require('playwright');
+const root=path.resolve(__dirname,'..');
+const assert=(v,msg)=>{if(!v)throw Error(msg);};
+(async()=>{
+ const server=http.createServer(async(req,res)=>{
+  try{
+   const rel=decodeURIComponent(req.url.split('?')[0]);
+   const file=path.resolve(root,'.'+(rel==='/'?'/index.html':rel));
+   if(!file.startsWith(root+path.sep))throw Error('path');
+   const data=await fs.readFile(file);
+   res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.woff2':'font/woff2','.svg':'image/svg+xml'})[path.extname(file)]||'application/octet-stream');
+   res.end(data);
+  }catch{res.statusCode=404;res.end('not found');}
+ });
+ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+ let browser;
+ try{
+  browser=await chromium.launch({headless:true});
+  const page=await browser.newPage({viewport:{width:1440,height:1000}});
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const base='http://127.0.0.1:'+server.address().port;
+  await page.goto(base+'/#lezen/zohar-i/1a/1');
+  await page.waitForSelector('.passage');
+  const name=page.locator('.passage .knowledge-link[href="#wiki/rabbi-chizkia"]').first();
+  assert(await name.count()===1,'Rabbi Chizkia is nog geen aanklikbare persoon');
+  await name.click();
+  await page.waitForSelector('#entry-dialog[open]');
+  assert((await page.locator('#entry-dialog').innerText()).includes('Historische identiteit'),'Historische onzekerheid ontbreekt');
+  assert((await page.locator('#entry-dialog').innerText()).includes('Elazar'),'Naamvariant ontbreekt');
+  await page.keyboard.press('Escape');
+  assert(!(await page.locator('#entry-dialog').isVisible()),'Escape sluit uitleg niet');
+  await name.click();
+  await page.locator('#entry-dialog .reference-list a').first().click();
+  assert(!(await page.locator('#entry-dialog').isVisible()),'Terugverwijzing laat de contextdialoog open');
+  await name.click();await page.locator('#entry-dialog-full').click();
+  await page.waitForSelector('#wiki-article h1');
+  assert((await page.locator('#wiki-article h1').innerText()).includes('Chizkia'),'Volledig persoonsartikel ontbreekt');
+  assert(await page.locator('#wiki-article .source-list a').count()>0,'Wiki mist bronnen');
+  await page.locator('#wiki-article a[href="#wiki/rabbi-elazar"]').click();
+  await page.waitForFunction(()=>location.hash==='#wiki/rabbi-elazar');
+  await page.locator('#wiki-article .back-to-reading').first().click();
+  await page.waitForSelector('#lezen:visible');
+  assert(await page.locator('.passage .original .knowledge-link[href="#wiki/rabbi-chizkia"]').count()===1,'Grondtekst mist naamlink');
+  await page.goto(base+'/#woordenboek');
+  await page.waitForSelector('#woordenboek-query');
+  await page.locator('#woordenboek-query').fill('שׁוֹשַׁנָּה');
+  assert(await page.locator('#woordenboek-list a').count()===1,'Hebreeuwse zoekvorm vindt niet precies het lemma');
+  await page.locator('#woordenboek-list a').click();
+  await page.waitForSelector('#woordenboek-article h1');
+  assert((await page.locator('#woordenboek-article').innerText()).includes('Roos'),'Lemma mist betekenis');
+  await page.goto(base+'/#wiki');
+  await page.locator('#wiki-query').fill('Chizkia');
+  assert(await page.locator('#wiki-list a').count()>=1,'Wiki zoeken werkt niet');
+  await page.locator('#topnav-search-input').fill('Chizkia');await page.locator('#topnav-search-input').press('Enter');
+  await page.waitForSelector('#search-results a[href="#wiki/rabbi-chizkia"]');
+  await page.goto(base+'/#wiki/bestaat-niet');
+  await page.waitForSelector('#wiki-article');
+  assert((await page.locator('#wiki-article').innerText()).includes('niet gevonden'),'Onbekend artikel heeft geen melding');
+  await page.setViewportSize({width:390,height:844});
+  await page.goto(base+'/#lezen/zohar-i/1a/1');
+  await page.waitForSelector('.knowledge-link');
+  await page.locator('.passage .knowledge-link[href="#wiki/rabbi-chizkia"]').first().click();
+  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))console.log(await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1).map(e=>({tag:e.tagName,id:e.id,classes:e.className,width:e.getBoundingClientRect().width})).slice(0,12)));
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobiele pagina loopt horizontaal over');
+  assert(await page.locator('#entry-dialog').evaluate(e=>e.getBoundingClientRect().width<=innerWidth),'Uitleg past niet op mobiel');
+  await fs.mkdir(path.join(root,'.qa'),{recursive:true});
+  await page.screenshot({path:path.join(root,'.qa/knowledge-mobile.png')});
+  await page.locator('#entry-dialog-close').click();
+  await page.goto(base+'/#wiki/rabbi-chizkia');
+  await page.setViewportSize({width:1440,height:1000});
+  await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:path.join(root,'.qa/knowledge-desktop.png')});
+  await page.route('**/data/knowledge.json',route=>route.abort());
+  await page.reload();await page.goto(base+'/#lezen/zohar-i/1a/1');
+  await page.waitForSelector('.passage');
+  assert(await page.locator('.passage').count()===4,'Lezer werkt niet zonder naslagdataset');
+  assert(errors.length===0,errors.join('\n'));
+  console.log(JSON.stringify({names:true,hebrew:true,dictionary:true,wiki:true,sources:true,search:true,mobile:true,missingData:true,pageErrors:errors.length}));
+
+ }finally{if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}
+})().catch(e=>{console.error(e);process.exitCode=1;});

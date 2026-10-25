@@ -439,16 +439,16 @@
         },
         {
           "id": "2b",
-          "title": "I 2b · alleen de openingsalinea",
+          "title": "I 2b",
           "status": "conceptvertaling",
-          "completeFolio": false,
-          "coverage": "Alleen openingsalinea vertaald; overige tekst op dit folio ontbreekt nog.",
+          "completeFolio": true,
+          "coverage": "Volledig folio vertaald; onafhankelijke vakredactie nog open.",
           "passages": [
             {
               "id": "1",
               "nl": "— op verborgen wijze. “En machtig in kracht”: dat is het geheim van de hoogste wereld die tot de naam Elohim is opgeklommen, zoals wij gezegd hebben. “Niet één ontbreekt”: van die zeshonderdduizend die Hij door de kracht van de Naam naar buiten voerde. Omdat “niet één ontbreekt”, worden overal waar Israëlieten stierven en om hun zonden gestraft werden, hun aantallen geteld. Van die zeshonderdduizend ontbreekt zelfs niet één, zodat alles één gestalte vormt. Zoals boven niet één ontbreekt, zo ontbreekt ook beneden niet één.",
               "notes": [
-                "Vervolg van I 2a:6 en einde van deze openingsuitleg. Alleen deze eerste alinea van I 2b is hier vertaald; de rest van het folio blijft open.",
+                "Vervolg van I 2a:6 en einde van deze openingsuitleg. Op ditzelfde folio begint daarna de letterdialoog van Rav Hamnoena de Oude.",
                 "“Zeshonderdduizend” herneemt de symbolische telling van Israël. De passage formuleert een mystieke eenheid boven en beneden."
               ],
               "original": "בארח סתים. ואמיץ כ\"ח - דא רזא דעלמא עלאה דאסתלק בשם 'אלהים' כדקאמרן. איש לא נעדר - מאינון שתין רבוא דאפיק בחילא דשמא. ובגין דאיש לא נעדר - בכל אתר דמיתו ישראל ואתענשו בחובייהו - אתמנון, ולא אעדר מאינון שתין רבוא אפילו חד, בגין למהוי כלא דיוקנא חדא. כמה דאיש לא נעדר לעילא, אוף הכי לא נעדר לתתא.",
@@ -462,6 +462,495 @@
                 "section": "דף ב ב",
                 "paragraph": 1,
                 "sha256": "7527e955c278f8e3f81ac4eed4b6e6c29c3eaa63c2ac64c484c0b15dab213ba7",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "2",
+              "nl": "“In het begin.” Rav Hamnoena de Oude zei: Wij vinden de letters in omgekeerde volgorde! Eerst een bet en daarna weer een bet: ‘Beresjiet’, ‘bara’. Pas daarna eerst een alef en dan weer een alef: ‘Elohim’, ‘et’.",
+              "notes": [
+                "Genesis 1:1 begint met בראשית ברא אלהים את. De eerste letters zijn ב ב א א. De hoofdtekst volgt het ongebruikelijke begin bij bet, vóór alef, als aanleiding voor de letterdialoog."
+              ],
+              "original": "בראשית -- רב המנונא סבא אמר, אשכחן אתוון בהפוכא! בי\"ת בקדמיתא ולבתר ב' בקדמיתא היינו בראשית, ברא לבתר אל\"ף בקדמיתא ולבתר אל\"ף בקדמיתא היינו אלהים, את לבתר!",
+              "lang": "arc",
+              "reference": "Zohar I 2b:2",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 2,
+                "sha256": "dce494050944cf2a490916b488dea20997205fb98f1b019093eb03a112259c44",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "3",
+              "nl": "Toen de Heilige, gezegend zij Hij, de wereld wilde maken, waren alle letters nog verborgen. Tweeduizend jaar voordat Hij de wereld schiep, aanschouwde de Heilige, gezegend zij Hij, hen en verheugde Hij zich in hen. Toen Hij de wereld wilde scheppen, kwamen alle letters voor Hem, van de laatste terug naar de eerste.",
+              "notes": [
+                "De letters verschijnen als sprekende gestalten in een mystieke vertelling. De omgekeerde volgorde begint bij tav, de laatste letter. Het genoemde tijdsverloop wordt niet als moderne kosmologische datering uitgelegd."
+              ],
+              "original": "אלא כד בעא קב\"ה למעבד עלמא כל אתוון הוו סתימין, ותרין אלפין שנין עד דלא ברא עלמא הוה מסתכל קב\"ה ואשתעשע בהו. כד בעא למברי עלמא - אתו כל אתוון קמיה מסופא ארישייהו.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:3",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 3,
+                "sha256": "a88771c4b657c77e4a9220586d6cca7ee70fc32aa53f99f92c5ac2782526f294",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "4",
+              "nl": "De letter tav begon als eerste binnen te treden. Zij zei: ‘Heer van de werelden, behaagt het U de wereld met mij te scheppen? Ik ben immers het zegel van uw zegelring “waarheid”, en U wordt “waarheid” genoemd. Het past de Koning met de letter van waarheid te beginnen en de wereld met mij te scheppen.’ De Heilige, gezegend zij Hij, zei tegen haar: ‘Je bent passend en waardig, maar je bent niet geschikt om de wereld met jou te scheppen. Want jij zult als teken staan op het voorhoofd van trouwe mensen die de Tora van alef tot tav hebben vervuld, en door jouw teken zullen zij sterven. Bovendien ben jij het sluitteken van “dood”. Daarom ben je niet geschikt om de wereld met jou te scheppen.’ Meteen ging zij weg.",
+              "notes": [
+                "Tav (ת) sluit zowel emet, אמת, ‘waarheid’, als mavet, מות, ‘dood’, af. De slotpositie van de letter verklaart de twee kanten van het argument.",
+                "Het teken op het voorhoofd herinnert aan Ezechiël 9; de passage zelf voegt daar haar eigen uitleg bij. ‘Van alef tot tav’ betekent van de eerste tot de laatste letter."
+              ],
+              "original": "שריאת את ת למיעל ברישא. אמרה רבון עלמין, ניחא קמך למברי בי עלמא, דאנא חותמא דגושפנקא דילך אמ\"ת, ואנת אתקריאת אמ\"ת. יאות למלכא למשרי באת אמ\"ת, ולמברי בי עלמא. אמר לה קב\"ה, יאות אנת וזכאה אנת, אלא לית אנת כדאי למברי בך עלמא, הואיל ואנת זמינא למהוי רשים על מצחין דגוברין מהימנין, דקיימו אורייתא מאל\"ף ועד תי\"ו, וברשימו דילך ימותון. ועוד דאנת חותמא דמות, הואיל ואנת כך - לית אנת כדאי למברי בך עלמא. מיד נפקת.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:4",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 4,
+                "sha256": "10328b42c8394122d031629d2890530bc18e39db2dcc969bf288e817c1c149b5",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "5",
+              "nl": "De letter sjin trad voor Hem binnen. Zij zei: ‘Heer van de werelden, behaagt het U de wereld met mij te scheppen? Met mij wordt uw naam “Sjaddai” genoemd. Het past toch de wereld met de heilige Naam te scheppen?’ Hij zei tegen haar: ‘Je bent passend, goed en waarachtig. Maar omdat de letters van bedrog je bij zich nemen, wil Ik de wereld niet met jou scheppen. Want de leugen houdt alleen stand als qof en resj je meenemen.’ Hieruit volgt: wie een leugen wil vertellen, neemt eerst een grondslag van waarheid en bouwt daarna de leugen op. Want sjin is de letter van waarheid, de letter van waarheid van de aartsvaders, die in haar verenigd werden.",
+              "notes": [
+                "Sjin (ש) staat aan het begin van Sjaddai, שדי, een Godsnaam. Met qof (ק) en resj (ר) vormt zij de letters van sjeqer, שקר, ‘leugen’. De redenering vraagt om herschikking van de letters; het is geen Nederlandse woordspeling.",
+                "Het slot verbindt sjin met de aartsvaders. Een verdere identificatie van de drie lijnen van de letter wordt niet zonder toelichting in de vertaling ingevuld."
+              ],
+              "original": "עאלת את ש קמיה. אמרה קמיה רבון עלמין ניחא קמך למברי בי עלמא, דבי אתקרי שמך שד\"י, ויאות למברי עלמא בשמא קדישא? אמר לה יאות אנת וטב אנת וקשוט אנת, אבל הואיל ואתוון דזיופא נטלין לך למהוי עמהון - לא בעינא למברי בך עלמא. דבגין דלא אתקיים שקרא אלא אי יטלון לך - ק ר. מכאן מאן דבעי למימר שקרא - יטול יסודא דקשוט בקדמיתא, ולבתר יוקים ליה שקרא. דהא את ש את קשוט איהו, את קשוט דאבהתן דאתייחדו בה.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:5",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 5,
+                "sha256": "fa70b3ccaad11517dff28a837b1736fe19b3b12690064a3a25ca411a9c05356d",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "6",
+              "nl": "Qof en resj zijn letters die aan de slechte zijde verschijnen. Om stand te houden nemen zij de letter sjin in hun midden; zo ontstaat ‘verbinding’. Toen zij dit zag, ging zij bij Hem weg.",
+              "notes": [
+                "De bron geeft hier קשר: qof–sjin–resj, qesjer, ‘verbinding’ of ‘samenzwering’. De vorige alinea gebruikte dezelfde drie letters voor שקר, ‘leugen’, in een andere volgorde. De hoofdvertaling houdt de verschillende volgorde zichtbaar."
+              ],
+              "original": "ק ר אתוון דאתחזיאו על סטרא בישא אינון, ובגין לאתקיימא נטלי את ש בגווייהו - הוי קשר. כיון דחמאת הכי נפקת מקמיה.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:6",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 6,
+                "sha256": "d144556de1fa666685ddf9c4442a16a3449a3671513d7109069ec4631d4e8e18",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "7",
+              "nl": "De letter tsadi trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Met mij zijn de rechtvaardigen gemerkt en U, die “rechtvaardig” genoemd wordt, bent met mij aangeduid. Er staat immers geschreven: “Want JHWH is rechtvaardig, Hij heeft rechtvaardige daden lief.” Het past toch de wereld met mij te scheppen?’ Hij zei tegen haar: ‘Tsadi, tsadi, je bent rechtvaardig, maar je moet verborgen blijven. Je moet niet zozeer openbaar worden, om de wereld geen aanleiding tot spreken te geven.’ Waarom? Zij is een tsadi. De jod van de naam van het heilige verbond komt, rust op haar en verbindt zich met haar. Dit is het geheim: toen de Heilige, gezegend zij Hij, de eerste mens schiep, schiep Hij hem met twee gezichten. Daarom is het gezicht van de jod naar achteren gekeerd, zoals in deze vorm, en keren zij niet van aangezicht tot aangezicht, zoals in die vorm. Hij kijkt omhoog, zoals in deze vorm; zij kijkt omlaag, zoals in die vorm. De Heilige, gezegend zij Hij, zei verder tegen haar: ‘Ik zal je uiteenhalen en je van aangezicht tot aangezicht maken, maar op een andere plaats zul je opstijgen.’ Zij ging bij Hem weg en vertrok.",
+              "notes": [
+                "Psalm 11:7. Tsadi (צ) is de beginletter van tsaddiek, צדיק, ‘rechtvaardige’. De bronvariant geeft bij de eerste woordspeling ‘met mij’ naast de hoofdlezing.",
+                "De bron toont vier letterafbeeldingen bij de beschreven richtingen. De vereenvoudigde grondtekst markeert hun plaats als איור 1–4 (‘afbeelding’). De oorspronkelijke afbeeldingen zijn via onderstaande bronlinks te bekijken; zij zijn niet stilzwijgend vervangen door moderne lettervormen."
+              ],
+              "uncertainties": [
+                "De wisseling van mannelijke en vrouwelijke verwijzingen bij de beschreven letterdelen is compact. ‘Hij’ en ‘zij’ zijn naar de plaatselijke tegenstelling weergegeven; de lettergrafiek en de betekenis van de ‘andere plaats’ vragen nadere vakcontrole."
+              ],
+              "illustrations": [
+                {
+                  "label": "Bronafbeelding 1 — lettervorm tsadi",
+                  "url": "https://he.wikisource.org/wiki/%D7%A7%D7%95%D7%91%D7%A5%3Atzadi%20away.PNG"
+                },
+                {
+                  "label": "Bronafbeelding 2 — lettervorm tsadi",
+                  "url": "https://he.wikisource.org/wiki/%D7%A7%D7%95%D7%91%D7%A5%3Atzadi%20toward.PNG"
+                },
+                {
+                  "label": "Bronafbeelding 3 — lettervorm tsadi",
+                  "url": "https://he.wikisource.org/wiki/%D7%A7%D7%95%D7%91%D7%A5%3Atzadi%20up.PNG"
+                },
+                {
+                  "label": "Bronafbeelding 4 — lettervorm tsadi",
+                  "url": "https://he.wikisource.org/wiki/%D7%A7%D7%95%D7%91%D7%A5%3Atzadi%20down.PNG"
+                }
+              ],
+              "original": "עאלת את צ. אמרה קמיה רבון עלמא, ניחא קמך למברי בי עלמא, דאנא (ס\"א, דבי) בי חתימין צדיקים, ואנת דאתקריאת צדיק בי רשים, דכתיב (תהלים יא ז) כי צדיק יהו\"ה צדקות אהב, ובי יאות למברי עלמא? אמר לה \"צדי, צדי אנת וצדיק אנת, אבל אנת צריך למהוי טמירא, לית אנת צריך לאתגלייא כל כך, בגין דלא למיהב פתחון פה לעלמא\". מאי טעמא? צ איהי, אתיא י דשמא דברית קדישא, ורכיב עלה ואתאחד בהדה. ורזא דא, כד ברא קב\"ה לאדם הראשון דו פרצופין בראו, ובגין כך אנפוי דיו\"ד מהדר לאחורא כגוונא דא [איור 1], ולא אתהדרו אנפין באנפין כגוונא דא [איור 2]. אסתכל לעילא כגוונא דא [איור 3], אסתכלת לתתא כגוונא דא [איור 4]. אמר לה קב\"ה תו, דאנא זמין לנסרא לך ולמעבד לך אפין באפין, אבל באתרא אחרא תסתלק. נפקת מקמיה ואזלת.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:7",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 7,
+                "sha256": "2b406037d9f68eb6b866a075eba85fd24b254fb1bee01c83cc768235b9d848f8",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "8",
+              "nl": "De letter pe trad binnen. Zij zei: ‘Heer van de werelden, behaagt het U de wereld met mij te scheppen? De verlossing die U in de wereld zult volbrengen, is met mij aangeduid. Dat is “bevrijding”; het past de wereld met mij te scheppen.’ Hij zei tegen haar: ‘Je bent passend, maar in jou is heimelijk “overtreding” getekend. Zoals een slang die toeslaat en haar kop in haar lijf terugtrekt, zo buigt iemand die zondigt het hoofd en strekt de handen uit.’",
+              "notes": [
+                "Pe (פ) begint zowel pedoet, פדות, ‘bevrijding’, als pesja, פשע, ‘overtreding’. Het beeld van de verborgen kop verbindt het argument met de lettervorm."
+              ],
+              "uncertainties": [
+                "De beschrijving van de handen blijft woordelijk. De precieze houding en de grafische toepassing op de pe zijn hier nog niet onafhankelijk gecontroleerd."
+              ],
+              "original": "עאלת את פ, אמרה קמיה רבון עלמין, ניחא קמך למברי בי עלמא, דהא פורקנא דאנת זמין למעבד בעלמא בי רשים, ודא הוא פדות, ובי יאות למברי עלמא. אמר לה יאות אנת, אבל בך אתרשים פשע בטמירו, כגוונא דחיויא דמחי ואעיל רישיה בין גופיה, הכי מאן דחב כפיף רישיה ואפיק ידוי.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:8",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 8,
+                "sha256": "cc9284a1a333ebcf2a149df8f482badc977d75bbd0ea766a56ec6f0abbea73ef",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "9",
+              "nl": "Zo ook ajin: ‘ongerechtigheid’. Hoewel zij zei: ‘In mij is nederigheid’, zei de Heilige, gezegend zij Hij, tegen haar: ‘Ik zal de wereld niet met jou scheppen.’ Zij ging bij Hem weg.",
+              "notes": [
+                "Ajin (ע) begint avon, עון, ‘ongerechtigheid’, maar ook anavah, ענוה, ‘nederigheid’. De tekst laat het ongunstige verband hier beslissen."
+              ],
+              "original": "וכן ע - עון. אע\"ג דאמרה דאית בי ענוה - אמר לה קב\"ה לא אברי בך עלמא. נפקת מקמיה.",
+              "lang": "arc",
+              "reference": "Zohar I 2b:9",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 9,
+                "sha256": "45879a74d9529e5617373aa46818afdb271d2bed27a476245e83dc3b156275c0",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "10",
+              "nl": "De letter samech trad binnen. Zij zei voor Hem: ‘Heer —",
+              "notes": [
+                "De aanspreking loopt op het volgende folio verder. Het streepje markeert alleen de folio-overgang."
+              ],
+              "original": "עאלת את ס. אמרה קמיה רבון",
+              "lang": "arc",
+              "reference": "Zohar I 2b:10",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ב ב",
+                "paragraph": 10,
+                "sha256": "bb4af07c51acde9421540c4130a7c735f9b7d6ece5a771e2d446219f7ea9e831",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3a",
+          "title": "I 3a",
+          "status": "conceptvertaling",
+          "completeFolio": true,
+          "coverage": "Volledig folio vertaald; onafhankelijke vakredactie nog open.",
+          "passages": [
+            {
+              "id": "1",
+              "nl": "— van de werelden, behaagt het U de wereld met mij te scheppen? In mij is immers steun voor wie vallen, zoals geschreven staat: “JHWH ondersteunt allen die vallen.”’ Hij zei tegen haar: ‘Juist daarom moet je op je plaats blijven en daar niet vandaan gaan. Als je je plaats verlaat, wat zal er dan gebeuren met degenen die vallen, nu zij op jou steunen?’ Meteen ging zij bij Hem weg.",
+              "notes": [
+                "Vervolg van I 2b:10. Psalm 145:14 begint met somech, סומך, ‘ondersteunt’. Dat woord verbindt de functie van steun met de letter samech (ס)."
+              ],
+              "original": "עלמין ניחא קמך למברי בי עלמא, דאית בי סמיכא לנפלין, דכתיב (תהלים קמה יד) סומך יהו\"ה לכל הנופלים? אמר לה, על דא אנת צריך לאתרך, ולא תזוז מניה. אי אנת נפיק מאתרך - מה תהא עלייהו דאינון נפלין הואיל ואינון סמיכין עלך. מיד נפקת מקמיה.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:1",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 1,
+                "sha256": "542270cdaa551e2cb508daf314eadcbe9ec7828258b339271549e571856c7ed6",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "2",
+              "nl": "De letter noen trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Met mij staat geschreven: “ontzagwekkend in lofzangen”, en de lof van de rechtvaardigen is “liefelijk is lof”.’ Hij zei tegen haar: ‘Noen, keer terug naar je plaats. Om jou is samech immers naar haar plaats teruggekeerd; steun op haar.’ Meteen keerde zij naar haar plaats terug en ging zij bij Hem weg.",
+              "notes": [
+                "Exodus 15:11: nora tehilot, נורא תהלות, ‘ontzagwekkend in lofzangen’. De tweede uitdrukking sluit aan bij Psalm 33:1: navah tehilah, נאוה תהלה. Beide beginnen met noen (נ).",
+                "De verbinding met vallen berust op het woord noflim, נופלים, uit het voorafgaande psalmvers. De huidige alinea spreekt dat verband niet helemaal opnieuw uit."
+              ],
+              "original": "עאלת את נ. אמרה קמיה רבון עלמא ניחא קמך למברי בי עלמא, דבי כתיב (שמות טו יא) נורא תהלות ותהלה דצדיקים נאוה תהלה. אמר לה נו\"ן, תוב לאתרך, דהא בגינך תבת סמ\"ך לאתרה והוי סמיך עלה. מיד תבת לאתרה ונפקת מקמיה.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:2",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 2,
+                "sha256": "cc3f5731e22f463ecbe61a9eccbee44c00e07096880381fd2decc52b9ad1c96a",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "3",
+              "nl": "De letter mem trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Met mij wordt U “Koning” genoemd.’ Hij zei tegen haar: ‘Dat is zeker zo, maar Ik zal de wereld niet met jou scheppen, want de wereld heeft een koning nodig. Keer terug naar je plaats, jij, lamed en de slot-kaf, want het past de wereld niet zonder koning te bestaan.’",
+              "notes": [
+                "Mem, lamed en slot-kaf vormen מלך, melekh, ‘koning’. De letters moeten voor die functie bijeen blijven."
+              ],
+              "original": "עאלת את מ. אמרה קמיה רבון עלמא ניחא קמך למברי בי עלמא, דבי אתקריאת מלך? אמר לה הכי הוא ודאי, אבל לא אברי בך עלמא, בגין דעלמא אצטריך למלך. תוב לאתרך. אנת ול' וך′, דהא לא יאות לעלמא למיקם בלא מלך.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:3",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 3,
+                "sha256": "d638c868f34c8b1305ba5dcd183dd4f716b142bfe8a50731ab5b8381af509f01",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "4",
+              "nl": "Op dat moment daalde de letter kaf van de troon van zijn heerlijkheid voor Hem neer. Zij beefde en zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Ik ben immers uw heerlijkheid.’ Toen kaf van de troon van zijn heerlijkheid neerdaalde, beefden tweehonderdduizend werelden. De troon beefde en alle werelden beefden, op het punt te vallen. De Heilige, gezegend zij Hij, zei tegen haar: ‘Kaf, kaf, wat doe je hier? Ik zal de wereld niet met jou scheppen. Keer terug naar je plaats, want met jou wordt vernietiging gehoord, “een vastbesloten verdelging”. Keer terug naar je troon en blijf daar.’ Op dat moment ging zij bij Hem weg en keerde terug naar haar plaats.",
+              "notes": [
+                "Kaf (כ) verbindt kavod, כבוד, ‘heerlijkheid’, met woorden voor vernietiging: kelayah, כליה, en kalah, כלה. Het citaat verwijst naar Jesaja 10:23.",
+                "De daling van de letter uit de troon maakt een woordverband tot een kosmische scène."
+              ],
+              "original": "בההיא שעתא נחתא מן קדמוהי את כ מעל כורסי יקריה. אזדעזעת ואמרה קמיה רבון עלמא ניחא קמך למברי בי עלמא דאנא כבודך? וכד נחתת כ מעל כורסי יקריה - אזדעזעו מאתן אלף עלמין, ואזדעזע כורסייא וכלהו עלמין אזדעזעו למנפל. אמר לה קב\"ה כ\"ף כ\"ף מה אנת עביד הכא! דלא אברי בך עלמא! תוב לאתרך דהא בך כליה - (ישעיה י כג) כלה ונחרצה אשתמע. תוב לכורסייך והוי תמן. בההיא שעתא נפקת מקמיה ותבת לדוכתה.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:4",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 4,
+                "sha256": "0606b9bbfc86563a434baf3631769bf19bcfa5bd5fbe17b6fc6e923f9f2606a0",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "5",
+              "nl": "De letter jod trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Ik ben het begin van de heilige Naam; het past U toch de wereld met mij te scheppen?’ Hij zei tegen haar: ‘Het is je genoeg dat je in Mij gegrift bent en in Mij getekend staat, en dat heel mijn verlangen in jou opstijgt. Het past je niet uit mijn Naam weggerukt te worden.’",
+              "notes": [
+                "Jod (י) begint de geschreven Godsnaam יהוה. De letter behoudt haar plaats in de Naam in plaats van als eerste scheppingsletter op te treden."
+              ],
+              "original": "עאלת את י. אמרה קמיה רבון עלמא ניחא קמך למברי בי עלמא, דאנא שירותא דשמא קדישא, ויאות לך למברי בי עלמא? א\"ל די לך דאנת חקיק בי, ואנת רשים בי, וכל רעותא דילי בך סליק. לית אנת יאות לאתעקרא מן שמי.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:5",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 5,
+                "sha256": "ae085583f03edf018846e092cc669d15d26f1042c6a2ef6a6c457fcb1e5cb419",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "6",
+              "nl": "De letter tet trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Met mij wordt U toch “goed en oprecht” genoemd.’ Hij zei tegen haar: ‘Ik zal de wereld niet met jou scheppen, want jouw goedheid is in je verborgen en in je opgeborgen. Dat is wat geschreven staat: “Hoe groot is uw goedheid die U hebt weggelegd voor wie U vrezen.” Omdat die in jou verborgen is, heeft deze wereld, die Ik wil scheppen, er geen aandeel in, maar de komende wereld wel. Bovendien: omdat jouw goedheid in je verborgen is, zullen de poorten van het paleis verzinken. Er staat immers geschreven: “Haar poorten zijn in de aarde verzonken.” Verder staat chet tegenover jou; wanneer jullie je verbinden, ontstaat chet–tet.’ Daarom zijn deze letters niet aangeduid in de heilige stammen. Meteen ging zij bij Hem weg.",
+              "notes": [
+                "Tet (ט) begint tov, טוב, ‘goed’. De citaten zijn Psalm 25:8, Psalm 31:20 en Klaagliederen 2:9. Tav'oe, טבעו, ‘zij zijn verzonken’, begint eveneens met tet.",
+                "Chet en tet geven חט, de kern van het woordverband met zonde. De tekst spreekt vervolgens over de namen van de stammen, waarin deze letters niet voorkomen."
+              ],
+              "original": "עאלת את ט. אמרה קמיה רבון עלמא ניחא קמך למברי בי עלמא, דאנת בי אתקריאת טוב וישר? אמר לה, לא אברי בך עלמא דהא טובך סתים בגווך וצפון בגווך. הה\"ד (תהלים לא כ) מה רב טובך אשר צפנת ליראיך. הואיל וגניז בגווך - לית ביה חולקא לעלמא דא דאנא בעי למברי, אלא בעלמא דאתי. ותו דעל דטובך גניז בגווך - יטבעון תרעי דהיכלא. הה\"ד (איכה ב ט) טבעו בארץ שעריה. ותו דח′ לקבלך, וכד תתחברון כחדא הא ח\"ט. ועל דא אתוון אלין לא רשימין בשבטין קדישין. מיד נפקת מקמיה.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:6",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 6,
+                "sha256": "87cbb1e3fe04169357409d8759314596877f0f05a25ad27ec95a5ddcb61d302f",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "7",
+              "nl": "De letter zajin trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Met mij onderhouden uw kinderen de sabbat, want er staat geschreven: “Gedenk de sabbatdag om hem te heiligen.”’ Hij zei tegen haar: ‘Ik zal de wereld niet met jou scheppen, want in jou zijn strijd en een scherp zwaard en een oorlogsspeer, naar het beeld van de slot-noen.’ Meteen ging zij bij Hem weg.",
+              "notes": [
+                "Exodus 20:8 begint met zakhor, זכור, ‘gedenk’, met zajin (ז). Het ongunstige verband betreft wapens en de vorm van de letter.",
+                "De bron toont een vergrote slot-noen en een voetnoot die die slotvorm expliciet noemt. De vereenvoudigde grondtekst bewaart de letter ן; de redactionele voetnoot staat los van de vertaling."
+              ],
+              "original": "עאלת את ז. אמרה ליה, רבון עלמא ניחא קמך למברי בי עלמא, דבי נטרין בניך שבת, דכתיב (שמות כ ח) זכור את יום השבת לקדשו? אמר לה לא אברי בך עלמא, דאנת אית בך קרבא וחרבא דשננא, ורומחא דקרבא, כגוונא דנו\"ן [ ן' ]. מיד נפקת מקמיה.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:7",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 7,
+                "sha256": "f9f06986964b270abafd3bbf5d8c29ca02f4586f18f6a911bef385729a440e6b",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "8",
+              "nl": "De letter waw trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Ik ben een letter uit uw Naam.’ Hij zei tegen haar: ‘Waw, jij en he: het is jullie genoeg dat jullie letters van mijn Naam zijn, dat jullie tot het geheim van mijn Naam behoren en in mijn Naam gegrift en gesneden staan. Ik zal de wereld niet met jullie scheppen.’",
+              "notes": [
+                "Waw (ו) en he (ה) zijn letters van de geschreven Godsnaam יהוה. Het antwoord spreekt beide letters tegelijk aan."
+              ],
+              "original": "עאלת את ו. אמרה קמיה רבון עלמא ניחא קמך למברי בי עלמא, דאנא את משמך? אמר לה ו! אנת וה - די לכון דאתון אתוון דשמי, דאתון ברזא דשמי, וחקיקין וגליפין בשמי, ולא אברי בכו עלמא.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:8",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 8,
+                "sha256": "64a428d35f8e10df4eb0b6d0c7a68fde7a6a388970b6ab49a5d7a8466cca9257",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "9",
+              "nl": "De letters dalet en gimel traden binnen en zeiden hetzelfde. Ook tegen hen zei Hij: ‘Het is jullie genoeg bij elkaar te blijven. Want armen zullen niet uit de wereld verdwijnen, en men moet hun goeddoen. Dalet is de arme; gimel doet haar goed. Ga niet bij elkaar vandaan. Het is jullie genoeg de een de ander te voeden.’",
+              "notes": [
+                "De uitleg verbindt dalet (ד) met dal, דל, ‘arm’, en gimel (ג) met gomel, גומל, ‘iemand die geeft of goeddoet’. De twee letters krijgen een onderlinge sociale verhouding."
+              ],
+              "original": "עאלת את ד ואת ג, אמרו אוף הכי. אמר אוף לון - די לכון למהוי דא עם דא, דהא מסכנין לא יתבטלון מן עלמא, וצריכין לגמול עמהון טיבו. דל\"ת איהי מסכנא, גימ\"ל גומל לה טיבו. לא תתפרשון דא מן דא, ודי לכון למיזן דא לדא.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:9",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 9,
+                "sha256": "4ce89590875928853e34f193412bd84d5212fe8c087a85de966d391ffd2b1816",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "10",
+              "nl": "De letter bet trad binnen. Zij zei: ‘Heer van de wereld, behaagt het U de wereld met mij te scheppen? Met mij zegenen zij U boven en beneden.’ De Heilige, gezegend zij Hij, zei tegen haar: ‘Zeker, met jou zal Ik de wereld scheppen, en jij zult het begin zijn van het scheppen van de wereld.’",
+              "notes": [
+                "Bet (ב) verbindt het begin van Beresjiet, בראשית, met beracha, ברכה, ‘zegening’. Het gunstige woordverband bepaalt hier de keuze."
+              ],
+              "original": "עאלת את ב. אמרה ליה רבון עלמא, ניחא קמך למברי בי עלמא, דבי מברכאן לך לעילא ותתא? אמר לה קב\"ה הא ודאי בך אברי עלמא, ואנת תהא שירותא למברי עלמא.",
+              "lang": "arc",
+              "reference": "Zohar I 3a:10",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 10,
+                "sha256": "1b296a3c544e9ccf54f7290812db3efbf5312ff3eae10bae170f54e4a77cea5e",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "11",
+              "nl": "De letter alef bleef staan en trad niet binnen. De Heilige, gezegend zij Hij, zei tegen haar: ‘Alef, alef, waarom treed jij niet voor Mij binnen zoals alle andere letters?’ Zij zei: ‘Heer van de wereld, ik heb gezien dat alle letters zonder resultaat bij U vandaan gingen. Wat zou ik daar doen? Bovendien hebt U al —",
+              "notes": [
+                "De toespraak loopt op I 3b door. Alef begint geen nieuwe poging om bet te verdringen; de dialoog zal haar een andere functie geven."
+              ],
+              "original": "קיימא את א לא עאלת. אמר לה קב\"ה אל\"ף אל\"ף, למה לית אנת עאלת קמאי כשאר כל אתוון? אמרה קמיה רבון עלמא, בגין דחמינא כל אתוון נפקו מן קמך בלא תועלתא, מה אנא אעביד תמן. ותו דהא",
+              "lang": "arc",
+              "reference": "Zohar I 3a:11",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג א",
+                "paragraph": 11,
+                "sha256": "2b0aa072b9a5f63f31c3679da842ca0b9e9368b1e2ff5b7ade815d8669fc0541",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "title": "I 3b · slot van de letterdialoog",
+          "status": "conceptvertaling",
+          "completeFolio": false,
+          "coverage": "2 van 7 alinea’s vertaald; overige tekst op dit folio ontbreekt nog.",
+          "passages": [
+            {
+              "id": "1",
+              "nl": "— aan de letter bet dit grote geschenk gegeven. Het past de hoogste Koning niet een geschenk dat Hij zijn dienaar gegeven heeft terug te nemen en het aan een ander te geven.’ De Heilige, gezegend zij Hij, zei tegen haar: ‘Alef, alef, ook al zal Ik de wereld met de letter bet scheppen, jij zult het hoofd van alle letters zijn. Er is in Mij geen eenheid dan door jou. Met jou zullen alle tellingen beginnen en alle handelingen van de wereld. Alle eenheid zal alleen door de letter alef bestaan.’",
+              "notes": [
+                "Vervolg van I 3a:11. Alef (א), de eerste letter met getalswaarde één, krijgt de functie van begin van telling en teken van eenheid. De tekst vervangt daarmee de keuze voor bet niet."
+              ],
+              "original": "יהיבתא לאת בי\"ת נבזבזא רברבא דא, ולא יאות למלכא עלאה לאעברא נבזבזא דיהב לעבדו ולמיהב לאחרא. אמר לה קב\"ה, אל\"ף אל\"ף, אע\"ג דאת בי\"ת בה אברי עלמא - אנת תהא ריש לכל אתוון. לית בי יחודא אלא בך. בך ישרון כל חושבנין, וכל עובדין דעלמא, וכל יחודא לא הוי אלא באת אל\"ף.",
+              "lang": "arc",
+              "reference": "Zohar I 3b:1",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג ב",
+                "paragraph": 1,
+                "sha256": "97f10edcede79a18a5ee85c42adb53959e7e05bd1d6e7dac5054ff314eb27817",
+                "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
+              }
+            },
+            {
+              "id": "2",
+              "nl": "De Heilige, gezegend zij Hij, maakte grote bovenste letters en kleine onderste letters. Daarom bet–bet: ‘Beresjiet bara’; alef–alef: ‘Elohim et’. Letters van boven en letters van beneden. Allen waren samen uit de bovenste wereld en uit de onderste wereld.",
+              "notes": [
+                "Het slot keert terug naar Genesis 1:1 en de vraag van Rav Hamnoena. Dit sluit de letterdialoog af; het volgende gedeelte op hetzelfde folio begint een andere uitleg, van bara sjiet."
+              ],
+              "original": "ועבד קב\"ה אתוון עלאין רברבין ואתוון תתאין זעירין. ובגין כך בי\"ת בי\"ת - בראשית ברא, אל\"ף אל\"ף - אלהים את. אתוון מלעילא ואתוון מלתתא. וכלהו כחדא הוו מעלמא עלאה ומעלמא תתאה:",
+              "lang": "arc",
+              "reference": "Zohar I 3b:2",
+              "status": "concept",
+              "source": {
+                "file": "data/sources/containers-1.json",
+                "pageId": 261494,
+                "revision": 3085399,
+                "section": "דף ג ב",
+                "paragraph": 2,
+                "sha256": "aa653472203ec926af37327b66ef976324fdab5d72fad38dbfd35dde274faa73",
                 "url": "https://he.wikisource.org/w/index.php?oldid=3085399"
               }
             }

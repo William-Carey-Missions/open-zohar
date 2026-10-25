@@ -5376,7 +5376,7 @@
     },
     {
       "reference": "Zohar I 2b",
-      "status": "gedeeltelijk-vertaald-concept",
+      "status": "vertaald-concept",
       "sourceCandidates": [
         261494
       ],
@@ -5384,7 +5384,7 @@
     },
     {
       "reference": "Zohar I 3a",
-      "status": "niet-vertaald",
+      "status": "vertaald-concept",
       "sourceCandidates": [
         261494
       ],
@@ -5392,7 +5392,7 @@
     },
     {
       "reference": "Zohar I 3b",
-      "status": "niet-vertaald",
+      "status": "gedeeltelijk-vertaald-concept",
       "sourceCandidates": [
         261494
       ],

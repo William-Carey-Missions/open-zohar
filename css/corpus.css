@@ -105,3 +105,37 @@ body.alternate-font .prose { font-family: var(--font-body); }
 .passage-notes summary { cursor: pointer; padding: 6px 0; }
 .passage-notes p { margin: 10px 0; }
 #reader-source { margin-top: 32px; font-size: 16px; }
+
+/* Naslag binnen de bestaande leesomgeving. */
+.knowledge-link { text-decoration: underline dotted; text-underline-offset: .18em; cursor: pointer; }
+.knowledge-link:hover { text-decoration-style: solid; }
+#passages .knowledge-link { color: inherit; }
+.reference-search { display: grid; gap: 8px; font: 400 15px var(--font-body); }
+.reference-search input, .reference-search select { min-width: 0; width: 100%; padding: 12px; background: var(--bg-surface); color: var(--text-primary); border: 1px solid var(--border-default); border-radius: 4px; font: inherit; }
+.reference-filters { display: flex; gap: 16px; flex-wrap: wrap; }
+.reference-filters .reference-search:first-child { flex: 1 1 250px; }
+.knowledge-list { max-width: 780px; }
+.entry-card { display: block; border-top: 1px solid var(--border-default); padding: 20px 0; color: var(--text-primary); text-decoration: none; }
+.entry-card strong { font: 500 24px var(--font-serif); }
+.entry-card small { display: block; margin-top: 5px; color: var(--text-secondary); }
+.entry-card p { margin: 9px 0 0; line-height: 1.6; }
+.entry-card-original { float: right; font: 24px 'Noto Serif Hebrew', serif; }
+.entry-meta { font: 400 14px/1.6 var(--font-body); color: var(--text-secondary); margin: 18px 0; }
+.lemma-original { font: 400 34px/1.5 'Noto Serif Hebrew', serif; text-align: left; }
+.entry-summary { font-weight: 500; }
+.entry-back, .back-to-reading { display: inline-block; margin: 12px 0 24px; font: 400 15px var(--font-body); }
+.source-list, .reference-list { padding-inline-start: 22px; overflow-wrap: anywhere; }
+.source-list li, .reference-list li { margin-bottom: 14px; }
+.source-list small { display: block; font: 400 13px/1.5 var(--font-body); color: var(--text-secondary); }
+.related-entries a { display: inline-block; margin: 0 16px 10px 0; }
+#entry-dialog { position: fixed; inset: 0 0 0 auto; margin: 0; width: min(560px, 100%); max-width: 100%; height: 100dvh; max-height: 100dvh; overflow: auto; padding: 28px; border: 0; border-left: 2px solid var(--gold); background: var(--bg-surface); color: var(--text-primary); z-index: 650; }
+#entry-dialog::backdrop { background: rgba(0,0,0,.45); }
+.entry-dialog-heading { display: flex; align-items: start; justify-content: space-between; gap: 12px; }
+.entry-dialog-heading h2 { font: 500 28px/1.25 var(--font-serif); margin: 7px 0 18px; }
+.entry-full-link { display: inline-block; color: var(--text-primary); margin-bottom: 24px; font: 400 15px var(--font-body); }
+#entry-dialog .prose { font-size: 19px; }
+@media (min-width: 901px) and (max-width: 1250px) { #topnav { flex-wrap: wrap; height: auto; padding-block: 12px; } #app-container { min-height: calc(100vh - 110px); } }
+@media (max-width: 480px) { #entry-dialog { padding: 22px; } .entry-card strong { font-size: 22px; } }
+@media print { #entry-dialog { display: none !important; } .knowledge-link { text-decoration: none; } }
+
+@media (max-width: 900px) { #topnav .topnav-links { flex-wrap: wrap; row-gap: 4px; } }
